@@ -1,0 +1,2 @@
+# Hashes of file build rules.
+60f3d94717bbc5ee8c16f90cfc14c89b CMakeFiles/serial_uninstall

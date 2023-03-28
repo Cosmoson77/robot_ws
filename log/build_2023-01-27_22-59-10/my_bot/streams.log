@@ -1,0 +1,39 @@
+[0.149s] Invoking command in '/home/edisonwong/robot_ws/build/my_bot': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/edisonwong/robot_ws/build/my_bot -- -j4 -l4
+[0.418s] Invoked command in '/home/edisonwong/robot_ws/build/my_bot' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/edisonwong/robot_ws/build/my_bot -- -j4 -l4
+[0.633s] Invoking command in '/home/edisonwong/robot_ws/build/my_bot': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/edisonwong/robot_ws/build/my_bot
+[0.673s] -- Install configuration: ""
+[0.679s] -- Execute custom install script
+[0.687s] -- Up-to-date symlink: /home/edisonwong/robot_ws/install/my_bot/share/my_bot/config/drive_bot.rviz
+[0.689s] -- Up-to-date symlink: /home/edisonwong/robot_ws/install/my_bot/share/my_bot/config/empty.yaml
+[0.693s] -- Up-to-date symlink: /home/edisonwong/robot_ws/install/my_bot/share/my_bot/config/gazebo_params.yaml
+[0.696s] -- Up-to-date symlink: /home/edisonwong/robot_ws/install/my_bot/share/my_bot/config/my_controllers.yaml
+[0.699s] -- Up-to-date symlink: /home/edisonwong/robot_ws/install/my_bot/share/my_bot/config/view_bot.rviz
+[0.707s] -- Up-to-date symlink: /home/edisonwong/robot_ws/install/my_bot/share/my_bot/description/camera.xacro
+[0.708s] -- Up-to-date symlink: /home/edisonwong/robot_ws/install/my_bot/share/my_bot/description/depth_camera.xacro
+[0.710s] -- Up-to-date symlink: /home/edisonwong/robot_ws/install/my_bot/share/my_bot/description/gazebo_control.xacro
+[0.711s] -- Up-to-date symlink: /home/edisonwong/robot_ws/install/my_bot/share/my_bot/description/inertial_macros.xacro
+[0.715s] -- Up-to-date symlink: /home/edisonwong/robot_ws/install/my_bot/share/my_bot/description/lidar.xacro
+[0.716s] -- Up-to-date symlink: /home/edisonwong/robot_ws/install/my_bot/share/my_bot/description/robot.urdf.xacro
+[0.719s] -- Up-to-date symlink: /home/edisonwong/robot_ws/install/my_bot/share/my_bot/description/robot_core.xacro
+[0.720s] -- Up-to-date symlink: /home/edisonwong/robot_ws/install/my_bot/share/my_bot/description/ros2_control.xacro
+[0.725s] -- Up-to-date symlink: /home/edisonwong/robot_ws/install/my_bot/share/my_bot/launch/launch_sim.launch.py
+[0.726s] -- Up-to-date symlink: /home/edisonwong/robot_ws/install/my_bot/share/my_bot/launch/rsp.launch.py
+[0.730s] -- Up-to-date symlink: /home/edisonwong/robot_ws/install/my_bot/share/my_bot/worlds/empty.world
+[0.731s] -- Up-to-date symlink: /home/edisonwong/robot_ws/install/my_bot/share/my_bot/worlds/kb5.world
+[0.732s] -- Up-to-date symlink: /home/edisonwong/robot_ws/install/my_bot/share/my_bot/worlds/obstacles.world
+[0.738s] -- Up-to-date symlink: /home/edisonwong/robot_ws/install/my_bot/share/ament_index/resource_index/package_run_dependencies/my_bot
+[0.740s] -- Up-to-date symlink: /home/edisonwong/robot_ws/install/my_bot/share/ament_index/resource_index/parent_prefix_path/my_bot
+[0.744s] -- Up-to-date symlink: /home/edisonwong/robot_ws/install/my_bot/share/my_bot/environment/ament_prefix_path.sh
+[0.746s] -- Up-to-date symlink: /home/edisonwong/robot_ws/install/my_bot/share/my_bot/environment/ament_prefix_path.dsv
+[0.748s] -- Up-to-date symlink: /home/edisonwong/robot_ws/install/my_bot/share/my_bot/environment/path.sh
+[0.750s] -- Up-to-date symlink: /home/edisonwong/robot_ws/install/my_bot/share/my_bot/environment/path.dsv
+[0.752s] -- Up-to-date symlink: /home/edisonwong/robot_ws/install/my_bot/share/my_bot/local_setup.bash
+[0.755s] -- Up-to-date symlink: /home/edisonwong/robot_ws/install/my_bot/share/my_bot/local_setup.sh
+[0.757s] -- Up-to-date symlink: /home/edisonwong/robot_ws/install/my_bot/share/my_bot/local_setup.zsh
+[0.759s] -- Up-to-date symlink: /home/edisonwong/robot_ws/install/my_bot/share/my_bot/local_setup.dsv
+[0.760s] -- Symlinking: /home/edisonwong/robot_ws/install/my_bot/share/my_bot/package.dsv
+[0.801s] -- Up-to-date symlink: /home/edisonwong/robot_ws/install/my_bot/share/ament_index/resource_index/packages/my_bot
+[0.804s] -- Up-to-date symlink: /home/edisonwong/robot_ws/install/my_bot/share/my_bot/cmake/my_botConfig.cmake
+[0.805s] -- Up-to-date symlink: /home/edisonwong/robot_ws/install/my_bot/share/my_bot/cmake/my_botConfig-version.cmake
+[0.807s] -- Up-to-date symlink: /home/edisonwong/robot_ws/install/my_bot/share/my_bot/package.xml
+[0.821s] Invoked command in '/home/edisonwong/robot_ws/build/my_bot' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/edisonwong/robot_ws/build/my_bot

@@ -1,0 +1,71 @@
+[0.146s] Invoking command in '/home/edisonwong/robot_ws/build/laser_filters': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/edisonwong/robot_ws/install/serial_motor_demo:/opt/ros/humble /usr/bin/cmake --build /home/edisonwong/robot_ws/build/laser_filters -- -j4 -l4
+[0.678s] [ 14%] Built target gtest_main
+[0.710s] [ 28%] Built target laser_scan_filters
+[0.764s] [ 42%] Built target gtest
+[1.117s] [ 57%] Built target generic_laser_filter_node
+[1.142s] [ 71%] Built target scan_to_scan_filter_chain
+[1.175s] [ 85%] Built target test_scan_filter_chain
+[1.196s] [100%] Built target scan_to_cloud_filter_chain
+[1.283s] Invoked command in '/home/edisonwong/robot_ws/build/laser_filters' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/edisonwong/robot_ws/install/serial_motor_demo:/opt/ros/humble /usr/bin/cmake --build /home/edisonwong/robot_ws/build/laser_filters -- -j4 -l4
+[1.796s] Invoking command in '/home/edisonwong/robot_ws/build/laser_filters': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/edisonwong/robot_ws/install/serial_motor_demo:/opt/ros/humble /usr/bin/cmake --install /home/edisonwong/robot_ws/build/laser_filters
+[1.858s] -- Install configuration: ""
+[1.858s] -- Execute custom install script
+[1.859s] -- Up-to-date symlink: /home/edisonwong/robot_ws/install/laser_filters/share/laser_filters//laser_filters_plugins.xml
+[1.862s] -- Up-to-date symlink: /home/edisonwong/robot_ws/install/laser_filters/include/laser_filters/angular_bounds_filter.h
+[1.864s] -- Up-to-date symlink: /home/edisonwong/robot_ws/install/laser_filters/include/laser_filters/angular_bounds_filter_in_place.h
+[1.865s] -- Up-to-date symlink: /home/edisonwong/robot_ws/install/laser_filters/include/laser_filters/array_filter.h
+[1.866s] -- Up-to-date symlink: /home/edisonwong/robot_ws/install/laser_filters/include/laser_filters/box_filter.h
+[1.868s] -- Up-to-date symlink: /home/edisonwong/robot_ws/install/laser_filters/include/laser_filters/footprint_filter.h
+[1.869s] -- Up-to-date symlink: /home/edisonwong/robot_ws/install/laser_filters/include/laser_filters/intensity_filter.h
+[1.870s] -- Up-to-date symlink: /home/edisonwong/robot_ws/install/laser_filters/include/laser_filters/interpolation_filter.h
+[1.870s] -- Up-to-date symlink: /home/edisonwong/robot_ws/install/laser_filters/include/laser_filters/median_filter.h
+[1.871s] -- Up-to-date symlink: /home/edisonwong/robot_ws/install/laser_filters/include/laser_filters/range_filter.h
+[1.872s] -- Up-to-date symlink: /home/edisonwong/robot_ws/install/laser_filters/include/laser_filters/scan_mask_filter.h
+[1.873s] -- Up-to-date symlink: /home/edisonwong/robot_ws/install/laser_filters/include/laser_filters/scan_shadows_filter.h
+[1.874s] -- Up-to-date symlink: /home/edisonwong/robot_ws/install/laser_filters/include/laser_filters/speckle_filter.h
+[1.876s] -- Up-to-date symlink: /home/edisonwong/robot_ws/install/laser_filters/share/laser_filters/environment/library_path.sh
+[1.879s] -- Up-to-date symlink: /home/edisonwong/robot_ws/install/laser_filters/share/laser_filters/environment/library_path.dsv
+[1.880s] -- Up-to-date symlink: /home/edisonwong/robot_ws/install/laser_filters/lib/liblaser_scan_filters.so
+[1.898s] -- Up-to-date symlink: /home/edisonwong/robot_ws/install/laser_filters/lib/laser_filters/scan_to_cloud_filter_chain
+[1.899s] -- Up-to-date symlink: /home/edisonwong/robot_ws/install/laser_filters/lib/laser_filters/scan_to_scan_filter_chain
+[1.900s] -- Up-to-date symlink: /home/edisonwong/robot_ws/install/laser_filters/lib/laser_filters/generic_laser_filter_node
+[1.901s] -- Up-to-date symlink: /home/edisonwong/robot_ws/install/laser_filters/share/laser_filters/examples/box_filter_example.launch.py
+[1.904s] -- Up-to-date symlink: /home/edisonwong/robot_ws/install/laser_filters/share/laser_filters/examples/box_filter_example.yaml
+[1.906s] -- Up-to-date symlink: /home/edisonwong/robot_ws/install/laser_filters/share/laser_filters/examples/footprint_filter_example.launch.py
+[1.908s] -- Up-to-date symlink: /home/edisonwong/robot_ws/install/laser_filters/share/laser_filters/examples/footprint_filter_example.yaml
+[1.911s] -- Up-to-date symlink: /home/edisonwong/robot_ws/install/laser_filters/share/laser_filters/examples/intensity_filter_example.launch.py
+[1.913s] -- Up-to-date symlink: /home/edisonwong/robot_ws/install/laser_filters/share/laser_filters/examples/intensity_filter_example.yaml
+[1.915s] -- Up-to-date symlink: /home/edisonwong/robot_ws/install/laser_filters/share/laser_filters/examples/mask_filter_example.launch.py
+[1.918s] -- Up-to-date symlink: /home/edisonwong/robot_ws/install/laser_filters/share/laser_filters/examples/mask_filter_example.yaml
+[1.920s] -- Up-to-date symlink: /home/edisonwong/robot_ws/install/laser_filters/share/laser_filters/examples/median_filter_example.launch.py
+[1.922s] -- Up-to-date symlink: /home/edisonwong/robot_ws/install/laser_filters/share/laser_filters/examples/median_filter_example.yaml
+[1.924s] -- Up-to-date symlink: /home/edisonwong/robot_ws/install/laser_filters/share/laser_filters/examples/multiple_filters_example.launch.py
+[1.928s] -- Up-to-date symlink: /home/edisonwong/robot_ws/install/laser_filters/share/laser_filters/examples/multiple_filters_example.yaml
+[1.931s] -- Up-to-date symlink: /home/edisonwong/robot_ws/install/laser_filters/share/laser_filters/examples/pass_through_example.launch.py
+[1.932s] -- Up-to-date symlink: /home/edisonwong/robot_ws/install/laser_filters/share/laser_filters/examples/pass_through_example.yaml
+[1.939s] -- Up-to-date symlink: /home/edisonwong/robot_ws/install/laser_filters/share/laser_filters/examples/range_filter_example.launch.py
+[1.940s] -- Up-to-date symlink: /home/edisonwong/robot_ws/install/laser_filters/share/laser_filters/examples/range_filter_example.yaml
+[1.941s] -- Up-to-date symlink: /home/edisonwong/robot_ws/install/laser_filters/share/laser_filters/examples/shadow_filter_example.launch.py
+[1.941s] -- Up-to-date symlink: /home/edisonwong/robot_ws/install/laser_filters/share/laser_filters/examples/shadow_filter_example.yaml
+[1.945s] -- Up-to-date symlink: /home/edisonwong/robot_ws/install/laser_filters/share/laser_filters/examples/speckle_filter_example.launch
+[1.945s] -- Up-to-date symlink: /home/edisonwong/robot_ws/install/laser_filters/share/laser_filters/examples/speckle_filter_example.yaml
+[1.948s] -- Up-to-date symlink: /home/edisonwong/robot_ws/install/laser_filters/share/ament_index/resource_index/package_run_dependencies/laser_filters
+[1.952s] -- Up-to-date symlink: /home/edisonwong/robot_ws/install/laser_filters/share/ament_index/resource_index/parent_prefix_path/laser_filters
+[1.955s] -- Up-to-date symlink: /home/edisonwong/robot_ws/install/laser_filters/share/laser_filters/environment/ament_prefix_path.sh
+[1.960s] -- Up-to-date symlink: /home/edisonwong/robot_ws/install/laser_filters/share/laser_filters/environment/ament_prefix_path.dsv
+[1.962s] -- Up-to-date symlink: /home/edisonwong/robot_ws/install/laser_filters/share/laser_filters/environment/path.sh
+[1.967s] -- Up-to-date symlink: /home/edisonwong/robot_ws/install/laser_filters/share/laser_filters/environment/path.dsv
+[1.967s] -- Up-to-date symlink: /home/edisonwong/robot_ws/install/laser_filters/share/laser_filters/local_setup.bash
+[1.970s] -- Up-to-date symlink: /home/edisonwong/robot_ws/install/laser_filters/share/laser_filters/local_setup.sh
+[1.976s] -- Up-to-date symlink: /home/edisonwong/robot_ws/install/laser_filters/share/laser_filters/local_setup.zsh
+[1.976s] -- Up-to-date symlink: /home/edisonwong/robot_ws/install/laser_filters/share/laser_filters/local_setup.dsv
+[1.977s] -- Symlinking: /home/edisonwong/robot_ws/install/laser_filters/share/laser_filters/package.dsv
+[2.058s] -- Up-to-date symlink: /home/edisonwong/robot_ws/install/laser_filters/share/ament_index/resource_index/packages/laser_filters
+[2.059s] -- Up-to-date symlink: /home/edisonwong/robot_ws/install/laser_filters/share/ament_index/resource_index/filters__pluginlib__plugin/laser_filters
+[2.060s] -- Up-to-date symlink: /home/edisonwong/robot_ws/install/laser_filters/share/laser_filters/cmake/ament_cmake_export_dependencies-extras.cmake
+[2.062s] -- Up-to-date symlink: /home/edisonwong/robot_ws/install/laser_filters/share/laser_filters/cmake/ament_cmake_export_include_directories-extras.cmake
+[2.063s] -- Up-to-date symlink: /home/edisonwong/robot_ws/install/laser_filters/share/laser_filters/cmake/ament_cmake_export_libraries-extras.cmake
+[2.065s] -- Up-to-date symlink: /home/edisonwong/robot_ws/install/laser_filters/share/laser_filters/cmake/laser_filtersConfig.cmake
+[2.070s] -- Up-to-date symlink: /home/edisonwong/robot_ws/install/laser_filters/share/laser_filters/cmake/laser_filtersConfig-version.cmake
+[2.071s] -- Up-to-date symlink: /home/edisonwong/robot_ws/install/laser_filters/share/laser_filters/package.xml
+[2.095s] Invoked command in '/home/edisonwong/robot_ws/build/laser_filters' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/edisonwong/robot_ws/install/serial_motor_demo:/opt/ros/humble /usr/bin/cmake --install /home/edisonwong/robot_ws/build/laser_filters

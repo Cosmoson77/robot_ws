@@ -1,0 +1,701 @@
+[0.000000] (-) TimerEvent: {}
+[0.000119] (laser_filters) JobQueued: {'identifier': 'laser_filters', 'dependencies': OrderedDict()}
+[0.000149] (my_bot) JobQueued: {'identifier': 'my_bot', 'dependencies': OrderedDict()}
+[0.000171] (rtabmap) JobQueued: {'identifier': 'rtabmap', 'dependencies': OrderedDict()}
+[0.000189] (rtabmap_msgs) JobQueued: {'identifier': 'rtabmap_msgs', 'dependencies': OrderedDict()}
+[0.000205] (rtabmap_python) JobQueued: {'identifier': 'rtabmap_python', 'dependencies': OrderedDict()}
+[0.000222] (serial) JobQueued: {'identifier': 'serial', 'dependencies': OrderedDict()}
+[0.000238] (serial_motor_demo_msgs) JobQueued: {'identifier': 'serial_motor_demo_msgs', 'dependencies': OrderedDict()}
+[0.000256] (diffdrive_arduino) JobQueued: {'identifier': 'diffdrive_arduino', 'dependencies': OrderedDict([('serial', '/home/edisonwong/robot_ws/install/serial')])}
+[0.000967] (rtabmap_conversions) JobQueued: {'identifier': 'rtabmap_conversions', 'dependencies': OrderedDict([('rtabmap', '/home/edisonwong/robot_ws/install/rtabmap'), ('rtabmap_msgs', '/home/edisonwong/robot_ws/install/rtabmap_msgs')])}
+[0.001000] (serial_motor_demo) JobQueued: {'identifier': 'serial_motor_demo', 'dependencies': OrderedDict([('serial_motor_demo_msgs', '/home/edisonwong/robot_ws/install/serial_motor_demo_msgs')])}
+[0.001022] (rtabmap_rviz_plugins) JobQueued: {'identifier': 'rtabmap_rviz_plugins', 'dependencies': OrderedDict([('rtabmap', '/home/edisonwong/robot_ws/install/rtabmap'), ('rtabmap_msgs', '/home/edisonwong/robot_ws/install/rtabmap_msgs'), ('rtabmap_conversions', '/home/edisonwong/robot_ws/install/rtabmap_conversions')])}
+[0.001044] (rtabmap_sync) JobQueued: {'identifier': 'rtabmap_sync', 'dependencies': OrderedDict([('rtabmap', '/home/edisonwong/robot_ws/install/rtabmap'), ('rtabmap_msgs', '/home/edisonwong/robot_ws/install/rtabmap_msgs'), ('rtabmap_conversions', '/home/edisonwong/robot_ws/install/rtabmap_conversions')])}
+[0.001063] (rtabmap_util) JobQueued: {'identifier': 'rtabmap_util', 'dependencies': OrderedDict([('rtabmap', '/home/edisonwong/robot_ws/install/rtabmap'), ('rtabmap_msgs', '/home/edisonwong/robot_ws/install/rtabmap_msgs'), ('rtabmap_conversions', '/home/edisonwong/robot_ws/install/rtabmap_conversions')])}
+[0.001082] (rtabmap_odom) JobQueued: {'identifier': 'rtabmap_odom', 'dependencies': OrderedDict([('rtabmap', '/home/edisonwong/robot_ws/install/rtabmap'), ('rtabmap_msgs', '/home/edisonwong/robot_ws/install/rtabmap_msgs'), ('rtabmap_conversions', '/home/edisonwong/robot_ws/install/rtabmap_conversions'), ('rtabmap_util', '/home/edisonwong/robot_ws/install/rtabmap_util')])}
+[0.001107] (rtabmap_slam) JobQueued: {'identifier': 'rtabmap_slam', 'dependencies': OrderedDict([('rtabmap', '/home/edisonwong/robot_ws/install/rtabmap'), ('rtabmap_msgs', '/home/edisonwong/robot_ws/install/rtabmap_msgs'), ('rtabmap_conversions', '/home/edisonwong/robot_ws/install/rtabmap_conversions'), ('rtabmap_sync', '/home/edisonwong/robot_ws/install/rtabmap_sync'), ('rtabmap_util', '/home/edisonwong/robot_ws/install/rtabmap_util')])}
+[0.001128] (rtabmap_viz) JobQueued: {'identifier': 'rtabmap_viz', 'dependencies': OrderedDict([('rtabmap', '/home/edisonwong/robot_ws/install/rtabmap'), ('rtabmap_msgs', '/home/edisonwong/robot_ws/install/rtabmap_msgs'), ('rtabmap_conversions', '/home/edisonwong/robot_ws/install/rtabmap_conversions'), ('rtabmap_sync', '/home/edisonwong/robot_ws/install/rtabmap_sync')])}
+[0.001147] (rtabmap_demos) JobQueued: {'identifier': 'rtabmap_demos', 'dependencies': OrderedDict([('rtabmap', '/home/edisonwong/robot_ws/install/rtabmap'), ('rtabmap_msgs', '/home/edisonwong/robot_ws/install/rtabmap_msgs'), ('rtabmap_conversions', '/home/edisonwong/robot_ws/install/rtabmap_conversions'), ('rtabmap_rviz_plugins', '/home/edisonwong/robot_ws/install/rtabmap_rviz_plugins'), ('rtabmap_sync', '/home/edisonwong/robot_ws/install/rtabmap_sync'), ('rtabmap_util', '/home/edisonwong/robot_ws/install/rtabmap_util'), ('rtabmap_odom', '/home/edisonwong/robot_ws/install/rtabmap_odom'), ('rtabmap_slam', '/home/edisonwong/robot_ws/install/rtabmap_slam'), ('rtabmap_viz', '/home/edisonwong/robot_ws/install/rtabmap_viz')])}
+[0.001179] (rtabmap_examples) JobQueued: {'identifier': 'rtabmap_examples', 'dependencies': OrderedDict([('rtabmap', '/home/edisonwong/robot_ws/install/rtabmap'), ('rtabmap_msgs', '/home/edisonwong/robot_ws/install/rtabmap_msgs'), ('rtabmap_conversions', '/home/edisonwong/robot_ws/install/rtabmap_conversions'), ('rtabmap_rviz_plugins', '/home/edisonwong/robot_ws/install/rtabmap_rviz_plugins'), ('rtabmap_sync', '/home/edisonwong/robot_ws/install/rtabmap_sync'), ('rtabmap_util', '/home/edisonwong/robot_ws/install/rtabmap_util'), ('rtabmap_odom', '/home/edisonwong/robot_ws/install/rtabmap_odom'), ('rtabmap_slam', '/home/edisonwong/robot_ws/install/rtabmap_slam'), ('rtabmap_viz', '/home/edisonwong/robot_ws/install/rtabmap_viz')])}
+[0.001205] (rtabmap_launch) JobQueued: {'identifier': 'rtabmap_launch', 'dependencies': OrderedDict([('rtabmap', '/home/edisonwong/robot_ws/install/rtabmap'), ('rtabmap_msgs', '/home/edisonwong/robot_ws/install/rtabmap_msgs'), ('rtabmap_conversions', '/home/edisonwong/robot_ws/install/rtabmap_conversions'), ('rtabmap_rviz_plugins', '/home/edisonwong/robot_ws/install/rtabmap_rviz_plugins'), ('rtabmap_sync', '/home/edisonwong/robot_ws/install/rtabmap_sync'), ('rtabmap_util', '/home/edisonwong/robot_ws/install/rtabmap_util'), ('rtabmap_odom', '/home/edisonwong/robot_ws/install/rtabmap_odom'), ('rtabmap_slam', '/home/edisonwong/robot_ws/install/rtabmap_slam'), ('rtabmap_viz', '/home/edisonwong/robot_ws/install/rtabmap_viz')])}
+[0.001234] (rtabmap_ros) JobQueued: {'identifier': 'rtabmap_ros', 'dependencies': OrderedDict([('rtabmap', '/home/edisonwong/robot_ws/install/rtabmap'), ('rtabmap_msgs', '/home/edisonwong/robot_ws/install/rtabmap_msgs'), ('rtabmap_python', '/home/edisonwong/robot_ws/install/rtabmap_python'), ('rtabmap_conversions', '/home/edisonwong/robot_ws/install/rtabmap_conversions'), ('rtabmap_rviz_plugins', '/home/edisonwong/robot_ws/install/rtabmap_rviz_plugins'), ('rtabmap_sync', '/home/edisonwong/robot_ws/install/rtabmap_sync'), ('rtabmap_util', '/home/edisonwong/robot_ws/install/rtabmap_util'), ('rtabmap_odom', '/home/edisonwong/robot_ws/install/rtabmap_odom'), ('rtabmap_slam', '/home/edisonwong/robot_ws/install/rtabmap_slam'), ('rtabmap_viz', '/home/edisonwong/robot_ws/install/rtabmap_viz'), ('rtabmap_demos', '/home/edisonwong/robot_ws/install/rtabmap_demos'), ('rtabmap_examples', '/home/edisonwong/robot_ws/install/rtabmap_examples'), ('rtabmap_launch', '/home/edisonwong/robot_ws/install/rtabmap_launch')])}
+[0.001267] (rtabmap) JobStarted: {'identifier': 'rtabmap'}
+[0.013844] (rtabmap_msgs) JobStarted: {'identifier': 'rtabmap_msgs'}
+[0.021216] (rtabmap_python) JobStarted: {'identifier': 'rtabmap_python'}
+[0.028533] (serial) JobStarted: {'identifier': 'serial'}
+[0.035690] (serial_motor_demo_msgs) JobStarted: {'identifier': 'serial_motor_demo_msgs'}
+[0.041909] (laser_filters) JobStarted: {'identifier': 'laser_filters'}
+[0.050760] (my_bot) JobStarted: {'identifier': 'my_bot'}
+[0.056029] (rtabmap) JobProgress: {'identifier': 'rtabmap', 'progress': 'cmake'}
+[0.056579] (rtabmap) Command: {'cmd': ['/usr/bin/cmake', '/home/edisonwong/robot_ws/src/rtabmap', '-DCMAKE_BUILD_TYPE=Release', '-DCMAKE_INSTALL_PREFIX=/home/edisonwong/robot_ws/install/rtabmap'], 'cwd': '/home/edisonwong/robot_ws/build/rtabmap', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'edisonwong'), ('LC_TIME', 'ms_MY.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/edisonwong'), ('OLDPWD', '/home/edisonwong'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'ms_MY.UTF-8'), ('SYSTEMD_EXEC_PID', '2785'), ('MAKEFLAGS', '-j6'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'edisonwong'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'edisonwong'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', ':/home/edison/utar-kb-5th-floor/world'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/home/edisonwong/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/Edison:@/tmp/.ICE-unix/2596,unix/Edison:/tmp/.ICE-unix/2596'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ms_MY.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/851b186f_2a95_43b8_b325_3b6c30c077db'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'ms_MY.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.101'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ms_MY.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ms_MY.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'ms_MY.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/edisonwong/robot_ws/build/rtabmap'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'en_US.UTF-8'), ('LC_PAPER', 'ms_MY.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.061077] (rtabmap_msgs) JobProgress: {'identifier': 'rtabmap_msgs', 'progress': 'cmake'}
+[0.061749] (rtabmap_msgs) Command: {'cmd': ['/usr/bin/cmake', '/home/edisonwong/robot_ws/src/rtabmap_ros/rtabmap_msgs', '-DCMAKE_BUILD_TYPE=Release', '-DCATKIN_INSTALL_INTO_PREFIX_ROOT=0', '-DCATKIN_SYMLINK_INSTALL=ON', '-DCMAKE_INSTALL_PREFIX=/home/edisonwong/robot_ws/install/rtabmap_msgs'], 'cwd': '/home/edisonwong/robot_ws/build/rtabmap_msgs', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'edisonwong'), ('LC_TIME', 'ms_MY.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/edisonwong'), ('OLDPWD', '/home/edisonwong'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'ms_MY.UTF-8'), ('SYSTEMD_EXEC_PID', '2785'), ('MAKEFLAGS', '-j6'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'edisonwong'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'edisonwong'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', ':/home/edison/utar-kb-5th-floor/world'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/home/edisonwong/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/Edison:@/tmp/.ICE-unix/2596,unix/Edison:/tmp/.ICE-unix/2596'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ms_MY.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/851b186f_2a95_43b8_b325_3b6c30c077db'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'ms_MY.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.101'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ms_MY.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ms_MY.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'ms_MY.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/edisonwong/robot_ws/build/rtabmap_msgs'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'en_US.UTF-8'), ('LC_PAPER', 'ms_MY.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800')]), 'shell': False}
+[0.099269] (-) TimerEvent: {}
+[0.199659] (-) TimerEvent: {}
+[0.299965] (-) TimerEvent: {}
+[0.377398] (serial) JobProgress: {'identifier': 'serial', 'progress': 'cmake'}
+[0.378701] (serial) Command: {'cmd': ['/usr/bin/cmake', '/home/edisonwong/robot_ws/src/serial', '-DCMAKE_BUILD_TYPE=Release', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/edisonwong/robot_ws/install/serial'], 'cwd': '/home/edisonwong/robot_ws/build/serial', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'edisonwong'), ('LC_TIME', 'ms_MY.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/edisonwong'), ('OLDPWD', '/home/edisonwong'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'ms_MY.UTF-8'), ('SYSTEMD_EXEC_PID', '2785'), ('MAKEFLAGS', '-j6'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'edisonwong'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'edisonwong'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', ':/home/edison/utar-kb-5th-floor/world'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/home/edisonwong/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/Edison:@/tmp/.ICE-unix/2596,unix/Edison:/tmp/.ICE-unix/2596'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ms_MY.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/851b186f_2a95_43b8_b325_3b6c30c077db'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'ms_MY.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.101'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ms_MY.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ms_MY.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'ms_MY.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/edisonwong/robot_ws/build/serial'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'en_US.UTF-8'), ('LC_PAPER', 'ms_MY.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.381330] (serial_motor_demo_msgs) JobProgress: {'identifier': 'serial_motor_demo_msgs', 'progress': 'cmake'}
+[0.382906] (serial_motor_demo_msgs) Command: {'cmd': ['/usr/bin/cmake', '/home/edisonwong/robot_ws/serial_motor_demo/serial_motor_demo_msgs', '-DCMAKE_BUILD_TYPE=Release', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/edisonwong/robot_ws/install/serial_motor_demo_msgs'], 'cwd': '/home/edisonwong/robot_ws/build/serial_motor_demo_msgs', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'edisonwong'), ('LC_TIME', 'ms_MY.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/edisonwong'), ('OLDPWD', '/home/edisonwong'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'ms_MY.UTF-8'), ('SYSTEMD_EXEC_PID', '2785'), ('MAKEFLAGS', '-j6'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'edisonwong'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'edisonwong'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', ':/home/edison/utar-kb-5th-floor/world'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/home/edisonwong/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/Edison:@/tmp/.ICE-unix/2596,unix/Edison:/tmp/.ICE-unix/2596'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ms_MY.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/851b186f_2a95_43b8_b325_3b6c30c077db'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'ms_MY.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.101'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ms_MY.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ms_MY.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'ms_MY.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/edisonwong/robot_ws/build/serial_motor_demo_msgs'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'en_US.UTF-8'), ('LC_PAPER', 'ms_MY.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.385105] (laser_filters) JobProgress: {'identifier': 'laser_filters', 'progress': 'cmake'}
+[0.386016] (laser_filters) Command: {'cmd': ['/usr/bin/cmake', '/home/edisonwong/robot_ws/src/laser_filters', '-DCMAKE_BUILD_TYPE=Release', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/edisonwong/robot_ws/install/laser_filters'], 'cwd': '/home/edisonwong/robot_ws/build/laser_filters', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'edisonwong'), ('LC_TIME', 'ms_MY.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/edisonwong'), ('OLDPWD', '/home/edisonwong'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'ms_MY.UTF-8'), ('SYSTEMD_EXEC_PID', '2785'), ('MAKEFLAGS', '-j6'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'edisonwong'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'edisonwong'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', ':/home/edison/utar-kb-5th-floor/world'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/home/edisonwong/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/Edison:@/tmp/.ICE-unix/2596,unix/Edison:/tmp/.ICE-unix/2596'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ms_MY.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/851b186f_2a95_43b8_b325_3b6c30c077db'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'ms_MY.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.101'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ms_MY.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ms_MY.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'ms_MY.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/edisonwong/robot_ws/build/laser_filters'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'en_US.UTF-8'), ('LC_PAPER', 'ms_MY.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.391681] (rtabmap) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.3.0\n'}
+[0.393459] (rtabmap) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.3.0\n'}
+[0.393812] (rtabmap) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.394154] (rtabmap) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.394296] (rtabmap) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.394425] (rtabmap) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.394843] (rtabmap) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.395028] (rtabmap) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.395208] (rtabmap_msgs) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.3.0\n'}
+[0.395530] (rtabmap_msgs) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.3.0\n'}
+[0.395752] (rtabmap_msgs) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.395957] (rtabmap_msgs) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.396619] (rtabmap_msgs) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.397711] (rtabmap_msgs) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.397864] (rtabmap_msgs) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.397996] (rtabmap_msgs) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.398127] (my_bot) JobProgress: {'identifier': 'my_bot', 'progress': 'cmake'}
+[0.398177] (my_bot) Command: {'cmd': ['/usr/bin/cmake', '/home/edisonwong/robot_ws/src/my_bot', '-DCMAKE_BUILD_TYPE=Release', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/edisonwong/robot_ws/install/my_bot'], 'cwd': '/home/edisonwong/robot_ws/build/my_bot', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'edisonwong'), ('LC_TIME', 'ms_MY.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/edisonwong'), ('OLDPWD', '/home/edisonwong'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'ms_MY.UTF-8'), ('SYSTEMD_EXEC_PID', '2785'), ('MAKEFLAGS', '-j6'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'edisonwong'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'edisonwong'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', ':/home/edison/utar-kb-5th-floor/world'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/home/edisonwong/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/Edison:@/tmp/.ICE-unix/2596,unix/Edison:/tmp/.ICE-unix/2596'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ms_MY.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/851b186f_2a95_43b8_b325_3b6c30c077db'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'ms_MY.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.101'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ms_MY.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ms_MY.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'ms_MY.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/edisonwong/robot_ws/build/my_bot'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'en_US.UTF-8'), ('LC_PAPER', 'ms_MY.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.400083] (-) TimerEvent: {}
+[0.401990] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.3 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.402572] (serial) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.3 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.406271] (laser_filters) StdoutLine: {'line': b'-- Found ament_cmake_auto: 1.3.3 (/opt/ros/humble/share/ament_cmake_auto/cmake)\n'}
+[0.416602] (my_bot) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.3 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.466445] (rtabmap) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.483944] (rtabmap_msgs) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.485744] (rtabmap) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.486678] (rtabmap) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.488115] (rtabmap) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.492571] (rtabmap) StdoutLine: {'line': b'-- MOBILE_BUILD=OFF\n'}
+[0.500200] (-) TimerEvent: {}
+[0.501513] (rtabmap_msgs) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.502018] (rtabmap_msgs) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.502906] (rtabmap_msgs) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.507369] (rtabmap_msgs) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[0.511357] (rtabmap_msgs) StdoutLine: {'line': b'-- Found ament_cmake_core: 1.3.3 (/opt/ros/humble/share/ament_cmake_core/cmake)\n'}
+[0.548930] (rtabmap) StdoutLine: {'line': b"-- Checking for module 'eigen3'\n"}
+[0.568794] (rtabmap) StdoutLine: {'line': b'--   Found eigen3, version 3.4.0\n'}
+[0.600328] (-) TimerEvent: {}
+[0.616722] (rtabmap) StdoutLine: {'line': b'-- Found Eigen: /usr/include/eigen3 (Required is at least version "3.1") \n'}
+[0.617148] (rtabmap) StdoutLine: {'line': b'-- Eigen found (include: /usr/include/eigen3, version: 3.4.0)\n'}
+[0.651497] (serial) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[0.657280] (laser_filters) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[0.660247] (my_bot) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[0.661806] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[0.674054] (my_bot) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.5 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[0.675218] (serial) StdoutLine: {'line': b'-- Found ament_cmake_gtest: 1.3.3 (/opt/ros/humble/share/ament_cmake_gtest/cmake)\n'}
+[0.675480] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.5 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[0.694889] (serial) StdoutLine: {'line': b"-- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built\n"}
+[0.700450] (-) TimerEvent: {}
+[0.742907] (rtabmap) StdoutLine: {'line': b"-- Checking for module 'libusb-1.0'\n"}
+[0.762867] (rtabmap) StdoutLine: {'line': b'--   Found libusb-1.0, version 1.0.25\n'}
+[0.790995] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[0.795959] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.799475] (my_bot) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[0.800537] (-) TimerEvent: {}
+[0.803198] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.4 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.813168] (rtabmap_msgs) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3.10 (found version "3.10.6") found components: Interpreter \n'}
+[0.818977] (my_bot) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[0.821513] (my_bot) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[0.823223] (my_bot) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[0.825026] (rtabmap) StdoutLine: {'line': b'-- Found libusb: /usr/lib/x86_64-linux-gnu/libusb-1.0.so  \n'}
+[0.827227] (rtabmap) StdoutLine: {'line': b'-- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)\n'}
+[0.831128] (serial) StdoutLine: {'line': b'-- Configuring done\n'}
+[0.831487] (serial_motor_demo_msgs) StderrLine: {'line': b'\x1b[33mCMake Warning at /opt/ros/humble/share/rcutils/cmake/ament_cmake_export_libraries-extras.cmake:116 (message):\n'}
+[0.831685] (serial_motor_demo_msgs) StderrLine: {'line': b"  Package 'rcutils' exports library 'dl' which couldn't be found\n"}
+[0.831860] (serial_motor_demo_msgs) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[0.832065] (serial_motor_demo_msgs) StderrLine: {'line': b'  /opt/ros/humble/share/rcutils/cmake/rcutilsConfig.cmake:41 (include)\n'}
+[0.832249] (serial_motor_demo_msgs) StderrLine: {'line': b'  /opt/ros/humble/share/rosidl_runtime_c/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)\n'}
+[0.832398] (serial_motor_demo_msgs) StderrLine: {'line': b'  /opt/ros/humble/share/rosidl_runtime_c/cmake/rosidl_runtime_cConfig.cmake:41 (include)\n'}
+[0.832549] (serial_motor_demo_msgs) StderrLine: {'line': b'  /opt/ros/humble/share/rosidl_typesupport_fastrtps_c/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)\n'}
+[0.832695] (serial_motor_demo_msgs) StderrLine: {'line': b'  /opt/ros/humble/share/rosidl_typesupport_fastrtps_c/cmake/rosidl_typesupport_fastrtps_cConfig.cmake:41 (include)\n'}
+[0.832835] (serial_motor_demo_msgs) StderrLine: {'line': b'  /opt/ros/humble/share/rosidl_typesupport_c/cmake/rosidl_typesupport_c-extras.cmake:13 (find_package)\n'}
+[0.832976] (serial_motor_demo_msgs) StderrLine: {'line': b'  /opt/ros/humble/share/rosidl_typesupport_c/cmake/rosidl_typesupport_cConfig.cmake:41 (include)\n'}
+[0.833115] (serial_motor_demo_msgs) StderrLine: {'line': b'  /opt/ros/humble/share/rosidl_default_generators/cmake/rosidl_default_generators-extras.cmake:21 (find_package)\n'}
+[0.833255] (serial_motor_demo_msgs) StderrLine: {'line': b'  /opt/ros/humble/share/rosidl_default_generators/cmake/rosidl_default_generatorsConfig.cmake:41 (include)\n'}
+[0.833396] (serial_motor_demo_msgs) StderrLine: {'line': b'  CMakeLists.txt:40 (find_package)\n'}
+[0.833536] (serial_motor_demo_msgs) StderrLine: {'line': b'\n'}
+[0.833703] (serial_motor_demo_msgs) StderrLine: {'line': b'\x1b[0m\n'}
+[0.833972] (my_bot) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[0.836158] (my_bot) StdoutLine: {'line': b'-- Configuring done\n'}
+[0.843136] (my_bot) StdoutLine: {'line': b'-- Generating done\n'}
+[0.845007] (my_bot) StdoutLine: {'line': b'-- Build files have been written to: /home/edisonwong/robot_ws/build/my_bot\n'}
+[0.849458] (my_bot) CommandEnded: {'returncode': 0}
+[0.850411] (my_bot) JobProgress: {'identifier': 'my_bot', 'progress': 'build'}
+[0.851682] (my_bot) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/edisonwong/robot_ws/build/my_bot'], 'cwd': '/home/edisonwong/robot_ws/build/my_bot', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'edisonwong'), ('LC_TIME', 'ms_MY.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/edisonwong'), ('OLDPWD', '/home/edisonwong'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'ms_MY.UTF-8'), ('SYSTEMD_EXEC_PID', '2785'), ('MAKEFLAGS', '-j6'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'edisonwong'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'edisonwong'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', ':/home/edison/utar-kb-5th-floor/world'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/home/edisonwong/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/Edison:@/tmp/.ICE-unix/2596,unix/Edison:/tmp/.ICE-unix/2596'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ms_MY.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/851b186f_2a95_43b8_b325_3b6c30c077db'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'ms_MY.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.101'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ms_MY.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ms_MY.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'ms_MY.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/edisonwong/robot_ws/build/my_bot'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'en_US.UTF-8'), ('LC_PAPER', 'ms_MY.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.855394] (laser_filters) StderrLine: {'line': b'\x1b[33mCMake Warning at /opt/ros/humble/share/rcutils/cmake/ament_cmake_export_libraries-extras.cmake:116 (message):\n'}
+[0.855634] (laser_filters) StderrLine: {'line': b"  Package 'rcutils' exports library 'dl' which couldn't be found\n"}
+[0.855790] (laser_filters) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[0.855934] (laser_filters) StderrLine: {'line': b'  /opt/ros/humble/share/rcutils/cmake/rcutilsConfig.cmake:41 (include)\n'}
+[0.856075] (laser_filters) StderrLine: {'line': b'  /opt/ros/humble/share/rosidl_runtime_c/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)\n'}
+[0.856205] (laser_filters) StderrLine: {'line': b'  /opt/ros/humble/share/rosidl_runtime_c/cmake/rosidl_runtime_cConfig.cmake:41 (include)\n'}
+[0.856331] (laser_filters) StderrLine: {'line': b'  /opt/ros/humble/share/builtin_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)\n'}
+[0.856485] (laser_filters) StderrLine: {'line': b'  /opt/ros/humble/share/builtin_interfaces/cmake/builtin_interfacesConfig.cmake:41 (include)\n'}
+[0.856602] (laser_filters) StderrLine: {'line': b'  /opt/ros/humble/share/rcl_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)\n'}
+[0.856715] (laser_filters) StderrLine: {'line': b'  /opt/ros/humble/share/rcl_interfaces/cmake/rcl_interfacesConfig.cmake:41 (include)\n'}
+[0.856831] (laser_filters) StderrLine: {'line': b'  /opt/ros/humble/share/rcl/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)\n'}
+[0.856946] (laser_filters) StderrLine: {'line': b'  /opt/ros/humble/share/rcl/cmake/rclConfig.cmake:41 (include)\n'}
+[0.857060] (laser_filters) StderrLine: {'line': b'  /opt/ros/humble/share/libstatistics_collector/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)\n'}
+[0.857194] (laser_filters) StderrLine: {'line': b'  /opt/ros/humble/share/libstatistics_collector/cmake/libstatistics_collectorConfig.cmake:41 (include)\n'}
+[0.857309] (laser_filters) StderrLine: {'line': b'  /opt/ros/humble/share/rclcpp/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)\n'}
+[0.857442] (laser_filters) StderrLine: {'line': b'  /opt/ros/humble/share/rclcpp/cmake/rclcppConfig.cmake:41 (include)\n'}
+[0.857571] (laser_filters) StderrLine: {'line': b'  /opt/ros/humble/share/laser_geometry/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)\n'}
+[0.857743] (laser_filters) StderrLine: {'line': b'  /opt/ros/humble/share/laser_geometry/cmake/laser_geometryConfig.cmake:41 (include)\n'}
+[0.857918] (laser_filters) StderrLine: {'line': b'  /opt/ros/humble/share/ament_cmake_auto/cmake/ament_auto_find_build_dependencies.cmake:67 (find_package)\n'}
+[0.858067] (laser_filters) StderrLine: {'line': b'  CMakeLists.txt:9 (ament_auto_find_build_dependencies)\n'}
+[0.858195] (laser_filters) StderrLine: {'line': b'\n'}
+[0.858321] (laser_filters) StderrLine: {'line': b'\x1b[0m\n'}
+[0.861875] (serial) StdoutLine: {'line': b'-- Generating done\n'}
+[0.864724] (serial) StdoutLine: {'line': b'-- Build files have been written to: /home/edisonwong/robot_ws/build/serial\n'}
+[0.869555] (serial) CommandEnded: {'returncode': 0}
+[0.870512] (serial) JobProgress: {'identifier': 'serial', 'progress': 'build'}
+[0.871918] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.872141] (serial) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/edisonwong/robot_ws/build/serial'], 'cwd': '/home/edisonwong/robot_ws/build/serial', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'edisonwong'), ('LC_TIME', 'ms_MY.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/edisonwong'), ('OLDPWD', '/home/edisonwong'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'ms_MY.UTF-8'), ('SYSTEMD_EXEC_PID', '2785'), ('MAKEFLAGS', '-j6'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'edisonwong'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'edisonwong'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', ':/home/edison/utar-kb-5th-floor/world'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/home/edisonwong/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/Edison:@/tmp/.ICE-unix/2596,unix/Edison:/tmp/.ICE-unix/2596'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ms_MY.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/851b186f_2a95_43b8_b325_3b6c30c077db'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'ms_MY.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.101'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ms_MY.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ms_MY.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'ms_MY.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/edisonwong/robot_ws/build/serial'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'en_US.UTF-8'), ('LC_PAPER', 'ms_MY.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.877145] (laser_filters) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.4 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.882468] (laser_filters) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.4 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.894580] (laser_filters) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.4 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.898413] (my_bot) CommandEnded: {'returncode': 0}
+[0.900623] (-) TimerEvent: {}
+[0.919060] (laser_filters) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.927090] (serial) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target gtest_main\x1b[0m\n'}
+[0.928483] (serial) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target serial\x1b[0m\n'}
+[0.929165] (serial) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target gtest\x1b[0m\n'}
+[0.933695] (rtabmap_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.940681] (my_bot) JobProgress: {'identifier': 'my_bot', 'progress': 'install'}
+[0.951116] (rtabmap_msgs) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.4 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.954816] (my_bot) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/edisonwong/robot_ws/build/my_bot'], 'cwd': '/home/edisonwong/robot_ws/build/my_bot', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'edisonwong'), ('LC_TIME', 'ms_MY.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/edisonwong'), ('OLDPWD', '/home/edisonwong'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'ms_MY.UTF-8'), ('SYSTEMD_EXEC_PID', '2785'), ('MAKEFLAGS', '-j6'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'edisonwong'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'edisonwong'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', ':/home/edison/utar-kb-5th-floor/world'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/home/edisonwong/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/Edison:@/tmp/.ICE-unix/2596,unix/Edison:/tmp/.ICE-unix/2596'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ms_MY.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/851b186f_2a95_43b8_b325_3b6c30c077db'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'ms_MY.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.101'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ms_MY.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ms_MY.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'ms_MY.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/edisonwong/robot_ws/build/my_bot'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'en_US.UTF-8'), ('LC_PAPER', 'ms_MY.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.960977] (serial) StdoutLine: {'line': b'[  7%] \x1b[32mBuilding CXX object CMakeFiles/serial.dir/src/serial.cc.o\x1b[0m\n'}
+[0.962602] (serial) StdoutLine: {'line': b'[ 14%] \x1b[32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o\x1b[0m\n'}
+[0.964573] (laser_filters) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.964901] (serial) StdoutLine: {'line': b'[ 21%] \x1b[32mBuilding CXX object CMakeFiles/serial.dir/src/impl/unix.cc.o\x1b[0m\n'}
+[0.971531] (serial) StdoutLine: {'line': b'[ 28%] \x1b[32mBuilding CXX object CMakeFiles/serial.dir/src/impl/list_ports/list_ports_linux.cc.o\x1b[0m\n'}
+[0.975287] (serial) StdoutLine: {'line': b'[ 35%] \x1b[32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o\x1b[0m\n'}
+[0.978887] (my_bot) StdoutLine: {'line': b'-- Install configuration: "Release"\n'}
+[0.979673] (my_bot) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[0.981055] (my_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/edisonwong/robot_ws/install/my_bot/share/my_bot/config/box_filter.yaml\n'}
+[0.981307] (my_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/edisonwong/robot_ws/install/my_bot/share/my_bot/config/drive_bot.rviz\n'}
+[0.981494] (my_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/edisonwong/robot_ws/install/my_bot/share/my_bot/config/empty.yaml\n'}
+[0.981727] (my_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/edisonwong/robot_ws/install/my_bot/share/my_bot/config/gazebo_params.yaml\n'}
+[0.982052] (my_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/edisonwong/robot_ws/install/my_bot/share/my_bot/config/joystick.yaml\n'}
+[0.982336] (my_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/edisonwong/robot_ws/install/my_bot/share/my_bot/config/mapper_params_online_async.yaml\n'}
+[0.982642] (my_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/edisonwong/robot_ws/install/my_bot/share/my_bot/config/my_controllers.yaml\n'}
+[0.982872] (my_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/edisonwong/robot_ws/install/my_bot/share/my_bot/config/twist_mux.yaml\n'}
+[0.983122] (my_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/edisonwong/robot_ws/install/my_bot/share/my_bot/config/view_bot.rviz\n'}
+[0.984675] (my_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/edisonwong/robot_ws/install/my_bot/share/my_bot/description/_materials.urdf.xacro\n'}
+[0.984954] (my_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/edisonwong/robot_ws/install/my_bot/share/my_bot/description/_usb_plug.urdf.xacro\n'}
+[0.985239] (my_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/edisonwong/robot_ws/install/my_bot/share/my_bot/description/camera.xacro\n'}
+[0.985533] (my_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/edisonwong/robot_ws/install/my_bot/share/my_bot/description/depth_camera.xacro\n'}
+[0.985844] (my_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/edisonwong/robot_ws/install/my_bot/share/my_bot/description/gazebo_control.xacro\n'}
+[0.986205] (my_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/edisonwong/robot_ws/install/my_bot/share/my_bot/description/inertial_macros.xacro\n'}
+[0.986450] (my_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/edisonwong/robot_ws/install/my_bot/share/my_bot/description/l515.xacro\n'}
+[0.986719] (my_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/edisonwong/robot_ws/install/my_bot/share/my_bot/description/lidar.xacro\n'}
+[0.987054] (my_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/edisonwong/robot_ws/install/my_bot/share/my_bot/description/robot.urdf.xacro\n'}
+[0.987415] (my_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/edisonwong/robot_ws/install/my_bot/share/my_bot/description/robot_core.xacro\n'}
+[0.987782] (my_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/edisonwong/robot_ws/install/my_bot/share/my_bot/description/ros2_control.xacro\n'}
+[0.988630] (my_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/edisonwong/robot_ws/install/my_bot/share/my_bot/launch/box_filter.launch.py\n'}
+[0.989003] (my_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/edisonwong/robot_ws/install/my_bot/share/my_bot/launch/joystick.launch.py\n'}
+[0.989313] (my_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/edisonwong/robot_ws/install/my_bot/share/my_bot/launch/launch_robot.launch.py\n'}
+[0.989670] (my_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/edisonwong/robot_ws/install/my_bot/share/my_bot/launch/launch_sim.launch.py\n'}
+[0.990036] (my_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/edisonwong/robot_ws/install/my_bot/share/my_bot/launch/rplidar.launch.py\n'}
+[0.990325] (my_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/edisonwong/robot_ws/install/my_bot/share/my_bot/launch/rsp.launch.py\n'}
+[0.994445] (my_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/edisonwong/robot_ws/install/my_bot/share/my_bot/worlds/empty.world\n'}
+[0.994740] (my_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/edisonwong/robot_ws/install/my_bot/share/my_bot/worlds/kb5.world\n'}
+[0.994945] (my_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/edisonwong/robot_ws/install/my_bot/share/my_bot/worlds/obstacles.world\n'}
+[0.996025] (my_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/edisonwong/robot_ws/install/my_bot/share/ament_index/resource_index/package_run_dependencies/my_bot\n'}
+[0.997377] (my_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/edisonwong/robot_ws/install/my_bot/share/ament_index/resource_index/parent_prefix_path/my_bot\n'}
+[0.999020] (my_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/edisonwong/robot_ws/install/my_bot/share/my_bot/environment/ament_prefix_path.sh\n'}
+[0.999539] (my_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/edisonwong/robot_ws/install/my_bot/share/my_bot/environment/ament_prefix_path.dsv\n'}
+[1.000226] (my_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/edisonwong/robot_ws/install/my_bot/share/my_bot/environment/path.sh\n'}
+[1.000701] (-) TimerEvent: {}
+[1.001160] (my_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/edisonwong/robot_ws/install/my_bot/share/my_bot/environment/path.dsv\n'}
+[1.002621] (my_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/edisonwong/robot_ws/install/my_bot/share/my_bot/local_setup.bash\n'}
+[1.003243] (my_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/edisonwong/robot_ws/install/my_bot/share/my_bot/local_setup.sh\n'}
+[1.003708] (my_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/edisonwong/robot_ws/install/my_bot/share/my_bot/local_setup.zsh\n'}
+[1.004182] (my_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/edisonwong/robot_ws/install/my_bot/share/my_bot/local_setup.dsv\n'}
+[1.004436] (my_bot) StdoutLine: {'line': b'-- Symlinking: /home/edisonwong/robot_ws/install/my_bot/share/my_bot/package.dsv\n'}
+[1.021320] (my_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/edisonwong/robot_ws/install/my_bot/share/ament_index/resource_index/packages/my_bot\n'}
+[1.021732] (my_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/edisonwong/robot_ws/install/my_bot/share/my_bot/cmake/my_botConfig.cmake\n'}
+[1.022263] (my_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/edisonwong/robot_ws/install/my_bot/share/my_bot/cmake/my_botConfig-version.cmake\n'}
+[1.022564] (my_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/edisonwong/robot_ws/install/my_bot/share/my_bot/package.xml\n'}
+[1.026659] (my_bot) CommandEnded: {'returncode': 0}
+[1.100821] (-) TimerEvent: {}
+[1.110940] (rtabmap_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.153348] (laser_filters) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[1.171341] (laser_filters) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.2 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[1.185986] (my_bot) JobEnded: {'identifier': 'my_bot', 'rc': 0}
+[1.197508] (rtabmap_msgs) StdoutLine: {'line': b'-- Found geometry_msgs: 4.2.3 (/opt/ros/humble/share/geometry_msgs/cmake)\n'}
+[1.201675] (-) TimerEvent: {}
+[1.302087] (-) TimerEvent: {}
+[1.311738] (rtabmap_python) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'develop', '--editable', '--build-directory', '/home/edisonwong/robot_ws/build/rtabmap_python/build', '--no-deps', 'install_data'], 'cwd': '/home/edisonwong/robot_ws/build/rtabmap_python', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'edisonwong', 'LC_TIME': 'ms_MY.UTF-8', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/edisonwong', 'OLDPWD': '/home/edisonwong', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'LC_MONETARY': 'ms_MY.UTF-8', 'SYSTEMD_EXEC_PID': '2785', 'MAKEFLAGS': '-j6', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'IM_CONFIG_PHASE': '1', 'ROS_DISTRO': 'humble', 'LOGNAME': 'edisonwong', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'edisonwong', 'TERM': 'xterm-256color', 'GAZEBO_MODEL_PATH': ':/home/edison/utar-kb-5th-floor/world', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'WINDOWPATH': '2', 'PATH': '/opt/ros/humble/bin:/home/edisonwong/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/Edison:@/tmp/.ICE-unix/2596,unix/Edison:/tmp/.ICE-unix/2596', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'ms_MY.UTF-8', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/851b186f_2a95_43b8_b325_3b6c30c077db', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':1', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'LC_TELEPHONE': 'ms_MY.UTF-8', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.101', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/humble', 'SHELL': '/bin/bash', 'LC_NAME': 'ms_MY.UTF-8', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'ms_MY.UTF-8', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'LC_IDENTIFICATION': 'ms_MY.UTF-8', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/edisonwong/robot_ws/build/rtabmap_python', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/edisonwong/robot_ws/build/rtabmap_python/prefix_override:/home/edisonwong/robot_ws/install/rtabmap_python/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'LC_NUMERIC': 'en_US.UTF-8', 'LC_PAPER': 'ms_MY.UTF-8', 'COLCON': '1', 'VTE_VERSION': '6800'}, 'shell': False}
+[1.349926] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)\n'}
+[1.402200] (-) TimerEvent: {}
+[1.494456] (laser_filters) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[1.502310] (-) TimerEvent: {}
+[1.536404] (laser_filters) StderrLine: {'line': b'\x1b[31mCMake Error at /opt/ros/humble/share/rcl_logging_spdlog/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package):\n'}
+[1.536772] (laser_filters) StderrLine: {'line': b'  By not providing "Findspdlog.cmake" in CMAKE_MODULE_PATH this project has\n'}
+[1.537033] (laser_filters) StderrLine: {'line': b'  asked CMake to find a package configuration file provided by "spdlog", but\n'}
+[1.537279] (laser_filters) StderrLine: {'line': b'  CMake did not find one.\n'}
+[1.537488] (laser_filters) StderrLine: {'line': b'\n'}
+[1.537711] (laser_filters) StderrLine: {'line': b'  Could not find a package configuration file provided by "spdlog" with any\n'}
+[1.537953] (laser_filters) StderrLine: {'line': b'  of the following names:\n'}
+[1.538167] (laser_filters) StderrLine: {'line': b'\n'}
+[1.538388] (laser_filters) StderrLine: {'line': b'    spdlogConfig.cmake\n'}
+[1.538608] (laser_filters) StderrLine: {'line': b'    spdlog-config.cmake\n'}
+[1.538820] (laser_filters) StderrLine: {'line': b'\n'}
+[1.539294] (laser_filters) StderrLine: {'line': b'  Add the installation prefix of "spdlog" to CMAKE_PREFIX_PATH or set\n'}
+[1.539656] (laser_filters) StderrLine: {'line': b'  "spdlog_DIR" to a directory containing one of the above files.  If "spdlog"\n'}
+[1.539951] (laser_filters) StderrLine: {'line': b'  provides a separate development package or SDK, be sure it has been\n'}
+[1.540239] (laser_filters) StderrLine: {'line': b'  installed.\n'}
+[1.540556] (laser_filters) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[1.540868] (laser_filters) StderrLine: {'line': b'  /opt/ros/humble/share/rcl_logging_spdlog/cmake/rcl_logging_spdlogConfig.cmake:41 (include)\n'}
+[1.541158] (laser_filters) StderrLine: {'line': b'  /opt/ros/humble/share/rcl/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)\n'}
+[1.541450] (laser_filters) StderrLine: {'line': b'  /opt/ros/humble/share/rcl/cmake/rclConfig.cmake:41 (include)\n'}
+[1.541718] (laser_filters) StderrLine: {'line': b'  /opt/ros/humble/share/libstatistics_collector/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)\n'}
+[1.542025] (laser_filters) StderrLine: {'line': b'  /opt/ros/humble/share/libstatistics_collector/cmake/libstatistics_collectorConfig.cmake:41 (include)\n'}
+[1.542296] (laser_filters) StderrLine: {'line': b'  /opt/ros/humble/share/rclcpp/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)\n'}
+[1.542557] (laser_filters) StderrLine: {'line': b'  /opt/ros/humble/share/rclcpp/cmake/rclcppConfig.cmake:41 (include)\n'}
+[1.542809] (laser_filters) StderrLine: {'line': b'  /opt/ros/humble/share/laser_geometry/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)\n'}
+[1.543083] (laser_filters) StderrLine: {'line': b'  /opt/ros/humble/share/laser_geometry/cmake/laser_geometryConfig.cmake:41 (include)\n'}
+[1.543340] (laser_filters) StderrLine: {'line': b'  /opt/ros/humble/share/ament_cmake_auto/cmake/ament_auto_find_build_dependencies.cmake:67 (find_package)\n'}
+[1.543610] (laser_filters) StderrLine: {'line': b'  CMakeLists.txt:9 (ament_auto_find_build_dependencies)\n'}
+[1.543858] (laser_filters) StderrLine: {'line': b'\n'}
+[1.544141] (laser_filters) StderrLine: {'line': b'\x1b[0m\n'}
+[1.545783] (laser_filters) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[1.546040] (laser_filters) StdoutLine: {'line': b'See also "/home/edisonwong/robot_ws/build/laser_filters/CMakeFiles/CMakeOutput.log".\n'}
+[1.582033] (laser_filters) CommandEnded: {'returncode': 1}
+[1.582775] (rtabmap_msgs) StdoutLine: {'line': b'-- Found sensor_msgs: 4.2.3 (/opt/ros/humble/share/sensor_msgs/cmake)\n'}
+[1.602418] (-) TimerEvent: {}
+[1.669772] (laser_filters) JobEnded: {'identifier': 'laser_filters', 'rc': 1}
+[1.702533] (-) TimerEvent: {}
+[1.787276] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.802639] (-) TimerEvent: {}
+[1.828829] (rtabmap_msgs) StdoutLine: {'line': b'-- Found std_srvs: 4.2.3 (/opt/ros/humble/share/std_srvs/cmake)\n'}
+[1.899211] (rtabmap_python) StdoutLine: {'line': b'running develop\n'}
+[1.900190] (rtabmap_python) StderrLine: {'line': b'/usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.\n'}
+[1.900530] (rtabmap_python) StderrLine: {'line': b'  warnings.warn(\n'}
+[1.902743] (-) TimerEvent: {}
+[1.904186] (rtabmap_python) StderrLine: {'line': b'/usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.\n'}
+[1.904507] (rtabmap_python) StderrLine: {'line': b'  warnings.warn(\n'}
+[2.002848] (-) TimerEvent: {}
+[2.046563] (rtabmap_python) StderrLine: {'line': b'/usr/lib/python3/dist-packages/pkg_resources/__init__.py:116: PkgResourcesDeprecationWarning: 1.16.0-unknown is an invalid version and will not be supported in a future release\n'}
+[2.046905] (rtabmap_python) StderrLine: {'line': b'  warnings.warn(\n'}
+[2.047989] (rtabmap_python) StderrLine: {'line': b'/usr/lib/python3/dist-packages/pkg_resources/__init__.py:116: PkgResourcesDeprecationWarning: 0.1.43ubuntu1 is an invalid version and will not be supported in a future release\n'}
+[2.048305] (rtabmap_python) StderrLine: {'line': b'  warnings.warn(\n'}
+[2.049029] (rtabmap_python) StderrLine: {'line': b'/usr/lib/python3/dist-packages/pkg_resources/__init__.py:116: PkgResourcesDeprecationWarning: 1.1build1 is an invalid version and will not be supported in a future release\n'}
+[2.049316] (rtabmap_python) StderrLine: {'line': b'  warnings.warn(\n'}
+[2.102962] (-) TimerEvent: {}
+[2.203396] (-) TimerEvent: {}
+[2.264570] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[2.303516] (-) TimerEvent: {}
+[2.312010] (rtabmap_python) StdoutLine: {'line': b'running egg_info\n'}
+[2.312518] (rtabmap_python) StdoutLine: {'line': b'creating rtabmap_python.egg-info\n'}
+[2.313247] (rtabmap_python) StdoutLine: {'line': b'writing rtabmap_python.egg-info/PKG-INFO\n'}
+[2.314091] (rtabmap_python) StdoutLine: {'line': b'writing dependency_links to rtabmap_python.egg-info/dependency_links.txt\n'}
+[2.314698] (rtabmap_python) StdoutLine: {'line': b'writing entry points to rtabmap_python.egg-info/entry_points.txt\n'}
+[2.315286] (rtabmap_python) StdoutLine: {'line': b'writing requirements to rtabmap_python.egg-info/requires.txt\n'}
+[2.315765] (rtabmap_python) StdoutLine: {'line': b'writing top-level names to rtabmap_python.egg-info/top_level.txt\n'}
+[2.316592] (rtabmap_python) StdoutLine: {'line': b"writing manifest file 'rtabmap_python.egg-info/SOURCES.txt'\n"}
+[2.320139] (rtabmap_python) StdoutLine: {'line': b"reading manifest file 'rtabmap_python.egg-info/SOURCES.txt'\n"}
+[2.320442] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)\n'}
+[2.321896] (rtabmap_python) StdoutLine: {'line': b"writing manifest file 'rtabmap_python.egg-info/SOURCES.txt'\n"}
+[2.324777] (rtabmap_python) StdoutLine: {'line': b'running build_ext\n'}
+[2.325668] (rtabmap_python) StdoutLine: {'line': b'Creating /home/edisonwong/robot_ws/install/rtabmap_python/lib/python3.10/site-packages/rtabmap-python.egg-link (link to .)\n'}
+[2.327512] (rtabmap_python) StdoutLine: {'line': b'\n'}
+[2.327825] (rtabmap_python) StdoutLine: {'line': b'Installed /home/edisonwong/robot_ws/build/rtabmap_python\n'}
+[2.328254] (rtabmap_python) StdoutLine: {'line': b'running install_data\n'}
+[2.328739] (rtabmap_python) StdoutLine: {'line': b'creating /home/edisonwong/robot_ws/install/rtabmap_python/share/ament_index\n'}
+[2.329124] (rtabmap_python) StdoutLine: {'line': b'creating /home/edisonwong/robot_ws/install/rtabmap_python/share/ament_index/resource_index\n'}
+[2.329452] (rtabmap_python) StdoutLine: {'line': b'creating /home/edisonwong/robot_ws/install/rtabmap_python/share/ament_index/resource_index/packages\n'}
+[2.329895] (rtabmap_python) StdoutLine: {'line': b'copying resource/rtabmap_python -> /home/edisonwong/robot_ws/install/rtabmap_python/share/ament_index/resource_index/packages\n'}
+[2.330514] (rtabmap_python) StdoutLine: {'line': b'copying package.xml -> /home/edisonwong/robot_ws/install/rtabmap_python/share/rtabmap_python\n'}
+[2.377532] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[2.377958] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10\n'}
+[2.378289] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/aarch64-linux-gnu/libpython3.10.so\n'}
+[2.396202] (rtabmap_python) JobEnded: {'identifier': 'rtabmap_python', 'rc': 'SIGINT'}
+[2.403626] (-) TimerEvent: {}
+[2.413613] (serial_motor_demo_msgs) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[2.417054] (serial_motor_demo_msgs) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[2.418780] (serial_motor_demo_msgs) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[2.436347] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Configuring done\n'}
+[2.503745] (-) TimerEvent: {}
+[2.521902] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Generating done\n'}
+[2.528183] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Build files have been written to: /home/edisonwong/robot_ws/build/serial_motor_demo_msgs\n'}
+[2.537734] (serial_motor_demo_msgs) JobEnded: {'identifier': 'serial_motor_demo_msgs', 'rc': 'SIGINT'}
+[2.603865] (-) TimerEvent: {}
+[2.704356] (-) TimerEvent: {}
+[2.804726] (-) TimerEvent: {}
+[2.905209] (-) TimerEvent: {}
+[2.929148] (serial) StdoutLine: {'line': b'[ 42%] \x1b[32m\x1b[1mLinking CXX static library libserial.a\x1b[0m\n'}
+[2.950119] (serial) StdoutLine: {'line': b'[ 50%] \x1b[32m\x1b[1mLinking CXX static library libgtest_main.a\x1b[0m\n'}
+[3.005301] (-) TimerEvent: {}
+[3.063057] (rtabmap_msgs) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)\n'}
+[3.088308] (serial) StdoutLine: {'line': b'[ 50%] Built target gtest_main\n'}
+[3.099351] (serial) StdoutLine: {'line': b'[ 50%] Built target serial\n'}
+[3.105433] (-) TimerEvent: {}
+[3.110362] (serial) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target serial_example\x1b[0m\n'}
+[3.123142] (serial) StdoutLine: {'line': b'[ 57%] \x1b[32mBuilding CXX object CMakeFiles/serial_example.dir/examples/serial_example.cc.o\x1b[0m\n'}
+[3.205572] (-) TimerEvent: {}
+[3.306000] (-) TimerEvent: {}
+[3.360123] (rtabmap) StdoutLine: {'line': b'-- Eigen found (include: /usr/include/eigen3, version: 3.4.0)\n'}
+[3.380809] (rtabmap) StdoutLine: {'line': b"-- Checking for module 'flann'\n"}
+[3.396072] (rtabmap) StdoutLine: {'line': b'--   Found flann, version 1.9.1\n'}
+[3.406108] (-) TimerEvent: {}
+[3.410817] (rtabmap_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[3.444566] (rtabmap) StdoutLine: {'line': b'-- Found FLANN: /usr/lib/x86_64-linux-gnu/libflann_cpp.so  \n'}
+[3.444857] (rtabmap) StdoutLine: {'line': b'-- FLANN found (include: /usr/include, lib: /usr/lib/x86_64-linux-gnu/libflann_cpp.so)\n'}
+[3.449862] (rtabmap) StdoutLine: {'line': b'-- Found Qhull version 8.0.2\n'}
+[3.506217] (-) TimerEvent: {}
+[3.606560] (-) TimerEvent: {}
+[3.704609] (serial) StdoutLine: {'line': b'[ 64%] \x1b[32m\x1b[1mLinking CXX executable serial_example\x1b[0m\n'}
+[3.706664] (-) TimerEvent: {}
+[3.804586] (serial) StdoutLine: {'line': b'[ 64%] Built target serial_example\n'}
+[3.806757] (-) TimerEvent: {}
+[3.878637] (rtabmap_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[3.903714] (rtabmap_msgs) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.6", minimum required is "3.6") \n'}
+[3.905614] (rtabmap_msgs) StdoutLine: {'line': b'-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)\n'}
+[3.906878] (-) TimerEvent: {}
+[3.949305] (rtabmap_msgs) StdoutLine: {'line': b'-- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.6", minimum required is "3.5") \n'}
+[3.949566] (rtabmap_msgs) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[3.949641] (rtabmap_msgs) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10\n'}
+[3.949705] (rtabmap_msgs) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so\n'}
+[3.973093] (rtabmap) StdoutLine: {'line': b'-- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)\n'}
+[3.973952] (rtabmap_msgs) StdoutLine: {'line': b'-- Found PythonExtra: .so  \n'}
+[4.007034] (-) TimerEvent: {}
+[4.107422] (-) TimerEvent: {}
+[4.128742] (rtabmap_msgs) StdoutLine: {'line': b'-- Configuring done\n'}
+[4.195847] (rtabmap) StdoutLine: {'line': b'-- Found PCL_COMMON: /usr/lib/x86_64-linux-gnu/libpcl_common.so  \n'}
+[4.197091] (rtabmap) StdoutLine: {'line': b'-- Found PCL_OCTREE: /usr/lib/x86_64-linux-gnu/libpcl_octree.so  \n'}
+[4.198417] (rtabmap) StdoutLine: {'line': b'-- Found PCL_IO: /usr/lib/x86_64-linux-gnu/libpcl_io.so  \n'}
+[4.199859] (rtabmap) StdoutLine: {'line': b'-- Found PCL_KDTREE: /usr/lib/x86_64-linux-gnu/libpcl_kdtree.so  \n'}
+[4.201101] (rtabmap) StdoutLine: {'line': b'-- Found PCL_SEARCH: /usr/lib/x86_64-linux-gnu/libpcl_search.so  \n'}
+[4.202616] (rtabmap) StdoutLine: {'line': b'-- Found PCL_SURFACE: /usr/lib/x86_64-linux-gnu/libpcl_surface.so  \n'}
+[4.204014] (rtabmap) StdoutLine: {'line': b'-- Found PCL_FILTERS: /usr/lib/x86_64-linux-gnu/libpcl_filters.so  \n'}
+[4.204598] (rtabmap) StdoutLine: {'line': b'-- Found PCL_2D: /usr/include/pcl-1.12  \n'}
+[4.206022] (rtabmap) StdoutLine: {'line': b'-- Found PCL_FEATURES: /usr/lib/x86_64-linux-gnu/libpcl_features.so  \n'}
+[4.207450] (rtabmap) StdoutLine: {'line': b'-- Found PCL_REGISTRATION: /usr/lib/x86_64-linux-gnu/libpcl_registration.so  \n'}
+[4.207646] (-) TimerEvent: {}
+[4.209033] (rtabmap) StdoutLine: {'line': b'-- Found PCL_SAMPLE_CONSENSUS: /usr/lib/x86_64-linux-gnu/libpcl_sample_consensus.so  \n'}
+[4.209643] (rtabmap) StdoutLine: {'line': b'-- Found PCL_GEOMETRY: /usr/include/pcl-1.12  \n'}
+[4.210967] (rtabmap) StdoutLine: {'line': b'-- Found PCL_ML: /usr/lib/x86_64-linux-gnu/libpcl_ml.so  \n'}
+[4.212245] (rtabmap) StdoutLine: {'line': b'-- Found PCL_SEGMENTATION: /usr/lib/x86_64-linux-gnu/libpcl_segmentation.so  \n'}
+[4.213642] (rtabmap) StdoutLine: {'line': b'-- Found PCL_VISUALIZATION: /usr/lib/x86_64-linux-gnu/libpcl_visualization.so  \n'}
+[4.214643] (rtabmap) StdoutLine: {'line': b'-- PCL definitions don\'t contain "-march=native", make sure all libraries using Eigen are also compiled without that flag to avoid some segmentation faults (with gdb referring to some Eigen functions).\n'}
+[4.218871] (rtabmap) StdoutLine: {'line': b'-- Found Sqlite3: /usr/include /usr/lib/x86_64-linux-gnu/libsqlite3.so\n'}
+[4.257602] (rtabmap_msgs) StdoutLine: {'line': b'-- Generating done\n'}
+[4.260364] (rtabmap_msgs) StderrLine: {'line': b'\x1b[33mCMake Warning:\n'}
+[4.260569] (rtabmap_msgs) StderrLine: {'line': b'  Manually-specified variables were not used by the project:\n'}
+[4.260661] (rtabmap_msgs) StderrLine: {'line': b'\n'}
+[4.260740] (rtabmap_msgs) StderrLine: {'line': b'    CATKIN_INSTALL_INTO_PREFIX_ROOT\n'}
+[4.260824] (rtabmap_msgs) StderrLine: {'line': b'    CATKIN_SYMLINK_INSTALL\n'}
+[4.260909] (rtabmap_msgs) StderrLine: {'line': b'\n'}
+[4.260990] (rtabmap_msgs) StderrLine: {'line': b'\x1b[0m\n'}
+[4.261253] (rtabmap_msgs) StdoutLine: {'line': b'-- Build files have been written to: /home/edisonwong/robot_ws/build/rtabmap_msgs\n'}
+[4.274548] (rtabmap_msgs) JobEnded: {'identifier': 'rtabmap_msgs', 'rc': 'SIGINT'}
+[4.307779] (-) TimerEvent: {}
+[4.408225] (-) TimerEvent: {}
+[4.489349] (rtabmap) StdoutLine: {'line': b'-- Found OpenMP_C: -fopenmp (found version "4.5") \n'}
+[4.508382] (-) TimerEvent: {}
+[4.581754] (rtabmap) StdoutLine: {'line': b'-- Found OpenMP_CXX: -fopenmp (found version "4.5") \n'}
+[4.582110] (rtabmap) StdoutLine: {'line': b'-- Found OpenMP: TRUE (found version "4.5") found components: C CXX \n'}
+[4.582428] (rtabmap) StdoutLine: {'line': b'-- Found OpenMP: /usr/lib/gcc/x86_64-linux-gnu/11/libgomp.so;/usr/lib/x86_64-linux-gnu/libpthread.a\n'}
+[4.582527] (rtabmap) StdoutLine: {'line': b'-- Add PCL_OMP to definitions\n'}
+[4.582598] (rtabmap) StdoutLine: {'line': b'-- Found OpenCV: /usr/include/opencv4\n'}
+[4.582665] (rtabmap) StdoutLine: {'line': b'-- Found PCL: /usr/include/pcl-1.12;/usr/include/eigen3;/usr/include;/usr/include/ni\n'}
+[4.582730] (rtabmap) StdoutLine: {'line': b'-- Found ZLIB: /usr/include\n'}
+[4.597697] (rtabmap) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[4.599884] (rtabmap) StdoutLine: {'line': b'-- Found GLEW: /usr/lib/x86_64-linux-gnu/libGLEW.so  \n'}
+[4.602248] (rtabmap) StdoutLine: {'line': b'-- Found OpenGL: /usr/lib/x86_64-linux-gnu/libOpenGL.so  found components: OpenGL GLX \n'}
+[4.608565] (-) TimerEvent: {}
+[4.708924] (-) TimerEvent: {}
+[4.809181] (-) TimerEvent: {}
+[4.909534] (-) TimerEvent: {}
+[4.958846] (rtabmap) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3.10 (found suitable version "3.10.6", minimum required is "3.10") found components: Interpreter Development.Module Development.Embed \n'}
+[4.969307] (rtabmap) StdoutLine: {'line': b'-- Found MPI_C: /usr/lib/x86_64-linux-gnu/libmpi.so (found version "3.1") \n'}
+[4.969562] (rtabmap) StdoutLine: {'line': b'-- Found MPI: TRUE (found version "3.1") found components: C \n'}
+[5.009698] (-) TimerEvent: {}
+[5.110095] (-) TimerEvent: {}
+[5.210440] (-) TimerEvent: {}
+[5.224231] (rtabmap) StdoutLine: {'line': b'-- Found HDF5: /usr/lib/x86_64-linux-gnu/hdf5/serial/libhdf5.so;/usr/lib/x86_64-linux-gnu/libcrypto.so;/usr/lib/x86_64-linux-gnu/libcurl.so;/usr/lib/x86_64-linux-gnu/libpthread.a;/usr/lib/x86_64-linux-gnu/libsz.so;/usr/lib/x86_64-linux-gnu/libz.so;/usr/lib/x86_64-linux-gnu/libdl.a;/usr/lib/x86_64-linux-gnu/libm.so (found version "1.10.7") found components: C HL \n'}
+[5.228762] (rtabmap) StdoutLine: {'line': b'-- Found NetCDF: /usr/include (found version "4.8.1") \n'}
+[5.231513] (rtabmap) StdoutLine: {'line': b'-- Found OGG: /usr/lib/x86_64-linux-gnu/libogg.so  \n'}
+[5.233900] (rtabmap) StdoutLine: {'line': b'-- Found THEORA: /usr/lib/x86_64-linux-gnu/libtheora.so  \n'}
+[5.236327] (rtabmap) StdoutLine: {'line': b'-- Found JsonCpp: /usr/lib/x86_64-linux-gnu/libjsoncpp.so (found suitable version "1.9.5", minimum required is "0.7.0") \n'}
+[5.302806] (rtabmap) StdoutLine: {'line': b'-- Found LibXml2: /usr/lib/x86_64-linux-gnu/libxml2.so (found version "2.9.13") \n'}
+[5.310592] (-) TimerEvent: {}
+[5.314350] (rtabmap) StdoutLine: {'line': b'-- Found ZLIB: /usr/lib/x86_64-linux-gnu/libz.so (found version "1.2.11") \n'}
+[5.320060] (rtabmap) StdoutLine: {'line': b'-- Found GL2PS: /usr/lib/x86_64-linux-gnu/libgl2ps.so (found suitable version "1.4.2", minimum required is "1.4.2") \n'}
+[5.326604] (rtabmap) StdoutLine: {'line': b'-- Found PNG: /usr/lib/x86_64-linux-gnu/libpng.so (found version "1.6.37") \n'}
+[5.328789] (rtabmap) StdoutLine: {'line': b'-- Found SQLite3: /usr/include (found version "3.37.2") \n'}
+[5.337219] (rtabmap) StdoutLine: {'line': b'-- Found LibPROJ: /usr/lib/x86_64-linux-gnu/libproj.so (found version "8.2.1") \n'}
+[5.342718] (rtabmap) StdoutLine: {'line': b'-- Found Eigen3: /usr/include/eigen3 (found version "3.4.0") \n'}
+[5.371228] (rtabmap) StdoutLine: {'line': b'-- Found X11: /usr/include   \n'}
+[5.405366] (rtabmap) StdoutLine: {'line': b'-- Found EXPAT: /usr/lib/x86_64-linux-gnu/libexpat.so (found version "2.4.7") \n'}
+[5.406432] (rtabmap) StdoutLine: {'line': b'-- Found double-conversion: /usr/lib/x86_64-linux-gnu/libdouble-conversion.so  \n'}
+[5.408222] (rtabmap) StdoutLine: {'line': b'-- Found LZ4: /usr/lib/x86_64-linux-gnu/liblz4.so (found version "1.9.3") \n'}
+[5.409425] (rtabmap) StdoutLine: {'line': b'-- Found LZMA: /usr/lib/x86_64-linux-gnu/liblzma.so (found version "5.2.5") \n'}
+[5.410708] (-) TimerEvent: {}
+[5.420042] (rtabmap) StdoutLine: {'line': b'-- Found JPEG: /usr/lib/x86_64-linux-gnu/libjpeg.so (found version "80") \n'}
+[5.421460] (rtabmap) StdoutLine: {'line': b'-- Found TIFF: /usr/lib/x86_64-linux-gnu/libtiff.so (found version "4.3.0")  \n'}
+[5.425806] (rtabmap) StdoutLine: {'line': b'-- Found Freetype: /usr/lib/x86_64-linux-gnu/libfreetype.so (found version "2.11.1") \n'}
+[5.430967] (rtabmap) StdoutLine: {'line': b'-- Found utf8cpp: /usr/include/utf8cpp  \n'}
+[5.444591] (rtabmap) StdoutLine: {'line': b'-- VTK>=9 detected, will use VTK_QT_VERSION=5 for Qt version.\n'}
+[5.450965] (rtabmap) StdoutLine: {'line': b'-- VTK_RENDERING_BACKEND=\n'}
+[5.467225] (rtabmap) StdoutLine: {'line': b'-- Found Freenect: /usr/include\n'}
+[5.507459] (rtabmap) StdoutLine: {'line': b'-- Found OpenNI2: /usr/include/openni2\n'}
+[5.508919] (rtabmap) StdoutLine: {'line': b'-- Found DC1394: /usr/include/dc1394\n'}
+[5.510839] (-) TimerEvent: {}
+[5.522446] (rtabmap) StdoutLine: {'line': b'-- Found g2o (targets)\n'}
+[5.522633] (rtabmap) StdoutLine: {'line': b'-- g2o include dir: /opt/ros/humble/include\n'}
+[5.522984] (rtabmap) StdoutLine: {'line': b'-- Latest g2o factory version detected with shared ptr (factory file: /opt/ros/humble/include/g2o/core/factory.h).\n'}
+[5.551685] (rtabmap) StdoutLine: {'line': b'-- FlyCapture2_INCLUDE_DIR=FlyCapture2_INCLUDE_DIR-NOTFOUND\n'}
+[5.551857] (rtabmap) StdoutLine: {'line': b'-- FlyCapture2_LIBRARY=FlyCapture2_LIBRARY-NOTFOUND\n'}
+[5.552080] (rtabmap) StdoutLine: {'line': b'-- Triclops_INCLUDE_DIR=Triclops_INCLUDE_DIR-NOTFOUND\n'}
+[5.552190] (rtabmap) StdoutLine: {'line': b'-- Triclops_LIBRARY=Triclops_LIBRARY-NOTFOUND\n'}
+[5.552265] (rtabmap) StdoutLine: {'line': b'-- FlyCaptureBridge_LIBRARY=FlyCaptureBridge_LIBRARY-NOTFOUND\n'}
+[5.574883] (rtabmap) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: thread filesystem system program_options date_time \n'}
+[5.585166] (rtabmap) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: thread filesystem system program_options date_time chrono \n'}
+[5.587647] (rtabmap) StdoutLine: {'line': b'-- Found libpointmatcher: /opt/ros/humble/include;/usr/include/eigen3\n'}
+[5.593123] (rtabmap) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: thread filesystem system program_options date_time \n'}
+[5.604121] (rtabmap) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: thread filesystem system program_options date_time chrono timer serialization \n'}
+[5.610998] (-) TimerEvent: {}
+[5.628360] (rtabmap) StdoutLine: {'line': b'-- Found RealSense2: \n'}
+[5.644764] (rtabmap) StdoutLine: {'line': b'-- Found octomap 1.9.8: /opt/ros/humble/include\n'}
+[5.648352] (rtabmap) StdoutLine: {'line': b'-- Architecture: x86_64\n'}
+[5.649618] (rtabmap) StdoutLine: {'line': b'-- Performing Test COMPILER_SUPPORTS_CXX14\n'}
+[5.711157] (-) TimerEvent: {}
+[5.733928] (rtabmap) StdoutLine: {'line': b'-- Performing Test COMPILER_SUPPORTS_CXX14 - Success\n'}
+[5.739343] (rtabmap) StdoutLine: {'line': b'-- Found Pthreads\n'}
+[5.741708] (rtabmap) StdoutLine: {'line': b'-- Performing Test COMPILER_HAS_HIDDEN_VISIBILITY\n'}
+[5.811303] (-) TimerEvent: {}
+[5.825928] (rtabmap) StdoutLine: {'line': b'-- Performing Test COMPILER_HAS_HIDDEN_VISIBILITY - Success\n'}
+[5.826665] (rtabmap) StdoutLine: {'line': b'-- Performing Test COMPILER_HAS_HIDDEN_INLINE_VISIBILITY\n'}
+[5.908697] (rtabmap) StdoutLine: {'line': b'-- Performing Test COMPILER_HAS_HIDDEN_INLINE_VISIBILITY - Success\n'}
+[5.909083] (rtabmap) StdoutLine: {'line': b'-- Performing Test COMPILER_HAS_DEPRECATED_ATTR\n'}
+[5.911415] (-) TimerEvent: {}
+[6.008285] (rtabmap) StdoutLine: {'line': b'-- Performing Test COMPILER_HAS_DEPRECATED_ATTR - Success\n'}
+[6.011532] (-) TimerEvent: {}
+[6.050245] (rtabmap) StderrLine: {'line': b'\x1b[0mCMake Deprecation Warning at tools/EurocDataset/CMakeLists.txt:1 (cmake_minimum_required):\n'}
+[6.050442] (rtabmap) StderrLine: {'line': b'  Compatibility with CMake < 2.8.12 will be removed from a future version of\n'}
+[6.050519] (rtabmap) StderrLine: {'line': b'  CMake.\n'}
+[6.050586] (rtabmap) StderrLine: {'line': b'\n'}
+[6.050725] (rtabmap) StderrLine: {'line': b'  Update the VERSION argument <min> value or use a ...<max> suffix to tell\n'}
+[6.050804] (rtabmap) StderrLine: {'line': b'  CMake that the project does not need compatibility with older versions.\n'}
+[6.050871] (rtabmap) StderrLine: {'line': b'\n'}
+[6.050935] (rtabmap) StderrLine: {'line': b'\x1b[0m\n'}
+[6.071660] (rtabmap) StderrLine: {'line': b'\x1b[0mCMake Deprecation Warning at examples/BOWMapping/CMakeLists.txt:1 (cmake_minimum_required):\n'}
+[6.071857] (rtabmap) StderrLine: {'line': b'  Compatibility with CMake < 2.8.12 will be removed from a future version of\n'}
+[6.071929] (rtabmap) StderrLine: {'line': b'  CMake.\n'}
+[6.071991] (rtabmap) StderrLine: {'line': b'\n'}
+[6.072051] (rtabmap) StderrLine: {'line': b'  Update the VERSION argument <min> value or use a ...<max> suffix to tell\n'}
+[6.072111] (rtabmap) StderrLine: {'line': b'  CMake that the project does not need compatibility with older versions.\n'}
+[6.072169] (rtabmap) StderrLine: {'line': b'\n'}
+[6.072227] (rtabmap) StderrLine: {'line': b'\x1b[0m\n'}
+[6.072852] (rtabmap) StderrLine: {'line': b'\x1b[0mCMake Deprecation Warning at examples/RGBDMapping/CMakeLists.txt:1 (cmake_minimum_required):\n'}
+[6.072969] (rtabmap) StderrLine: {'line': b'  Compatibility with CMake < 2.8.12 will be removed from a future version of\n'}
+[6.073044] (rtabmap) StderrLine: {'line': b'  CMake.\n'}
+[6.073104] (rtabmap) StderrLine: {'line': b'\n'}
+[6.073164] (rtabmap) StderrLine: {'line': b'  Update the VERSION argument <min> value or use a ...<max> suffix to tell\n'}
+[6.073228] (rtabmap) StderrLine: {'line': b'  CMake that the project does not need compatibility with older versions.\n'}
+[6.073285] (rtabmap) StderrLine: {'line': b'\n'}
+[6.073342] (rtabmap) StderrLine: {'line': b'\x1b[0m\n'}
+[6.074523] (rtabmap) StderrLine: {'line': b'\x1b[0mCMake Deprecation Warning at examples/WifiMapping/CMakeLists.txt:1 (cmake_minimum_required):\n'}
+[6.074651] (rtabmap) StderrLine: {'line': b'  Compatibility with CMake < 2.8.12 will be removed from a future version of\n'}
+[6.074718] (rtabmap) StderrLine: {'line': b'  CMake.\n'}
+[6.074779] (rtabmap) StderrLine: {'line': b'\n'}
+[6.074839] (rtabmap) StderrLine: {'line': b'  Update the VERSION argument <min> value or use a ...<max> suffix to tell\n'}
+[6.074897] (rtabmap) StderrLine: {'line': b'  CMake that the project does not need compatibility with older versions.\n'}
+[6.074956] (rtabmap) StderrLine: {'line': b'\n'}
+[6.075013] (rtabmap) StderrLine: {'line': b'\x1b[0m\n'}
+[6.076345] (rtabmap) StderrLine: {'line': b'\x1b[0mCMake Deprecation Warning at examples/NoEventsExample/CMakeLists.txt:1 (cmake_minimum_required):\n'}
+[6.076480] (rtabmap) StderrLine: {'line': b'  Compatibility with CMake < 2.8.12 will be removed from a future version of\n'}
+[6.076547] (rtabmap) StderrLine: {'line': b'  CMake.\n'}
+[6.076608] (rtabmap) StderrLine: {'line': b'\n'}
+[6.076666] (rtabmap) StderrLine: {'line': b'  Update the VERSION argument <min> value or use a ...<max> suffix to tell\n'}
+[6.076724] (rtabmap) StderrLine: {'line': b'  CMake that the project does not need compatibility with older versions.\n'}
+[6.076782] (rtabmap) StderrLine: {'line': b'\n'}
+[6.076838] (rtabmap) StderrLine: {'line': b'\x1b[0m\n'}
+[6.099391] (rtabmap) StdoutLine: {'line': b'-- --------------------------------------------\n'}
+[6.099908] (rtabmap) StdoutLine: {'line': b'-- Info :\n'}
+[6.100026] (rtabmap) StdoutLine: {'line': b'--   RTAB-Map Version =     0.21.0\n'}
+[6.100130] (rtabmap) StdoutLine: {'line': b'--   CMAKE_VERSION =        3.22.1\n'}
+[6.100231] (rtabmap) StdoutLine: {'line': b'--   CMAKE_INSTALL_PREFIX = /home/edisonwong/robot_ws/install/rtabmap\n'}
+[6.100332] (rtabmap) StdoutLine: {'line': b'--   CMAKE_BUILD_TYPE =     Release\n'}
+[6.100433] (rtabmap) StdoutLine: {'line': b'--   CMAKE_INSTALL_LIBDIR = lib\n'}
+[6.100532] (rtabmap) StdoutLine: {'line': b'--   BUILD_APP =            ON\n'}
+[6.100633] (rtabmap) StdoutLine: {'line': b'--   BUILD_TOOLS =          ON\n'}
+[6.100734] (rtabmap) StdoutLine: {'line': b'--   BUILD_EXAMPLES =       ON\n'}
+[6.100835] (rtabmap) StdoutLine: {'line': b'--   BUILD_SHARED_LIBS =    ON\n'}
+[6.100935] (rtabmap) StdoutLine: {'line': b'--   CMAKE_CXX_FLAGS =  -fmessage-length=0 -fopenmp -std=c++14\n'}
+[6.101037] (rtabmap) StdoutLine: {'line': b'--   FLANN_KDTREE_MEM_OPT = OFF\n'}
+[6.101137] (rtabmap) StdoutLine: {'line': b'--   PCL_DEFINITIONS = -DDISABLE_OPENNI2;-DDISABLE_PCAP;-DDISABLE_PNG\n'}
+[6.101237] (rtabmap) StdoutLine: {'line': b'--   PCL_VERSION = 1.12.1\n'}
+[6.101337] (rtabmap) StdoutLine: {'line': b'-- \n'}
+[6.101438] (rtabmap) StdoutLine: {'line': b"-- Optional dependencies ('*' affects some default parameters) :\n"}
+[6.101539] (rtabmap) StdoutLine: {'line': b'--  *With OpenCV 4.5.4 xfeatures2d = NO, nonfree = NO (License: Apache 2)\n'}
+[6.101640] (rtabmap) StdoutLine: {'line': b'--   With Qt 5.15.3            = YES (License: Open Source or Commercial)\n'}
+[6.101743] (rtabmap) StdoutLine: {'line': b'--   With VTK 9.1              = YES (License: BSD)\n'}
+[6.101916] (rtabmap) StdoutLine: {'line': b'--   With external SQLite3     = YES (License: Public Domain)\n'}
+[6.102020] (rtabmap) StdoutLine: {'line': b'--   With ORB OcTree           = YES (License: GPLv3)\n'}
+[6.102121] (rtabmap) StdoutLine: {'line': b'--   With SupertPoint          = NO (WITH_TORCH=OFF)\n'}
+[6.102222] (rtabmap) StdoutLine: {'line': b'--   With Python3              = NO (WITH_PYTHON=OFF)\n'}
+[6.102322] (rtabmap) StdoutLine: {'line': b'--   With Madgwick             = YES (License: GPL)\n'}
+[6.102421] (rtabmap) StdoutLine: {'line': b'--   With FastCV               = NO (FastCV not found)\n'}
+[6.102527] (rtabmap) StdoutLine: {'line': b'--   With PDAL                 = NO (PDAL not found)\n'}
+[6.102627] (rtabmap) StdoutLine: {'line': b'-- \n'}
+[6.102728] (rtabmap) StdoutLine: {'line': b'--  Solvers:\n'}
+[6.102828] (rtabmap) StdoutLine: {'line': b'--   With TORO                 = YES (License: Creative Commons [Attribution-NonCommercial-ShareAlike])\n'}
+[6.102934] (rtabmap) StdoutLine: {'line': b'--  *With g2o 1.0.0            = YES (License: BSD)\n'}
+[6.103036] (rtabmap) StdoutLine: {'line': b'--  *With GTSAM                = NO (GTSAM not found)\n'}
+[6.103138] (rtabmap) StdoutLine: {'line': b'--  *With Ceres                = NO (WITH_CERES=OFF)\n'}
+[6.103238] (rtabmap) StdoutLine: {'line': b'--   With MRPT                 = NO (MRPT not found)\n'}
+[6.103338] (rtabmap) StdoutLine: {'line': b'--   With VERTIGO              = YES (License: GPLv3)\n'}
+[6.103439] (rtabmap) StdoutLine: {'line': b'--   With cvsba                = NO (WITH_CVSBA=OFF)\n'}
+[6.103539] (rtabmap) StdoutLine: {'line': b'--  *With libpointmatcher 1.3.1 = YES (License: BSD)\n'}
+[6.103641] (rtabmap) StdoutLine: {'line': b'--   With CCCoreLib            = NO (WITH_CCCORELIB=OFF)\n'}
+[6.103742] (rtabmap) StdoutLine: {'line': b'--   With Open3D               = NO (WITH_OPEN3D=OFF)\n'}
+[6.103842] (rtabmap) StdoutLine: {'line': b'--   With OpenGV               = NO (WITH_OPENGV=OFF)\n'}
+[6.103943] (rtabmap) StdoutLine: {'line': b'-- \n'}
+[6.104043] (rtabmap) StdoutLine: {'line': b'--  Reconstruction Approaches:\n'}
+[6.104143] (rtabmap) StdoutLine: {'line': b'--   With OCTOMAP 1.9.8        = YES (License: BSD)\n'}
+[6.104245] (rtabmap) StdoutLine: {'line': b'--   With CPUTSDF              = NO (WITH_CPUTSDF=OFF)\n'}
+[6.104346] (rtabmap) StdoutLine: {'line': b'--   With OpenChisel           = NO (WITH_OPENCHISEL=OFF)\n'}
+[6.104446] (rtabmap) StdoutLine: {'line': b'--   With AliceVision          = NO (WITH_ALICE_VISION=OFF)\n'}
+[6.104547] (rtabmap) StdoutLine: {'line': b'-- \n'}
+[6.104647] (rtabmap) StdoutLine: {'line': b'--  Camera Drivers:\n'}
+[6.104747] (rtabmap) StdoutLine: {'line': b'--   With Freenect             = YES (License: Apache v2 and/or GPLv2)\n'}
+[6.104848] (rtabmap) StdoutLine: {'line': b'--   With OpenNI2              = YES (License: Apache v2)\n'}
+[6.104949] (rtabmap) StdoutLine: {'line': b'--   With Freenect2            = NO (libfreenect2 not found)\n'}
+[6.105049] (rtabmap) StdoutLine: {'line': b'--   With Kinect for Windows 2 = NO (Kinect for Windows 2 SDK not found)\n'}
+[6.105150] (rtabmap) StdoutLine: {'line': b'--   With Kinect for Azure     = NO (Kinect for Azure SDK not found)\n'}
+[6.105251] (rtabmap) StdoutLine: {'line': b'--   With dc1394               = YES (License: LGPL)\n'}
+[6.105351] (rtabmap) StdoutLine: {'line': b'--   With FlyCapture2/Triclops = NO (Point Grey SDK not found)\n'}
+[6.105452] (rtabmap) StdoutLine: {'line': b'--   With ZED                  = NO (ZED sdk and/or cuda not found)\n'}
+[6.105551] (rtabmap) StdoutLine: {'line': b'--   With ZEDOC                = NO (ZED Open Capture not found)\n'}
+[6.105651] (rtabmap) StdoutLine: {'line': b'--   With RealSense            = NO (librealsense not found)\n'}
+[6.105751] (rtabmap) StdoutLine: {'line': b'--   With RealSense2 2.51.1    = YES (License: Apache-2)\n'}
+[6.105881] (rtabmap) StdoutLine: {'line': b'--   With MyntEyeS             = NO (mynteye s sdk not found)\n'}
+[6.105965] (rtabmap) StdoutLine: {'line': b'--   With DepthAI              = NO (WITH_DEPTHAI=OFF)\n'}
+[6.106024] (rtabmap) StdoutLine: {'line': b'-- \n'}
+[6.106083] (rtabmap) StdoutLine: {'line': b'--  Odometry Approaches:\n'}
+[6.106142] (rtabmap) StdoutLine: {'line': b'--   With loam_velodyne        = NO (WITH_LOAM=OFF)\n'}
+[6.106202] (rtabmap) StdoutLine: {'line': b'--   With floam                = NO (WITH_FLOAM=OFF)\n'}
+[6.106260] (rtabmap) StdoutLine: {'line': b'--   With libfovis             = NO (WITH_FOVIS=OFF)\n'}
+[6.106319] (rtabmap) StdoutLine: {'line': b'--   With libviso2             = NO (WITH_VISO2=OFF)\n'}
+[6.106389] (rtabmap) StdoutLine: {'line': b'--   With dvo_core             = NO (WITH_DVO=OFF)\n'}
+[6.106448] (rtabmap) StdoutLine: {'line': b'--   With okvis                = NO (WITH_OKVIS=OFF)\n'}
+[6.106506] (rtabmap) StdoutLine: {'line': b'--   With msckf_vio            = NO (WITH_MSCKF_VIO=OFF)\n'}
+[6.106565] (rtabmap) StdoutLine: {'line': b'--   With VINS-Fusion          = NO (WITH_VINS=OFF)\n'}
+[6.106622] (rtabmap) StdoutLine: {'line': b'--   With OpenVINS             = NO (WITH_OPENVINS=OFF)\n'}
+[6.106680] (rtabmap) StdoutLine: {'line': b'--   With ORB_SLAM             = NO (WITH_ORB_SLAM=OFF)\n'}
+[6.106739] (rtabmap) StdoutLine: {'line': b'-- Show all options with: cmake -LA | grep WITH_\n'}
+[6.106797] (rtabmap) StdoutLine: {'line': b'-- --------------------------------------------\n'}
+[6.106854] (rtabmap) StdoutLine: {'line': b'-- Configuring done\n'}
+[6.111620] (-) TimerEvent: {}
+[6.211926] (-) TimerEvent: {}
+[6.312304] (-) TimerEvent: {}
+[6.412659] (-) TimerEvent: {}
+[6.513009] (-) TimerEvent: {}
+[6.613363] (-) TimerEvent: {}
+[6.679558] (rtabmap) StdoutLine: {'line': b'-- Generating done\n'}
+[6.686752] (rtabmap) StdoutLine: {'line': b'-- Build files have been written to: /home/edisonwong/robot_ws/build/rtabmap\n'}
+[6.713516] (-) TimerEvent: {}
+[6.719522] (rtabmap) JobEnded: {'identifier': 'rtabmap', 'rc': 'SIGINT'}
+[6.813676] (-) TimerEvent: {}
+[6.914108] (-) TimerEvent: {}
+[7.014520] (-) TimerEvent: {}
+[7.114840] (-) TimerEvent: {}
+[7.215180] (-) TimerEvent: {}
+[7.315563] (-) TimerEvent: {}
+[7.415947] (-) TimerEvent: {}
+[7.516295] (-) TimerEvent: {}
+[7.616597] (-) TimerEvent: {}
+[7.716939] (-) TimerEvent: {}
+[7.817267] (-) TimerEvent: {}
+[7.917598] (-) TimerEvent: {}
+[8.017946] (-) TimerEvent: {}
+[8.118283] (-) TimerEvent: {}
+[8.218624] (-) TimerEvent: {}
+[8.318960] (-) TimerEvent: {}
+[8.419306] (-) TimerEvent: {}
+[8.519669] (-) TimerEvent: {}
+[8.620011] (-) TimerEvent: {}
+[8.720389] (-) TimerEvent: {}
+[8.820741] (-) TimerEvent: {}
+[8.921089] (-) TimerEvent: {}
+[9.021444] (-) TimerEvent: {}
+[9.121791] (-) TimerEvent: {}
+[9.222096] (-) TimerEvent: {}
+[9.322431] (-) TimerEvent: {}
+[9.422784] (-) TimerEvent: {}
+[9.523133] (-) TimerEvent: {}
+[9.623474] (-) TimerEvent: {}
+[9.723813] (-) TimerEvent: {}
+[9.824171] (-) TimerEvent: {}
+[9.924516] (-) TimerEvent: {}
+[9.992521] (serial) StdoutLine: {'line': b'[ 71%] \x1b[32m\x1b[1mLinking CXX static library libgtest.a\x1b[0m\n'}
+[10.024671] (-) TimerEvent: {}
+[10.062582] (serial) StdoutLine: {'line': b'[ 71%] Built target gtest\n'}
+[10.074062] (serial) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target serial-test\x1b[0m\n'}
+[10.074405] (serial) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target serial-test-timer\x1b[0m\n'}
+[10.088572] (serial) StdoutLine: {'line': b'[ 78%] \x1b[32mBuilding CXX object tests/CMakeFiles/serial-test-timer.dir/unit/unix_timer_tests.cc.o\x1b[0m\n'}
+[10.091630] (serial) StdoutLine: {'line': b'[ 85%] \x1b[32mBuilding CXX object tests/CMakeFiles/serial-test.dir/unix_serial_tests.cc.o\x1b[0m\n'}
+[10.124799] (-) TimerEvent: {}
+[10.225181] (-) TimerEvent: {}
+[10.325578] (-) TimerEvent: {}
+[10.426011] (-) TimerEvent: {}
+[10.526382] (-) TimerEvent: {}
+[10.626852] (-) TimerEvent: {}
+[10.727222] (-) TimerEvent: {}
+[10.827655] (-) TimerEvent: {}
+[10.928148] (-) TimerEvent: {}
+[11.028524] (-) TimerEvent: {}
+[11.103832] (serial) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/boost/bind.hpp:30\x1b[m\x1b[K,\n'}
+[11.104083] (serial) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/edisonwong/robot_ws/src/serial/tests/unix_serial_tests.cc:23\x1b[m\x1b[K:\n'}
+[11.104208] (serial) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/boost/bind.hpp:36:1:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[K#pragma message: The practice of declaring the Bind placeholders (_1, _2, ...) in the global namespace is deprecated. Please use <boost/bind/bind.hpp> + using namespace boost::placeholders, or define BOOST_BIND_GLOBAL_PLACEHOLDERS to retain the current behavior.\x1b[m\x1b[K\xe2\x80\x99\n'}
+[11.104342] (serial) StderrLine: {'line': b'   36 | \x1b[01;36m\x1b[KBOOST_PRAGMA_MESSAGE\x1b[m\x1b[K(\n'}
+[11.104483] (serial) StderrLine: {'line': b'      | \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[11.128658] (-) TimerEvent: {}
+[11.221083] (serial) StderrLine: {'line': b'\x1b[01m\x1b[K/home/edisonwong/robot_ws/src/serial/tests/unix_serial_tests.cc:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvirtual void {anonymous}::SerialTests_readWorks_Test::TestBody()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[11.221261] (serial) StderrLine: {'line': b'\x1b[01m\x1b[K/home/edisonwong/robot_ws/src/serial/tests/unix_serial_tests.cc:71:8:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kignoring return value of \xe2\x80\x98\x1b[01m\x1b[Kssize_t write(int, const void*, size_t)\x1b[m\x1b[K\xe2\x80\x99 declared with attribute \xe2\x80\x98\x1b[01m\x1b[Kwarn_unused_result\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-result\x07-Wunused-result\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[11.221346] (serial) StderrLine: {'line': b'   71 |   \x1b[01;35m\x1b[Kwrite(master_fd, "abc\\n", 4)\x1b[m\x1b[K;\n'}
+[11.221410] (serial) StderrLine: {'line': b'      |   \x1b[01;35m\x1b[K~~~~~^~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[11.225413] (serial) StderrLine: {'line': b'\x1b[01m\x1b[K/home/edisonwong/robot_ws/src/serial/tests/unix_serial_tests.cc:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvirtual void {anonymous}::SerialTests_writeWorks_Test::TestBody()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[11.225557] (serial) StderrLine: {'line': b'\x1b[01m\x1b[K/home/edisonwong/robot_ws/src/serial/tests/unix_serial_tests.cc:79:7:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kignoring return value of \xe2\x80\x98\x1b[01m\x1b[Kssize_t read(int, void*, size_t)\x1b[m\x1b[K\xe2\x80\x99 declared with attribute \xe2\x80\x98\x1b[01m\x1b[Kwarn_unused_result\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-result\x07-Wunused-result\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[11.225630] (serial) StderrLine: {'line': b'   79 |   \x1b[01;35m\x1b[Kread(master_fd, buf, 4)\x1b[m\x1b[K;\n'}
+[11.225693] (serial) StderrLine: {'line': b'      |   \x1b[01;35m\x1b[K~~~~^~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[11.226512] (serial) StderrLine: {'line': b'\x1b[01m\x1b[K/home/edisonwong/robot_ws/src/serial/tests/unix_serial_tests.cc:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvirtual void {anonymous}::SerialTests_timeoutWorks_Test::TestBody()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[11.226636] (serial) StderrLine: {'line': b'\x1b[01m\x1b[K/home/edisonwong/robot_ws/src/serial/tests/unix_serial_tests.cc:89:8:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kignoring return value of \xe2\x80\x98\x1b[01m\x1b[Kssize_t write(int, const void*, size_t)\x1b[m\x1b[K\xe2\x80\x99 declared with attribute \xe2\x80\x98\x1b[01m\x1b[Kwarn_unused_result\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-result\x07-Wunused-result\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[11.226706] (serial) StderrLine: {'line': b'   89 |   \x1b[01;35m\x1b[Kwrite(master_fd, "abc\\n", 4)\x1b[m\x1b[K;\n'}
+[11.226767] (serial) StderrLine: {'line': b'      |   \x1b[01;35m\x1b[K~~~~~^~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[11.227000] (serial) StderrLine: {'line': b'\x1b[01m\x1b[K/home/edisonwong/robot_ws/src/serial/tests/unix_serial_tests.cc:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvirtual void {anonymous}::SerialTests_partialRead_Test::TestBody()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[11.227107] (serial) StderrLine: {'line': b'\x1b[01m\x1b[K/home/edisonwong/robot_ws/src/serial/tests/unix_serial_tests.cc:96:8:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kignoring return value of \xe2\x80\x98\x1b[01m\x1b[Kssize_t write(int, const void*, size_t)\x1b[m\x1b[K\xe2\x80\x99 declared with attribute \xe2\x80\x98\x1b[01m\x1b[Kwarn_unused_result\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-result\x07-Wunused-result\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[11.227185] (serial) StderrLine: {'line': b'   96 |   \x1b[01;35m\x1b[Kwrite(master_fd, "abc\\n", 4)\x1b[m\x1b[K;\n'}
+[11.227249] (serial) StderrLine: {'line': b'      |   \x1b[01;35m\x1b[K~~~~~^~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[11.227309] (serial) StderrLine: {'line': b'\x1b[01m\x1b[K/home/edisonwong/robot_ws/src/serial/tests/unix_serial_tests.cc:103:8:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kignoring return value of \xe2\x80\x98\x1b[01m\x1b[Kssize_t write(int, const void*, size_t)\x1b[m\x1b[K\xe2\x80\x99 declared with attribute \xe2\x80\x98\x1b[01m\x1b[Kwarn_unused_result\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-result\x07-Wunused-result\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[11.227370] (serial) StderrLine: {'line': b'  103 |   \x1b[01;35m\x1b[Kwrite(master_fd, "abc\\n", 4)\x1b[m\x1b[K;\n'}
+[11.227428] (serial) StderrLine: {'line': b'      |   \x1b[01;35m\x1b[K~~~~~^~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[11.228763] (-) TimerEvent: {}
+[11.244516] (serial) StdoutLine: {'line': b'[ 92%] \x1b[32m\x1b[1mLinking CXX executable serial-test-timer\x1b[0m\n'}
+[11.328896] (-) TimerEvent: {}
+[11.353741] (serial) StdoutLine: {'line': b'[ 92%] Built target serial-test-timer\n'}
+[11.429053] (-) TimerEvent: {}
+[11.529420] (-) TimerEvent: {}
+[11.539163] (serial) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable serial-test\x1b[0m\n'}
+[11.629554] (-) TimerEvent: {}
+[11.639195] (serial) StdoutLine: {'line': b'[100%] Built target serial-test\n'}
+[11.650876] (serial) JobEnded: {'identifier': 'serial', 'rc': 'SIGINT'}
+[11.661540] (diffdrive_arduino) JobSkipped: {'identifier': 'diffdrive_arduino'}
+[11.661707] (rtabmap_conversions) JobSkipped: {'identifier': 'rtabmap_conversions'}
+[11.661767] (serial_motor_demo) JobSkipped: {'identifier': 'serial_motor_demo'}
+[11.661877] (rtabmap_rviz_plugins) JobSkipped: {'identifier': 'rtabmap_rviz_plugins'}
+[11.661922] (rtabmap_sync) JobSkipped: {'identifier': 'rtabmap_sync'}
+[11.661991] (rtabmap_util) JobSkipped: {'identifier': 'rtabmap_util'}
+[11.662081] (rtabmap_odom) JobSkipped: {'identifier': 'rtabmap_odom'}
+[11.662136] (rtabmap_slam) JobSkipped: {'identifier': 'rtabmap_slam'}
+[11.662168] (rtabmap_viz) JobSkipped: {'identifier': 'rtabmap_viz'}
+[11.662201] (rtabmap_demos) JobSkipped: {'identifier': 'rtabmap_demos'}
+[11.662234] (rtabmap_examples) JobSkipped: {'identifier': 'rtabmap_examples'}
+[11.662265] (rtabmap_launch) JobSkipped: {'identifier': 'rtabmap_launch'}
+[11.662298] (rtabmap_ros) JobSkipped: {'identifier': 'rtabmap_ros'}
+[11.662330] (-) EventReactorShutdown: {}

@@ -1,0 +1,44 @@
+[0.145s] Invoking command in '/home/edisonwong/robot_ws/build/hardware_interface': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/edisonwong/robot_ws/src/ros2_control/hardware_interface -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/edisonwong/robot_ws/install/hardware_interface
+[0.534s] -- The C compiler identification is GNU 11.3.0
+[0.869s] -- The CXX compiler identification is GNU 11.3.0
+[0.914s] -- Detecting C compiler ABI info
+[1.291s] -- Detecting C compiler ABI info - done
+[1.337s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.337s] -- Detecting C compile features
+[1.338s] -- Detecting C compile features - done
+[1.341s] -- Detecting CXX compiler ABI info
+[1.720s] -- Detecting CXX compiler ABI info - done
+[1.752s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.753s] -- Detecting CXX compile features
+[1.755s] -- Detecting CXX compile features - done
+[1.782s] -- Found ament_cmake: 1.3.3 (/opt/ros/humble/share/ament_cmake/cmake)
+[2.668s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.6") found components: Interpreter 
+[2.969s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[3.297s] -- Found control_msgs: 4.1.0 (/opt/ros/humble/share/control_msgs/cmake)
+[3.678s] -- Found rosidl_generator_c: 3.1.4 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[3.730s] -- Found rosidl_adapter: 3.1.4 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[3.797s] -- Found rosidl_generator_cpp: 3.1.4 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[3.889s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[4.022s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[6.642s] -- Found lifecycle_msgs: 1.2.1 (/opt/ros/humble/share/lifecycle_msgs/cmake)
+[6.742s] -- Found pluginlib: 5.1.0 (/opt/ros/humble/share/pluginlib/cmake)
+[7.207s] -- Found rclcpp_lifecycle: 16.0.2 (/opt/ros/humble/share/rclcpp_lifecycle/cmake)
+[7.611s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[7.637s] -- Found rmw_fastrtps_cpp: 6.2.2 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[8.337s] -- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[8.648s] -- Found FastRTPS: /opt/ros/humble/include  
+[9.164s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[9.252s] -- Looking for pthread.h
+[9.611s] -- Looking for pthread.h - found
+[9.612s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[9.972s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[9.978s] -- Found Threads: TRUE  
+[10.885s] -- Found TinyXML2: /usr/lib/aarch64-linux-gnu/libtinyxml2.so  
+[10.920s] -- Found ament_cmake_gmock: 1.3.3 (/opt/ros/humble/share/ament_cmake_gmock/cmake)
+[10.947s] -- Found ros2_control_test_assets: 2.18.0 (/opt/ros/humble/share/ros2_control_test_assets/cmake)
+[10.986s] -- Found gmock sources under '/opt/ros/humble/src/gmock_vendor': C++ tests using 'Google Mock' will be built
+[11.037s] -- Found ament_cmake_gtest: 1.3.3 (/opt/ros/humble/share/ament_cmake_gtest/cmake)
+[11.041s] -- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[11.418s] -- Configuring done
+[11.772s] -- Generating done
+[11.789s] -- Build files have been written to: /home/edisonwong/robot_ws/build/hardware_interface

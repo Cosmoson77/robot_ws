@@ -1,0 +1,47 @@
+[0.141s] Invoking command in '/home/edisonwong/robot_ws/build/my_bot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/edisonwong/robot_ws/install/serial_motor_demo:/opt/ros/humble /usr/bin/cmake --build /home/edisonwong/robot_ws/build/my_bot -- -j4 -l4
+[0.478s] Invoked command in '/home/edisonwong/robot_ws/build/my_bot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/edisonwong/robot_ws/install/serial_motor_demo:/opt/ros/humble /usr/bin/cmake --build /home/edisonwong/robot_ws/build/my_bot -- -j4 -l4
+[1.017s] Invoking command in '/home/edisonwong/robot_ws/build/my_bot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/edisonwong/robot_ws/install/serial_motor_demo:/opt/ros/humble /usr/bin/cmake --install /home/edisonwong/robot_ws/build/my_bot
+[1.066s] -- Install configuration: ""
+[1.068s] -- Execute custom install script
+[1.072s] -- Up-to-date symlink: /home/edisonwong/robot_ws/install/my_bot/share/my_bot/config/box_filter.yaml
+[1.073s] -- Up-to-date symlink: /home/edisonwong/robot_ws/install/my_bot/share/my_bot/config/drive_bot.rviz
+[1.074s] -- Up-to-date symlink: /home/edisonwong/robot_ws/install/my_bot/share/my_bot/config/empty.yaml
+[1.076s] -- Up-to-date symlink: /home/edisonwong/robot_ws/install/my_bot/share/my_bot/config/gazebo_params.yaml
+[1.077s] -- Up-to-date symlink: /home/edisonwong/robot_ws/install/my_bot/share/my_bot/config/joystick.yaml
+[1.081s] -- Up-to-date symlink: /home/edisonwong/robot_ws/install/my_bot/share/my_bot/config/mapper_params_online_async.yaml
+[1.082s] -- Up-to-date symlink: /home/edisonwong/robot_ws/install/my_bot/share/my_bot/config/my_controllers.yaml
+[1.084s] -- Up-to-date symlink: /home/edisonwong/robot_ws/install/my_bot/share/my_bot/config/twist_mux.yaml
+[1.084s] -- Up-to-date symlink: /home/edisonwong/robot_ws/install/my_bot/share/my_bot/config/view_bot.rviz
+[1.086s] -- Up-to-date symlink: /home/edisonwong/robot_ws/install/my_bot/share/my_bot/description/camera.xacro
+[1.087s] -- Up-to-date symlink: /home/edisonwong/robot_ws/install/my_bot/share/my_bot/description/depth_camera.xacro
+[1.088s] -- Up-to-date symlink: /home/edisonwong/robot_ws/install/my_bot/share/my_bot/description/gazebo_control.xacro
+[1.090s] -- Up-to-date symlink: /home/edisonwong/robot_ws/install/my_bot/share/my_bot/description/inertial_macros.xacro
+[1.091s] -- Up-to-date symlink: /home/edisonwong/robot_ws/install/my_bot/share/my_bot/description/lidar.xacro
+[1.092s] -- Up-to-date symlink: /home/edisonwong/robot_ws/install/my_bot/share/my_bot/description/robot.urdf.xacro
+[1.093s] -- Up-to-date symlink: /home/edisonwong/robot_ws/install/my_bot/share/my_bot/description/robot_core.xacro
+[1.094s] -- Up-to-date symlink: /home/edisonwong/robot_ws/install/my_bot/share/my_bot/description/ros2_control.xacro
+[1.097s] -- Up-to-date symlink: /home/edisonwong/robot_ws/install/my_bot/share/my_bot/launch/box_filter.launch.py
+[1.099s] -- Up-to-date symlink: /home/edisonwong/robot_ws/install/my_bot/share/my_bot/launch/joystick.launch.py
+[1.101s] -- Up-to-date symlink: /home/edisonwong/robot_ws/install/my_bot/share/my_bot/launch/launch_robot.launch.py
+[1.102s] -- Up-to-date symlink: /home/edisonwong/robot_ws/install/my_bot/share/my_bot/launch/launch_sim.launch.py
+[1.102s] -- Up-to-date symlink: /home/edisonwong/robot_ws/install/my_bot/share/my_bot/launch/rplidar.launch.py
+[1.103s] -- Up-to-date symlink: /home/edisonwong/robot_ws/install/my_bot/share/my_bot/launch/rsp.launch.py
+[1.119s] -- Up-to-date symlink: /home/edisonwong/robot_ws/install/my_bot/share/my_bot/worlds/empty.world
+[1.120s] -- Up-to-date symlink: /home/edisonwong/robot_ws/install/my_bot/share/my_bot/worlds/kb5.world
+[1.121s] -- Up-to-date symlink: /home/edisonwong/robot_ws/install/my_bot/share/my_bot/worlds/obstacles.world
+[1.123s] -- Up-to-date symlink: /home/edisonwong/robot_ws/install/my_bot/share/ament_index/resource_index/package_run_dependencies/my_bot
+[1.124s] -- Up-to-date symlink: /home/edisonwong/robot_ws/install/my_bot/share/ament_index/resource_index/parent_prefix_path/my_bot
+[1.126s] -- Up-to-date symlink: /home/edisonwong/robot_ws/install/my_bot/share/my_bot/environment/ament_prefix_path.sh
+[1.135s] -- Up-to-date symlink: /home/edisonwong/robot_ws/install/my_bot/share/my_bot/environment/ament_prefix_path.dsv
+[1.136s] -- Up-to-date symlink: /home/edisonwong/robot_ws/install/my_bot/share/my_bot/environment/path.sh
+[1.137s] -- Up-to-date symlink: /home/edisonwong/robot_ws/install/my_bot/share/my_bot/environment/path.dsv
+[1.139s] -- Up-to-date symlink: /home/edisonwong/robot_ws/install/my_bot/share/my_bot/local_setup.bash
+[1.140s] -- Up-to-date symlink: /home/edisonwong/robot_ws/install/my_bot/share/my_bot/local_setup.sh
+[1.141s] -- Up-to-date symlink: /home/edisonwong/robot_ws/install/my_bot/share/my_bot/local_setup.zsh
+[1.147s] -- Up-to-date symlink: /home/edisonwong/robot_ws/install/my_bot/share/my_bot/local_setup.dsv
+[1.148s] -- Symlinking: /home/edisonwong/robot_ws/install/my_bot/share/my_bot/package.dsv
+[1.243s] -- Up-to-date symlink: /home/edisonwong/robot_ws/install/my_bot/share/ament_index/resource_index/packages/my_bot
+[1.246s] -- Up-to-date symlink: /home/edisonwong/robot_ws/install/my_bot/share/my_bot/cmake/my_botConfig.cmake
+[1.250s] -- Up-to-date symlink: /home/edisonwong/robot_ws/install/my_bot/share/my_bot/cmake/my_botConfig-version.cmake
+[1.252s] -- Up-to-date symlink: /home/edisonwong/robot_ws/install/my_bot/share/my_bot/package.xml
+[1.271s] Invoked command in '/home/edisonwong/robot_ws/build/my_bot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/edisonwong/robot_ws/install/serial_motor_demo:/opt/ros/humble /usr/bin/cmake --install /home/edisonwong/robot_ws/build/my_bot

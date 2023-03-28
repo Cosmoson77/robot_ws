@@ -1,0 +1,36 @@
+[0.076s] Invoking command in '/home/edisonwong/robot_ws/src/build/diffdrive_arduino': AMENT_PREFIX_PATH=/home/edisonwong/robot_ws/src/install/serial:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/edisonwong/robot_ws/src/install/serial:/home/edisonwong/robot_ws/install/serial_motor_demo_msgs:/home/edisonwong/robot_ws/install/diffdrive_arduino:/home/edisonwong/robot_ws/install/serial:/home/edisonwong/robot_ws/install/my_bot:/home/edisonwong/robot_ws/install/serial_motor_demo:/opt/ros/humble LD_LIBRARY_PATH=/home/edisonwong/robot_ws/src/install/serial/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --build /home/edisonwong/robot_ws/src/build/diffdrive_arduino -- -j4 -l4
+[0.429s] [ 42%] Built target fake_robot
+[0.435s] [100%] Built target diffdrive_arduino
+[0.487s] Invoked command in '/home/edisonwong/robot_ws/src/build/diffdrive_arduino' returned '0': AMENT_PREFIX_PATH=/home/edisonwong/robot_ws/src/install/serial:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/edisonwong/robot_ws/src/install/serial:/home/edisonwong/robot_ws/install/serial_motor_demo_msgs:/home/edisonwong/robot_ws/install/diffdrive_arduino:/home/edisonwong/robot_ws/install/serial:/home/edisonwong/robot_ws/install/my_bot:/home/edisonwong/robot_ws/install/serial_motor_demo:/opt/ros/humble LD_LIBRARY_PATH=/home/edisonwong/robot_ws/src/install/serial/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --build /home/edisonwong/robot_ws/src/build/diffdrive_arduino -- -j4 -l4
+[0.709s] Invoking command in '/home/edisonwong/robot_ws/src/build/diffdrive_arduino': AMENT_PREFIX_PATH=/home/edisonwong/robot_ws/src/install/serial:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/edisonwong/robot_ws/src/install/serial:/home/edisonwong/robot_ws/install/serial_motor_demo_msgs:/home/edisonwong/robot_ws/install/diffdrive_arduino:/home/edisonwong/robot_ws/install/serial:/home/edisonwong/robot_ws/install/my_bot:/home/edisonwong/robot_ws/install/serial_motor_demo:/opt/ros/humble LD_LIBRARY_PATH=/home/edisonwong/robot_ws/src/install/serial/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --install /home/edisonwong/robot_ws/src/build/diffdrive_arduino
+[0.747s] -- Install configuration: ""
+[0.750s] -- Execute custom install script
+[0.752s] -- Up-to-date symlink: /home/edisonwong/robot_ws/src/install/diffdrive_arduino/share/diffdrive_arduino//robot_hardware.xml
+[0.755s] -- Up-to-date symlink: /home/edisonwong/robot_ws/src/install/diffdrive_arduino/share/diffdrive_arduino//fake_robot_hardware.xml
+[0.759s] -- Up-to-date symlink: /home/edisonwong/robot_ws/src/install/diffdrive_arduino/lib/libdiffdrive_arduino.so
+[0.761s] -- Up-to-date symlink: /home/edisonwong/robot_ws/src/install/diffdrive_arduino/lib/libfake_robot.so
+[0.764s] -- Up-to-date symlink: /home/edisonwong/robot_ws/src/install/diffdrive_arduino/share/diffdrive_arduino/controllers/robot_controller_example.yaml
+[0.767s] -- Up-to-date symlink: /home/edisonwong/robot_ws/src/install/diffdrive_arduino/share/diffdrive_arduino/__pycache__/test_robot.launch.cpython-310.pyc
+[0.769s] -- Up-to-date symlink: /home/edisonwong/robot_ws/src/install/diffdrive_arduino/share/diffdrive_arduino/fake_robot.launch.py
+[0.771s] -- Up-to-date symlink: /home/edisonwong/robot_ws/src/install/diffdrive_arduino/share/diffdrive_arduino/test_robot.launch.py
+[0.773s] -- Up-to-date symlink: /home/edisonwong/robot_ws/src/install/diffdrive_arduino/share/diffdrive_arduino/environment/library_path.sh
+[0.775s] -- Up-to-date symlink: /home/edisonwong/robot_ws/src/install/diffdrive_arduino/share/diffdrive_arduino/environment/library_path.dsv
+[0.777s] -- Up-to-date symlink: /home/edisonwong/robot_ws/src/install/diffdrive_arduino/share/ament_index/resource_index/package_run_dependencies/diffdrive_arduino
+[0.779s] -- Up-to-date symlink: /home/edisonwong/robot_ws/src/install/diffdrive_arduino/share/ament_index/resource_index/parent_prefix_path/diffdrive_arduino
+[0.781s] -- Up-to-date symlink: /home/edisonwong/robot_ws/src/install/diffdrive_arduino/share/diffdrive_arduino/environment/ament_prefix_path.sh
+[0.783s] -- Up-to-date symlink: /home/edisonwong/robot_ws/src/install/diffdrive_arduino/share/diffdrive_arduino/environment/ament_prefix_path.dsv
+[0.785s] -- Up-to-date symlink: /home/edisonwong/robot_ws/src/install/diffdrive_arduino/share/diffdrive_arduino/environment/path.sh
+[0.787s] -- Up-to-date symlink: /home/edisonwong/robot_ws/src/install/diffdrive_arduino/share/diffdrive_arduino/environment/path.dsv
+[0.789s] -- Up-to-date symlink: /home/edisonwong/robot_ws/src/install/diffdrive_arduino/share/diffdrive_arduino/local_setup.bash
+[0.791s] -- Up-to-date symlink: /home/edisonwong/robot_ws/src/install/diffdrive_arduino/share/diffdrive_arduino/local_setup.sh
+[0.793s] -- Up-to-date symlink: /home/edisonwong/robot_ws/src/install/diffdrive_arduino/share/diffdrive_arduino/local_setup.zsh
+[0.795s] -- Up-to-date symlink: /home/edisonwong/robot_ws/src/install/diffdrive_arduino/share/diffdrive_arduino/local_setup.dsv
+[0.795s] -- Symlinking: /home/edisonwong/robot_ws/src/install/diffdrive_arduino/share/diffdrive_arduino/package.dsv
+[0.842s] -- Up-to-date symlink: /home/edisonwong/robot_ws/src/install/diffdrive_arduino/share/ament_index/resource_index/packages/diffdrive_arduino
+[0.844s] -- Up-to-date symlink: /home/edisonwong/robot_ws/src/install/diffdrive_arduino/share/ament_index/resource_index/hardware_interface__pluginlib__plugin/diffdrive_arduino
+[0.846s] -- Up-to-date symlink: /home/edisonwong/robot_ws/src/install/diffdrive_arduino/share/diffdrive_arduino/cmake/ament_cmake_export_libraries-extras.cmake
+[0.849s] -- Up-to-date symlink: /home/edisonwong/robot_ws/src/install/diffdrive_arduino/share/diffdrive_arduino/cmake/ament_cmake_export_dependencies-extras.cmake
+[0.851s] -- Up-to-date symlink: /home/edisonwong/robot_ws/src/install/diffdrive_arduino/share/diffdrive_arduino/cmake/diffdrive_arduinoConfig.cmake
+[0.852s] -- Up-to-date symlink: /home/edisonwong/robot_ws/src/install/diffdrive_arduino/share/diffdrive_arduino/cmake/diffdrive_arduinoConfig-version.cmake
+[0.854s] -- Up-to-date symlink: /home/edisonwong/robot_ws/src/install/diffdrive_arduino/share/diffdrive_arduino/package.xml
+[0.870s] Invoked command in '/home/edisonwong/robot_ws/src/build/diffdrive_arduino' returned '0': AMENT_PREFIX_PATH=/home/edisonwong/robot_ws/src/install/serial:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/edisonwong/robot_ws/src/install/serial:/home/edisonwong/robot_ws/install/serial_motor_demo_msgs:/home/edisonwong/robot_ws/install/diffdrive_arduino:/home/edisonwong/robot_ws/install/serial:/home/edisonwong/robot_ws/install/my_bot:/home/edisonwong/robot_ws/install/serial_motor_demo:/opt/ros/humble LD_LIBRARY_PATH=/home/edisonwong/robot_ws/src/install/serial/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --install /home/edisonwong/robot_ws/src/build/diffdrive_arduino

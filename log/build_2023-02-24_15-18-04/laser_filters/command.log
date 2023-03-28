@@ -1,0 +1,2 @@
+Invoking command in '/home/edisonwong/robot_ws/build/laser_filters': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/edisonwong/robot_ws/build/laser_filters -- -j8 -l8
+Invoked command in '/home/edisonwong/robot_ws/build/laser_filters' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/edisonwong/robot_ws/build/laser_filters -- -j8 -l8

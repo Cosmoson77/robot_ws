@@ -1,0 +1,81 @@
+[0.123s] Invoking command in '/home/edisonwong/robot_ws/src/build/serial': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/edisonwong/robot_ws/src/serial -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/edisonwong/robot_ws/src/install/serial
+[0.437s] -- The C compiler identification is GNU 11.3.0
+[0.760s] -- The CXX compiler identification is GNU 11.3.0
+[0.795s] -- Detecting C compiler ABI info
+[1.179s] -- Detecting C compiler ABI info - done
+[1.210s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.212s] -- Detecting C compile features
+[1.214s] -- Detecting C compile features - done
+[1.230s] -- Detecting CXX compiler ABI info
+[1.656s] -- Detecting CXX compiler ABI info - done
+[1.688s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.689s] -- Detecting CXX compile features
+[1.691s] -- Detecting CXX compile features - done
+[1.719s] -- Found ament_cmake: 1.3.3 (/opt/ros/humble/share/ament_cmake/cmake)
+[2.854s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.6") found components: Interpreter 
+[3.267s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[3.603s] -- Found ament_cmake_gtest: 1.3.3 (/opt/ros/humble/share/ament_cmake_gtest/cmake)
+[3.669s] -- Found Boost: /usr/lib/aarch64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0")  
+[3.695s] -- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[3.704s] -- Looking for pthread.h
+[4.122s] -- Looking for pthread.h - found
+[4.124s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[4.483s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[4.514s] -- Found Threads: TRUE  
+[4.909s] -- Configuring done
+[4.993s] -- Generating done
+[5.002s] -- Build files have been written to: /home/edisonwong/robot_ws/src/build/serial
+[5.024s] Invoked command in '/home/edisonwong/robot_ws/src/build/serial' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/edisonwong/robot_ws/src/serial -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/edisonwong/robot_ws/src/install/serial
+[5.043s] Invoking command in '/home/edisonwong/robot_ws/src/build/serial': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/edisonwong/robot_ws/src/build/serial -- -j4 -l4
+[5.305s] [  7%] [32mBuilding CXX object CMakeFiles/serial.dir/src/serial.cc.o[0m
+[5.315s] [ 14%] [32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[5.320s] [ 21%] [32mBuilding CXX object CMakeFiles/serial.dir/src/impl/unix.cc.o[0m
+[5.339s] [ 28%] [32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o[0m
+[9.326s] [ 35%] [32mBuilding CXX object CMakeFiles/serial.dir/src/impl/list_ports/list_ports_linux.cc.o[0m
+[14.561s] [ 42%] [32m[1mLinking CXX static library libserial.a[0m
+[15.197s] [ 42%] Built target serial
+[15.355s] [ 50%] [32mBuilding CXX object CMakeFiles/serial_example.dir/examples/serial_example.cc.o[0m
+[15.675s] [ 57%] [32m[1mLinking CXX static library libgtest_main.a[0m
+[16.316s] [ 57%] Built target gtest_main
+[18.979s] [ 64%] [32m[1mLinking CXX executable serial_example[0m
+[19.759s] [ 64%] Built target serial_example
+[31.542s] [ 71%] [32m[1mLinking CXX static library libgtest.a[0m
+[32.143s] [ 71%] Built target gtest
+[32.377s] [ 78%] [32mBuilding CXX object tests/CMakeFiles/serial-test-timer.dir/unit/unix_timer_tests.cc.o[0m
+[32.379s] [ 85%] [32mBuilding CXX object tests/CMakeFiles/serial-test.dir/unix_serial_tests.cc.o[0m
+[40.061s] [ 92%] [32m[1mLinking CXX executable serial-test-timer[0m
+[40.206s] In file included from [01m[K/usr/include/boost/bind.hpp:30[m[K,
+[40.207s]                  from [01m[K/home/edisonwong/robot_ws/src/serial/tests/unix_serial_tests.cc:23[m[K:
+[40.208s] [01m[K/usr/include/boost/bind.hpp:36:1:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: The practice of declaring the Bind placeholders (_1, _2, ...) in the global namespace is deprecated. Please use <boost/bind/bind.hpp> + using namespace boost::placeholders, or define BOOST_BIND_GLOBAL_PLACEHOLDERS to retain the current behavior.[m[K’
+[40.209s]    36 | [01;36m[KBOOST_PRAGMA_MESSAGE[m[K(
+[40.210s]       | [01;36m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[41.455s] [ 92%] Built target serial-test-timer
+[41.685s] [100%] [32m[1mLinking CXX executable serial-test[0m
+[42.315s] [100%] Built target serial-test
+[42.362s] Invoked command in '/home/edisonwong/robot_ws/src/build/serial' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/edisonwong/robot_ws/src/build/serial -- -j4 -l4
+[42.566s] Invoking command in '/home/edisonwong/robot_ws/src/build/serial': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/edisonwong/robot_ws/src/build/serial
+[42.597s] -- Install configuration: ""
+[42.599s] -- Execute custom install script
+[42.601s] -- Symlinking: /home/edisonwong/robot_ws/src/install/serial/lib/libserial.a
+[42.637s] -- Symlinking: /home/edisonwong/robot_ws/src/install/serial/include/serial/serial.h
+[42.673s] -- Symlinking: /home/edisonwong/robot_ws/src/install/serial/include/serial/v8stdint.h
+[42.710s] -- Symlinking: /home/edisonwong/robot_ws/src/install/serial/share/serial/environment/library_path.sh
+[42.746s] -- Symlinking: /home/edisonwong/robot_ws/src/install/serial/share/serial/environment/library_path.dsv
+[42.784s] -- Symlinking: /home/edisonwong/robot_ws/src/install/serial/share/ament_index/resource_index/package_run_dependencies/serial
+[42.820s] -- Symlinking: /home/edisonwong/robot_ws/src/install/serial/share/ament_index/resource_index/parent_prefix_path/serial
+[42.856s] -- Symlinking: /home/edisonwong/robot_ws/src/install/serial/share/serial/environment/ament_prefix_path.sh
+[42.892s] -- Symlinking: /home/edisonwong/robot_ws/src/install/serial/share/serial/environment/ament_prefix_path.dsv
+[42.929s] -- Symlinking: /home/edisonwong/robot_ws/src/install/serial/share/serial/environment/path.sh
+[42.965s] -- Symlinking: /home/edisonwong/robot_ws/src/install/serial/share/serial/environment/path.dsv
+[43.002s] -- Symlinking: /home/edisonwong/robot_ws/src/install/serial/share/serial/local_setup.bash
+[43.038s] -- Symlinking: /home/edisonwong/robot_ws/src/install/serial/share/serial/local_setup.sh
+[43.073s] -- Symlinking: /home/edisonwong/robot_ws/src/install/serial/share/serial/local_setup.zsh
+[43.110s] -- Symlinking: /home/edisonwong/robot_ws/src/install/serial/share/serial/local_setup.dsv
+[43.145s] -- Symlinking: /home/edisonwong/robot_ws/src/install/serial/share/serial/package.dsv
+[43.182s] -- Symlinking: /home/edisonwong/robot_ws/src/install/serial/share/ament_index/resource_index/packages/serial
+[43.218s] -- Symlinking: /home/edisonwong/robot_ws/src/install/serial/share/serial/cmake/ament_cmake_export_include_directories-extras.cmake
+[43.254s] -- Symlinking: /home/edisonwong/robot_ws/src/install/serial/share/serial/cmake/ament_cmake_export_libraries-extras.cmake
+[43.290s] -- Symlinking: /home/edisonwong/robot_ws/src/install/serial/share/serial/cmake/serialConfig.cmake
+[43.326s] -- Symlinking: /home/edisonwong/robot_ws/src/install/serial/share/serial/cmake/serialConfig-version.cmake
+[43.361s] -- Symlinking: /home/edisonwong/robot_ws/src/install/serial/share/serial/package.xml
+[43.414s] Invoked command in '/home/edisonwong/robot_ws/src/build/serial' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/edisonwong/robot_ws/src/build/serial

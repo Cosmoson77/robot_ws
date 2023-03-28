@@ -1,0 +1,20 @@
+[0.048s] Invoking command in '/home/edisonwong/robot_ws/build/diffdrive_arduino': AMENT_PREFIX_PATH=/home/edisonwong/robot_ws/install/serial:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/edisonwong/robot_ws/install/serial:/opt/ros/humble LD_LIBRARY_PATH=/home/edisonwong/robot_ws/install/serial/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --build /home/edisonwong/robot_ws/build/diffdrive_arduino -- -j4 -l4
+[0.298s] [ 14%] [32mBuilding CXX object CMakeFiles/fake_robot.dir/src/fake_robot.cpp.o[0m
+[0.311s] [ 28%] [32mBuilding CXX object CMakeFiles/diffdrive_arduino.dir/src/diffdrive_arduino.cpp.o[0m
+[2.522s] In file included from [01m[K/home/edisonwong/robot_ws/src/diffdrive_arduino/src/fake_robot.cpp:1[m[K:
+[2.522s] [01m[K/home/edisonwong/robot_ws/src/diffdrive_arduino/include/diffdrive_arduino/fake_robot.h:7:10:[m[K [01;31m[Kfatal error: [m[Khardware_interface/base_interface.hpp: No such file or directory
+[2.523s]     7 | #include [01;31m[K"hardware_interface/base_interface.hpp"[m[K
+[2.523s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[2.524s] compilation terminated.
+[2.535s] gmake[2]: *** [CMakeFiles/fake_robot.dir/build.make:76: CMakeFiles/fake_robot.dir/src/fake_robot.cpp.o] Error 1
+[2.536s] gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/fake_robot.dir/all] Error 2
+[2.537s] gmake[1]: *** Waiting for unfinished jobs....
+[2.541s] In file included from [01m[K/home/edisonwong/robot_ws/src/diffdrive_arduino/src/diffdrive_arduino.cpp:1[m[K:
+[2.542s] [01m[K/home/edisonwong/robot_ws/src/diffdrive_arduino/include/diffdrive_arduino/diffdrive_arduino.h:7:10:[m[K [01;31m[Kfatal error: [m[Khardware_interface/base_interface.hpp: No such file or directory
+[2.542s]     7 | #include [01;31m[K"hardware_interface/base_interface.hpp"[m[K
+[2.543s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[2.543s] compilation terminated.
+[2.554s] gmake[2]: *** [CMakeFiles/diffdrive_arduino.dir/build.make:76: CMakeFiles/diffdrive_arduino.dir/src/diffdrive_arduino.cpp.o] Error 1
+[2.555s] gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/diffdrive_arduino.dir/all] Error 2
+[2.556s] gmake: *** [Makefile:146: all] Error 2
+[2.564s] Invoked command in '/home/edisonwong/robot_ws/build/diffdrive_arduino' returned '2': AMENT_PREFIX_PATH=/home/edisonwong/robot_ws/install/serial:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/edisonwong/robot_ws/install/serial:/opt/ros/humble LD_LIBRARY_PATH=/home/edisonwong/robot_ws/install/serial/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --build /home/edisonwong/robot_ws/build/diffdrive_arduino -- -j4 -l4

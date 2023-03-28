@@ -1,0 +1,250 @@
+[0.100s] Invoking command in '/home/edisonwong/robot_ws/src/build/serial_motor_demo_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/edisonwong/robot_ws/src/serial_motor_demo/serial_motor_demo_msgs -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/edisonwong/robot_ws/src/install/serial_motor_demo_msgs
+[0.407s] -- The C compiler identification is GNU 11.3.0
+[0.729s] -- The CXX compiler identification is GNU 11.3.0
+[0.761s] -- Detecting C compiler ABI info
+[1.144s] -- Detecting C compiler ABI info - done
+[1.175s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.176s] -- Detecting C compile features
+[1.177s] -- Detecting C compile features - done
+[1.191s] -- Detecting CXX compiler ABI info
+[1.627s] -- Detecting CXX compiler ABI info - done
+[1.659s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.660s] -- Detecting CXX compile features
+[1.663s] -- Detecting CXX compile features - done
+[1.690s] -- Found ament_cmake: 1.3.3 (/opt/ros/humble/share/ament_cmake/cmake)
+[2.844s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.6") found components: Interpreter 
+[3.250s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[3.569s] -- Found ament_lint_auto: 0.12.4 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[4.180s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[4.210s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[4.287s] -- Found rosidl_adapter: 3.1.4 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[4.700s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[7.106s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[9.390s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[12.266s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[12.577s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.6", minimum required is "3.6") 
+[12.612s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[12.914s] -- Found PythonLibs: /usr/lib/aarch64-linux-gnu/libpython3.10.so (found suitable version "3.10.6", minimum required is "3.5") 
+[12.918s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[12.920s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[12.922s] -- Using PYTHON_LIBRARIES: /usr/lib/aarch64-linux-gnu/libpython3.10.so
+[13.193s] -- Found PythonExtra: .so  
+[13.639s] -- Added test 'copyright' to check source files copyright and LICENSE
+[13.661s] -- Added test 'lint_cmake' to check CMake code style
+[13.678s] -- Added test 'xmllint' to check XML markup files
+[13.779s] -- Configuring done
+[14.165s] -- Generating done
+[14.197s] -- Build files have been written to: /home/edisonwong/robot_ws/src/build/serial_motor_demo_msgs
+[14.230s] Invoked command in '/home/edisonwong/robot_ws/src/build/serial_motor_demo_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/edisonwong/robot_ws/src/serial_motor_demo/serial_motor_demo_msgs -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/edisonwong/robot_ws/src/install/serial_motor_demo_msgs
+[14.241s] Invoking command in '/home/edisonwong/robot_ws/src/build/serial_motor_demo_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/edisonwong/robot_ws/src/build/serial_motor_demo_msgs -- -j4 -l4
+[14.533s] [  2%] [34m[1mGenerating C code for ROS interfaces[0m
+[14.632s] [  4%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[14.781s] [  4%] Built target ament_cmake_python_symlink_serial_motor_demo_msgs
+[17.547s] running egg_info
+[17.566s] creating serial_motor_demo_msgs.egg-info
+[17.569s] writing serial_motor_demo_msgs.egg-info/PKG-INFO
+[17.572s] writing dependency_links to serial_motor_demo_msgs.egg-info/dependency_links.txt
+[17.575s] writing top-level names to serial_motor_demo_msgs.egg-info/top_level.txt
+[17.579s] writing manifest file 'serial_motor_demo_msgs.egg-info/SOURCES.txt'
+[17.611s] reading manifest file 'serial_motor_demo_msgs.egg-info/SOURCES.txt'
+[17.628s] writing manifest file 'serial_motor_demo_msgs.egg-info/SOURCES.txt'
+[17.959s] [  4%] Built target ament_cmake_python_build_serial_motor_demo_msgs_egg
+[18.153s] [  4%] Built target serial_motor_demo_msgs__cpp
+[18.215s] [  6%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[18.222s] [  8%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[18.274s] [ 10%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[18.308s] [ 12%] [32mBuilding C object CMakeFiles/serial_motor_demo_msgs__rosidl_generator_c.dir/rosidl_generator_c/serial_motor_demo_msgs/msg/detail/motor_command__functions.c.o[0m
+[18.899s] [ 14%] [32mBuilding C object CMakeFiles/serial_motor_demo_msgs__rosidl_generator_c.dir/rosidl_generator_c/serial_motor_demo_msgs/msg/detail/motor_vels__functions.c.o[0m
+[19.537s] [ 17%] [32mBuilding C object CMakeFiles/serial_motor_demo_msgs__rosidl_generator_c.dir/rosidl_generator_c/serial_motor_demo_msgs/msg/detail/encoder_vals__functions.c.o[0m
+[20.005s] [ 19%] [32m[1mLinking C shared library libserial_motor_demo_msgs__rosidl_generator_c.so[0m
+[20.431s] [ 19%] Built target serial_motor_demo_msgs__rosidl_generator_c
+[20.558s] [ 21%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[20.570s] [ 23%] [32mBuilding CXX object CMakeFiles/serial_motor_demo_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/serial_motor_demo_msgs/msg/motor_command__type_support.cpp.o[0m
+[20.899s] [ 25%] [32mBuilding CXX object CMakeFiles/serial_motor_demo_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/serial_motor_demo_msgs/msg/detail/motor_command__type_support.cpp.o[0m
+[21.604s] [ 27%] [32mBuilding CXX object CMakeFiles/serial_motor_demo_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/serial_motor_demo_msgs/msg/detail/dds_fastrtps/motor_command__type_support.cpp.o[0m
+[22.983s] [ 29%] [32mBuilding CXX object CMakeFiles/serial_motor_demo_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/serial_motor_demo_msgs/msg/motor_vels__type_support.cpp.o[0m
+[23.344s] [ 31%] [32mBuilding CXX object CMakeFiles/serial_motor_demo_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/serial_motor_demo_msgs/msg/detail/motor_command__type_support_c.cpp.o[0m
+[24.657s] [ 34%] [32mBuilding CXX object CMakeFiles/serial_motor_demo_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/serial_motor_demo_msgs/msg/detail/motor_vels__type_support.cpp.o[0m
+[25.406s] [ 36%] [32mBuilding CXX object CMakeFiles/serial_motor_demo_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/serial_motor_demo_msgs/msg/detail/dds_fastrtps/motor_vels__type_support.cpp.o[0m
+[25.729s] [ 38%] [32mBuilding CXX object CMakeFiles/serial_motor_demo_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/serial_motor_demo_msgs/msg/encoder_vals__type_support.cpp.o[0m
+[26.488s] [ 40%] [32mBuilding CXX object CMakeFiles/serial_motor_demo_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/serial_motor_demo_msgs/msg/detail/motor_vels__type_support_c.cpp.o[0m
+[27.854s] [ 42%] [32mBuilding CXX object CMakeFiles/serial_motor_demo_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/serial_motor_demo_msgs/msg/detail/encoder_vals__type_support.cpp.o[0m
+[28.226s] [ 44%] [32m[1mLinking CXX shared library libserial_motor_demo_msgs__rosidl_typesupport_cpp.so[0m
+[28.636s] [ 44%] Built target serial_motor_demo_msgs__rosidl_typesupport_cpp
+[28.757s] [ 46%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[28.982s] [ 48%] [32mBuilding CXX object CMakeFiles/serial_motor_demo_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/serial_motor_demo_msgs/msg/detail/dds_fastrtps/encoder_vals__type_support.cpp.o[0m
+[29.779s] [ 51%] [32mBuilding CXX object CMakeFiles/serial_motor_demo_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/serial_motor_demo_msgs/msg/detail/encoder_vals__type_support_c.cpp.o[0m
+[30.990s] [ 53%] [32m[1mLinking CXX shared library libserial_motor_demo_msgs__rosidl_typesupport_introspection_cpp.so[0m
+[31.386s] [ 53%] Built target serial_motor_demo_msgs__rosidl_typesupport_introspection_cpp
+[31.515s] [ 55%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[31.599s] [ 57%] [32mBuilding C object CMakeFiles/serial_motor_demo_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/serial_motor_demo_msgs/msg/detail/motor_command__type_support.c.o[0m
+[32.050s] [ 59%] [32mBuilding C object CMakeFiles/serial_motor_demo_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/serial_motor_demo_msgs/msg/detail/motor_vels__type_support.c.o[0m
+[32.416s] [ 61%] [32mBuilding C object CMakeFiles/serial_motor_demo_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/serial_motor_demo_msgs/msg/detail/encoder_vals__type_support.c.o[0m
+[32.522s] [ 63%] [32m[1mLinking CXX shared library libserial_motor_demo_msgs__rosidl_typesupport_fastrtps_c.so[0m
+[32.569s] [ 65%] [32m[1mLinking CXX shared library libserial_motor_demo_msgs__rosidl_typesupport_fastrtps_cpp.so[0m
+[32.690s] [ 68%] [32m[1mLinking C shared library libserial_motor_demo_msgs__rosidl_typesupport_introspection_c.so[0m
+[33.078s] [ 68%] Built target serial_motor_demo_msgs__rosidl_typesupport_introspection_c
+[33.124s] [ 68%] Built target serial_motor_demo_msgs__rosidl_typesupport_fastrtps_c
+[33.216s] [ 68%] Built target serial_motor_demo_msgs__rosidl_typesupport_fastrtps_cpp
+[33.773s] [ 70%] [32mBuilding CXX object CMakeFiles/serial_motor_demo_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/serial_motor_demo_msgs/msg/motor_command__type_support.cpp.o[0m
+[33.783s] [ 72%] [32mBuilding CXX object CMakeFiles/serial_motor_demo_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/serial_motor_demo_msgs/msg/motor_vels__type_support.cpp.o[0m
+[33.816s] [ 74%] [32mBuilding CXX object CMakeFiles/serial_motor_demo_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/serial_motor_demo_msgs/msg/encoder_vals__type_support.cpp.o[0m
+[34.070s] [ 76%] [32m[1mLinking CXX shared library libserial_motor_demo_msgs__rosidl_typesupport_c.so[0m
+[34.285s] [ 76%] Built target serial_motor_demo_msgs__rosidl_typesupport_c
+[34.394s] [ 76%] Built target serial_motor_demo_msgs
+[34.502s] [ 78%] [34m[1mGenerating Python code for ROS interfaces[0m
+[38.503s] [ 78%] Built target serial_motor_demo_msgs__py
+[38.615s] [ 80%] [32mBuilding C object CMakeFiles/serial_motor_demo_msgs__rosidl_generator_py.dir/rosidl_generator_py/serial_motor_demo_msgs/msg/_motor_command_s.c.o[0m
+[38.623s] [ 82%] [32mBuilding C object CMakeFiles/serial_motor_demo_msgs__rosidl_generator_py.dir/rosidl_generator_py/serial_motor_demo_msgs/msg/_motor_vels_s.c.o[0m
+[38.649s] [ 85%] [32mBuilding C object CMakeFiles/serial_motor_demo_msgs__rosidl_generator_py.dir/rosidl_generator_py/serial_motor_demo_msgs/msg/_encoder_vals_s.c.o[0m
+[39.654s] [ 87%] [32m[1mLinking C shared library rosidl_generator_py/serial_motor_demo_msgs/libserial_motor_demo_msgs__rosidl_generator_py.so[0m
+[39.939s] [ 87%] Built target serial_motor_demo_msgs__rosidl_generator_py
+[40.062s] [ 89%] [32mBuilding C object CMakeFiles/serial_motor_demo_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/serial_motor_demo_msgs/_serial_motor_demo_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[40.129s] [ 91%] [32mBuilding C object CMakeFiles/serial_motor_demo_msgs__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/serial_motor_demo_msgs/_serial_motor_demo_msgs_s.ep.rosidl_typesupport_c.c.o[0m
+[40.175s] [ 93%] [32mBuilding C object CMakeFiles/serial_motor_demo_msgs__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/serial_motor_demo_msgs/_serial_motor_demo_msgs_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[40.903s] [ 95%] [32m[1mLinking C shared library rosidl_generator_py/serial_motor_demo_msgs/serial_motor_demo_msgs_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so[0m
+[40.965s] [ 97%] [32m[1mLinking C shared library rosidl_generator_py/serial_motor_demo_msgs/serial_motor_demo_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so[0m
+[40.974s] [100%] [32m[1mLinking C shared library rosidl_generator_py/serial_motor_demo_msgs/serial_motor_demo_msgs_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so[0m
+[41.205s] [100%] Built target serial_motor_demo_msgs__rosidl_typesupport_c__pyext
+[41.533s] [100%] Built target serial_motor_demo_msgs__rosidl_typesupport_introspection_c__pyext
+[41.539s] [100%] Built target serial_motor_demo_msgs__rosidl_typesupport_fastrtps_c__pyext
+[41.599s] Invoked command in '/home/edisonwong/robot_ws/src/build/serial_motor_demo_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/edisonwong/robot_ws/src/build/serial_motor_demo_msgs -- -j4 -l4
+[42.218s] Invoking command in '/home/edisonwong/robot_ws/src/build/serial_motor_demo_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/edisonwong/robot_ws/src/build/serial_motor_demo_msgs
+[42.250s] -- Install configuration: ""
+[42.252s] -- Execute custom install script
+[42.254s] -- Symlinking: /home/edisonwong/robot_ws/src/install/serial_motor_demo_msgs/share/ament_index/resource_index/rosidl_interfaces/serial_motor_demo_msgs
+[42.294s] -- Symlinking: /home/edisonwong/robot_ws/src/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/detail/encoder_vals__functions.h
+[42.330s] -- Symlinking: /home/edisonwong/robot_ws/src/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/detail/encoder_vals__struct.h
+[42.366s] -- Symlinking: /home/edisonwong/robot_ws/src/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/detail/encoder_vals__type_support.h
+[42.401s] -- Symlinking: /home/edisonwong/robot_ws/src/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/detail/motor_command__functions.h
+[42.435s] -- Symlinking: /home/edisonwong/robot_ws/src/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/detail/motor_command__struct.h
+[42.470s] -- Symlinking: /home/edisonwong/robot_ws/src/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/detail/motor_command__type_support.h
+[42.505s] -- Symlinking: /home/edisonwong/robot_ws/src/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/detail/motor_vels__functions.h
+[42.541s] -- Symlinking: /home/edisonwong/robot_ws/src/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/detail/motor_vels__struct.h
+[42.578s] -- Symlinking: /home/edisonwong/robot_ws/src/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/detail/motor_vels__type_support.h
+[42.613s] -- Symlinking: /home/edisonwong/robot_ws/src/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/encoder_vals.h
+[42.650s] -- Symlinking: /home/edisonwong/robot_ws/src/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/motor_command.h
+[42.687s] -- Symlinking: /home/edisonwong/robot_ws/src/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/motor_vels.h
+[42.724s] -- Symlinking: /home/edisonwong/robot_ws/src/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/rosidl_generator_c__visibility_control.h
+[42.761s] -- Symlinking: /home/edisonwong/robot_ws/src/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/environment/library_path.sh
+[42.797s] -- Symlinking: /home/edisonwong/robot_ws/src/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/environment/library_path.dsv
+[42.837s] -- Symlinking: /home/edisonwong/robot_ws/src/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/detail/encoder_vals__rosidl_typesupport_fastrtps_c.h
+[42.873s] -- Symlinking: /home/edisonwong/robot_ws/src/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/detail/motor_command__rosidl_typesupport_fastrtps_c.h
+[42.909s] -- Symlinking: /home/edisonwong/robot_ws/src/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/detail/motor_vels__rosidl_typesupport_fastrtps_c.h
+[42.945s] -- Symlinking: /home/edisonwong/robot_ws/src/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[42.983s] -- Symlinking: /home/edisonwong/robot_ws/src/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/detail/encoder_vals__rosidl_typesupport_introspection_c.h
+[43.019s] -- Symlinking: /home/edisonwong/robot_ws/src/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/detail/motor_command__rosidl_typesupport_introspection_c.h
+[43.056s] -- Symlinking: /home/edisonwong/robot_ws/src/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/detail/motor_vels__rosidl_typesupport_introspection_c.h
+[43.092s] -- Symlinking: /home/edisonwong/robot_ws/src/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[43.131s] -- Symlinking: /home/edisonwong/robot_ws/src/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/detail/encoder_vals__builder.hpp
+[43.167s] -- Symlinking: /home/edisonwong/robot_ws/src/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/detail/encoder_vals__struct.hpp
+[43.203s] -- Symlinking: /home/edisonwong/robot_ws/src/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/detail/encoder_vals__traits.hpp
+[43.239s] -- Symlinking: /home/edisonwong/robot_ws/src/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/detail/motor_command__builder.hpp
+[43.275s] -- Symlinking: /home/edisonwong/robot_ws/src/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/detail/motor_command__struct.hpp
+[43.311s] -- Symlinking: /home/edisonwong/robot_ws/src/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/detail/motor_command__traits.hpp
+[43.347s] -- Symlinking: /home/edisonwong/robot_ws/src/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/detail/motor_vels__builder.hpp
+[43.387s] -- Symlinking: /home/edisonwong/robot_ws/src/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/detail/motor_vels__struct.hpp
+[43.421s] -- Symlinking: /home/edisonwong/robot_ws/src/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/detail/motor_vels__traits.hpp
+[43.458s] -- Symlinking: /home/edisonwong/robot_ws/src/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/encoder_vals.hpp
+[43.493s] -- Symlinking: /home/edisonwong/robot_ws/src/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/motor_command.hpp
+[43.528s] -- Symlinking: /home/edisonwong/robot_ws/src/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/motor_vels.hpp
+[43.568s] -- Symlinking: /home/edisonwong/robot_ws/src/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/detail/encoder_vals__rosidl_typesupport_fastrtps_cpp.hpp
+[43.605s] -- Symlinking: /home/edisonwong/robot_ws/src/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/detail/motor_command__rosidl_typesupport_fastrtps_cpp.hpp
+[43.647s] -- Symlinking: /home/edisonwong/robot_ws/src/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/detail/motor_vels__rosidl_typesupport_fastrtps_cpp.hpp
+[43.679s] -- Symlinking: /home/edisonwong/robot_ws/src/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[43.716s] -- Symlinking: /home/edisonwong/robot_ws/src/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/detail/encoder_vals__rosidl_typesupport_introspection_cpp.hpp
+[43.751s] -- Symlinking: /home/edisonwong/robot_ws/src/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/detail/motor_command__rosidl_typesupport_introspection_cpp.hpp
+[43.787s] -- Symlinking: /home/edisonwong/robot_ws/src/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/detail/motor_vels__rosidl_typesupport_introspection_cpp.hpp
+[43.824s] -- Symlinking: /home/edisonwong/robot_ws/src/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/environment/pythonpath.sh
+[43.859s] -- Symlinking: /home/edisonwong/robot_ws/src/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/environment/pythonpath.dsv
+[43.898s] -- Symlinking: /home/edisonwong/robot_ws/src/install/serial_motor_demo_msgs/local/lib/python3.10/dist-packages/serial_motor_demo_msgs-0.0.0-py3.10.egg-info/PKG-INFO
+[43.935s] -- Symlinking: /home/edisonwong/robot_ws/src/install/serial_motor_demo_msgs/local/lib/python3.10/dist-packages/serial_motor_demo_msgs-0.0.0-py3.10.egg-info/SOURCES.txt
+[43.973s] -- Symlinking: /home/edisonwong/robot_ws/src/install/serial_motor_demo_msgs/local/lib/python3.10/dist-packages/serial_motor_demo_msgs-0.0.0-py3.10.egg-info/dependency_links.txt
+[44.012s] -- Symlinking: /home/edisonwong/robot_ws/src/install/serial_motor_demo_msgs/local/lib/python3.10/dist-packages/serial_motor_demo_msgs-0.0.0-py3.10.egg-info/top_level.txt
+[44.054s] -- Symlinking: /home/edisonwong/robot_ws/src/install/serial_motor_demo_msgs/local/lib/python3.10/dist-packages/serial_motor_demo_msgs/__init__.py
+[44.089s] -- Symlinking: /home/edisonwong/robot_ws/src/install/serial_motor_demo_msgs/local/lib/python3.10/dist-packages/serial_motor_demo_msgs/_serial_motor_demo_msgs_s.ep.rosidl_typesupport_c.c
+[44.125s] -- Symlinking: /home/edisonwong/robot_ws/src/install/serial_motor_demo_msgs/local/lib/python3.10/dist-packages/serial_motor_demo_msgs/_serial_motor_demo_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+[44.161s] -- Symlinking: /home/edisonwong/robot_ws/src/install/serial_motor_demo_msgs/local/lib/python3.10/dist-packages/serial_motor_demo_msgs/_serial_motor_demo_msgs_s.ep.rosidl_typesupport_introspection_c.c
+[44.198s] -- Symlinking: /home/edisonwong/robot_ws/src/install/serial_motor_demo_msgs/local/lib/python3.10/dist-packages/serial_motor_demo_msgs/libserial_motor_demo_msgs__rosidl_generator_py.so
+[44.236s] -- Symlinking: /home/edisonwong/robot_ws/src/install/serial_motor_demo_msgs/local/lib/python3.10/dist-packages/serial_motor_demo_msgs/msg/__init__.py
+[44.275s] -- Symlinking: /home/edisonwong/robot_ws/src/install/serial_motor_demo_msgs/local/lib/python3.10/dist-packages/serial_motor_demo_msgs/msg/_encoder_vals.py
+[44.314s] -- Symlinking: /home/edisonwong/robot_ws/src/install/serial_motor_demo_msgs/local/lib/python3.10/dist-packages/serial_motor_demo_msgs/msg/_encoder_vals_s.c
+[44.349s] -- Symlinking: /home/edisonwong/robot_ws/src/install/serial_motor_demo_msgs/local/lib/python3.10/dist-packages/serial_motor_demo_msgs/msg/_motor_command.py
+[44.384s] -- Symlinking: /home/edisonwong/robot_ws/src/install/serial_motor_demo_msgs/local/lib/python3.10/dist-packages/serial_motor_demo_msgs/msg/_motor_command_s.c
+[44.419s] -- Symlinking: /home/edisonwong/robot_ws/src/install/serial_motor_demo_msgs/local/lib/python3.10/dist-packages/serial_motor_demo_msgs/msg/_motor_vels.py
+[44.455s] -- Symlinking: /home/edisonwong/robot_ws/src/install/serial_motor_demo_msgs/local/lib/python3.10/dist-packages/serial_motor_demo_msgs/msg/_motor_vels_s.c
+[44.494s] -- Symlinking: /home/edisonwong/robot_ws/src/install/serial_motor_demo_msgs/local/lib/python3.10/dist-packages/serial_motor_demo_msgs/serial_motor_demo_msgs_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so
+[44.530s] -- Symlinking: /home/edisonwong/robot_ws/src/install/serial_motor_demo_msgs/local/lib/python3.10/dist-packages/serial_motor_demo_msgs/serial_motor_demo_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so
+[44.566s] -- Symlinking: /home/edisonwong/robot_ws/src/install/serial_motor_demo_msgs/local/lib/python3.10/dist-packages/serial_motor_demo_msgs/serial_motor_demo_msgs_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so
+[44.604s] -- Up-to-date symlink: /home/edisonwong/robot_ws/src/install/serial_motor_demo_msgs/local/lib/python3.10/dist-packages/serial_motor_demo_msgs/serial_motor_demo_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so
+[44.606s] -- Up-to-date symlink: /home/edisonwong/robot_ws/src/install/serial_motor_demo_msgs/local/lib/python3.10/dist-packages/serial_motor_demo_msgs/serial_motor_demo_msgs_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so
+[44.608s] -- Up-to-date symlink: /home/edisonwong/robot_ws/src/install/serial_motor_demo_msgs/local/lib/python3.10/dist-packages/serial_motor_demo_msgs/serial_motor_demo_msgs_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so
+[44.610s] -- Symlinking: /home/edisonwong/robot_ws/src/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/msg/MotorCommand.idl
+[44.684s] -- Symlinking: /home/edisonwong/robot_ws/src/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/msg/MotorVels.idl
+[44.721s] -- Symlinking: /home/edisonwong/robot_ws/src/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/msg/EncoderVals.idl
+[44.757s] -- Symlinking: /home/edisonwong/robot_ws/src/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/msg/MotorCommand.msg
+[44.791s] -- Symlinking: /home/edisonwong/robot_ws/src/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/msg/MotorVels.msg
+[44.828s] -- Symlinking: /home/edisonwong/robot_ws/src/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/msg/EncoderVals.msg
+[44.865s] -- Symlinking: /home/edisonwong/robot_ws/src/install/serial_motor_demo_msgs/share/ament_index/resource_index/package_run_dependencies/serial_motor_demo_msgs
+[44.901s] -- Symlinking: /home/edisonwong/robot_ws/src/install/serial_motor_demo_msgs/share/ament_index/resource_index/parent_prefix_path/serial_motor_demo_msgs
+[44.936s] -- Symlinking: /home/edisonwong/robot_ws/src/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/environment/ament_prefix_path.sh
+[44.971s] -- Symlinking: /home/edisonwong/robot_ws/src/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/environment/ament_prefix_path.dsv
+[45.006s] -- Symlinking: /home/edisonwong/robot_ws/src/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/environment/path.sh
+[45.044s] -- Symlinking: /home/edisonwong/robot_ws/src/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/environment/path.dsv
+[45.082s] -- Symlinking: /home/edisonwong/robot_ws/src/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/local_setup.bash
+[45.122s] -- Symlinking: /home/edisonwong/robot_ws/src/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/local_setup.sh
+[45.159s] -- Symlinking: /home/edisonwong/robot_ws/src/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/local_setup.zsh
+[45.194s] -- Symlinking: /home/edisonwong/robot_ws/src/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/local_setup.dsv
+[45.228s] -- Symlinking: /home/edisonwong/robot_ws/src/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/package.dsv
+[45.262s] -- Symlinking: /home/edisonwong/robot_ws/src/install/serial_motor_demo_msgs/share/ament_index/resource_index/packages/serial_motor_demo_msgs
+[45.298s] -- Symlinking: /home/edisonwong/robot_ws/src/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/cmake/rosidl_cmake-extras.cmake
+[45.335s] -- Symlinking: /home/edisonwong/robot_ws/src/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[45.372s] -- Symlinking: /home/edisonwong/robot_ws/src/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[45.410s] -- Symlinking: /home/edisonwong/robot_ws/src/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[45.452s] -- Symlinking: /home/edisonwong/robot_ws/src/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[45.489s] -- Symlinking: /home/edisonwong/robot_ws/src/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[45.527s] -- Symlinking: /home/edisonwong/robot_ws/src/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[45.568s] -- Symlinking: /home/edisonwong/robot_ws/src/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/cmake/serial_motor_demo_msgsConfig.cmake
+[45.605s] -- Symlinking: /home/edisonwong/robot_ws/src/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/cmake/serial_motor_demo_msgsConfig-version.cmake
+[45.640s] -- Symlinking: /home/edisonwong/robot_ws/src/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/package.xml
+[45.681s] -- Installing: /home/edisonwong/robot_ws/src/install/serial_motor_demo_msgs/lib/libserial_motor_demo_msgs__rosidl_generator_c.so
+[45.686s] -- Set runtime path of "/home/edisonwong/robot_ws/src/install/serial_motor_demo_msgs/lib/libserial_motor_demo_msgs__rosidl_generator_c.so" to ""
+[45.686s] -- Installing: /home/edisonwong/robot_ws/src/install/serial_motor_demo_msgs/lib/libserial_motor_demo_msgs__rosidl_typesupport_fastrtps_c.so
+[45.690s] -- Set runtime path of "/home/edisonwong/robot_ws/src/install/serial_motor_demo_msgs/lib/libserial_motor_demo_msgs__rosidl_typesupport_fastrtps_c.so" to ""
+[45.691s] -- Installing: /home/edisonwong/robot_ws/src/install/serial_motor_demo_msgs/lib/libserial_motor_demo_msgs__rosidl_typesupport_introspection_c.so
+[45.694s] -- Set runtime path of "/home/edisonwong/robot_ws/src/install/serial_motor_demo_msgs/lib/libserial_motor_demo_msgs__rosidl_typesupport_introspection_c.so" to ""
+[45.695s] -- Installing: /home/edisonwong/robot_ws/src/install/serial_motor_demo_msgs/lib/libserial_motor_demo_msgs__rosidl_typesupport_c.so
+[45.698s] -- Set runtime path of "/home/edisonwong/robot_ws/src/install/serial_motor_demo_msgs/lib/libserial_motor_demo_msgs__rosidl_typesupport_c.so" to ""
+[45.699s] -- Installing: /home/edisonwong/robot_ws/src/install/serial_motor_demo_msgs/lib/libserial_motor_demo_msgs__rosidl_typesupport_fastrtps_cpp.so
+[45.702s] -- Set runtime path of "/home/edisonwong/robot_ws/src/install/serial_motor_demo_msgs/lib/libserial_motor_demo_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""
+[45.703s] -- Installing: /home/edisonwong/robot_ws/src/install/serial_motor_demo_msgs/lib/libserial_motor_demo_msgs__rosidl_typesupport_introspection_cpp.so
+[45.706s] -- Set runtime path of "/home/edisonwong/robot_ws/src/install/serial_motor_demo_msgs/lib/libserial_motor_demo_msgs__rosidl_typesupport_introspection_cpp.so" to ""
+[45.707s] -- Installing: /home/edisonwong/robot_ws/src/install/serial_motor_demo_msgs/lib/libserial_motor_demo_msgs__rosidl_typesupport_cpp.so
+[45.710s] -- Set runtime path of "/home/edisonwong/robot_ws/src/install/serial_motor_demo_msgs/lib/libserial_motor_demo_msgs__rosidl_typesupport_cpp.so" to ""
+[45.897s] Listing '/home/edisonwong/robot_ws/src/install/serial_motor_demo_msgs/local/lib/python3.10/dist-packages/serial_motor_demo_msgs'...
+[45.898s] Compiling '/home/edisonwong/robot_ws/src/install/serial_motor_demo_msgs/local/lib/python3.10/dist-packages/serial_motor_demo_msgs/__init__.py'...
+[45.899s] Listing '/home/edisonwong/robot_ws/src/install/serial_motor_demo_msgs/local/lib/python3.10/dist-packages/serial_motor_demo_msgs/msg'...
+[45.900s] Compiling '/home/edisonwong/robot_ws/src/install/serial_motor_demo_msgs/local/lib/python3.10/dist-packages/serial_motor_demo_msgs/msg/__init__.py'...
+[45.901s] Compiling '/home/edisonwong/robot_ws/src/install/serial_motor_demo_msgs/local/lib/python3.10/dist-packages/serial_motor_demo_msgs/msg/_encoder_vals.py'...
+[45.903s] Compiling '/home/edisonwong/robot_ws/src/install/serial_motor_demo_msgs/local/lib/python3.10/dist-packages/serial_motor_demo_msgs/msg/_motor_command.py'...
+[45.903s] Compiling '/home/edisonwong/robot_ws/src/install/serial_motor_demo_msgs/local/lib/python3.10/dist-packages/serial_motor_demo_msgs/msg/_motor_vels.py'...
+[45.933s] -- Installing: /home/edisonwong/robot_ws/src/install/serial_motor_demo_msgs/lib/libserial_motor_demo_msgs__rosidl_generator_py.so
+[45.936s] -- Set runtime path of "/home/edisonwong/robot_ws/src/install/serial_motor_demo_msgs/lib/libserial_motor_demo_msgs__rosidl_generator_py.so" to ""
+[45.937s] -- Installing: /home/edisonwong/robot_ws/src/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/cmake/export_serial_motor_demo_msgs__rosidl_generator_cExport.cmake
+[45.939s] -- Installing: /home/edisonwong/robot_ws/src/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/cmake/export_serial_motor_demo_msgs__rosidl_generator_cExport-noconfig.cmake
+[45.941s] -- Installing: /home/edisonwong/robot_ws/src/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/cmake/export_serial_motor_demo_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+[45.943s] -- Installing: /home/edisonwong/robot_ws/src/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/cmake/export_serial_motor_demo_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[45.946s] -- Installing: /home/edisonwong/robot_ws/src/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/cmake/serial_motor_demo_msgs__rosidl_typesupport_introspection_cExport.cmake
+[45.948s] -- Installing: /home/edisonwong/robot_ws/src/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/cmake/serial_motor_demo_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[45.950s] -- Installing: /home/edisonwong/robot_ws/src/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/cmake/serial_motor_demo_msgs__rosidl_typesupport_cExport.cmake
+[45.952s] -- Installing: /home/edisonwong/robot_ws/src/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/cmake/serial_motor_demo_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[45.953s] -- Installing: /home/edisonwong/robot_ws/src/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/cmake/export_serial_motor_demo_msgs__rosidl_generator_cppExport.cmake
+[45.955s] -- Installing: /home/edisonwong/robot_ws/src/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/cmake/export_serial_motor_demo_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+[45.957s] -- Installing: /home/edisonwong/robot_ws/src/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/cmake/export_serial_motor_demo_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[45.960s] -- Installing: /home/edisonwong/robot_ws/src/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/cmake/serial_motor_demo_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[45.962s] -- Installing: /home/edisonwong/robot_ws/src/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/cmake/serial_motor_demo_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[45.964s] -- Installing: /home/edisonwong/robot_ws/src/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/cmake/serial_motor_demo_msgs__rosidl_typesupport_cppExport.cmake
+[45.966s] -- Installing: /home/edisonwong/robot_ws/src/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/cmake/serial_motor_demo_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[45.968s] -- Installing: /home/edisonwong/robot_ws/src/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/cmake/export_serial_motor_demo_msgs__rosidl_generator_pyExport.cmake
+[45.970s] -- Installing: /home/edisonwong/robot_ws/src/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/cmake/export_serial_motor_demo_msgs__rosidl_generator_pyExport-noconfig.cmake
+[45.987s] Invoked command in '/home/edisonwong/robot_ws/src/build/serial_motor_demo_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/edisonwong/robot_ws/src/build/serial_motor_demo_msgs

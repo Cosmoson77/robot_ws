@@ -1,0 +1,30 @@
+[5.011s] Invoking command in '/home/edisonwong/robot_ws/build/serial_motor_demo': AMENT_PREFIX_PATH=/home/edisonwong/robot_ws/install/serial_motor_demo_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/edisonwong/robot_ws/install/serial_motor_demo_msgs LD_LIBRARY_PATH=/home/edisonwong/robot_ws/install/serial_motor_demo_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/edisonwong/robot_ws/build/serial_motor_demo/prefix_override:/home/edisonwong/robot_ws/install/serial_motor_demo/lib/python3.10/site-packages:/home/edisonwong/robot_ws/install/serial_motor_demo_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/edisonwong/robot_ws/build/serial_motor_demo/build --no-deps install_data
+[6.238s] /usr/lib/python3/dist-packages/setuptools/dist.py:723: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead
+[6.238s]   warnings.warn(
+[6.364s] running develop
+[6.371s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[6.371s]   warnings.warn(
+[6.377s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[6.378s]   warnings.warn(
+[6.730s] /usr/lib/python3/dist-packages/pkg_resources/__init__.py:116: PkgResourcesDeprecationWarning: 1.16.0-unknown is an invalid version and will not be supported in a future release
+[6.730s]   warnings.warn(
+[6.731s] /usr/lib/python3/dist-packages/pkg_resources/__init__.py:116: PkgResourcesDeprecationWarning: 1.1build1 is an invalid version and will not be supported in a future release
+[6.732s]   warnings.warn(
+[6.732s] /usr/lib/python3/dist-packages/pkg_resources/__init__.py:116: PkgResourcesDeprecationWarning: 0.1.43ubuntu1 is an invalid version and will not be supported in a future release
+[6.733s]   warnings.warn(
+[7.348s] running egg_info
+[7.348s] writing serial_motor_demo.egg-info/PKG-INFO
+[7.350s] writing dependency_links to serial_motor_demo.egg-info/dependency_links.txt
+[7.351s] writing entry points to serial_motor_demo.egg-info/entry_points.txt
+[7.352s] writing requirements to serial_motor_demo.egg-info/requires.txt
+[7.352s] writing top-level names to serial_motor_demo.egg-info/top_level.txt
+[7.361s] reading manifest file 'serial_motor_demo.egg-info/SOURCES.txt'
+[7.366s] writing manifest file 'serial_motor_demo.egg-info/SOURCES.txt'
+[7.372s] running build_ext
+[7.373s] Creating /home/edisonwong/robot_ws/install/serial_motor_demo/lib/python3.10/site-packages/serial-motor-demo.egg-link (link to .)
+[7.377s] Installing driver script to /home/edisonwong/robot_ws/install/serial_motor_demo/lib/serial_motor_demo
+[7.378s] Installing gui script to /home/edisonwong/robot_ws/install/serial_motor_demo/lib/serial_motor_demo
+[7.379s] 
+[7.380s] Installed /home/edisonwong/robot_ws/build/serial_motor_demo
+[7.381s] running install_data
+[7.524s] Invoked command in '/home/edisonwong/robot_ws/build/serial_motor_demo' returned '0': AMENT_PREFIX_PATH=/home/edisonwong/robot_ws/install/serial_motor_demo_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/edisonwong/robot_ws/install/serial_motor_demo_msgs LD_LIBRARY_PATH=/home/edisonwong/robot_ws/install/serial_motor_demo_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/edisonwong/robot_ws/build/serial_motor_demo/prefix_override:/home/edisonwong/robot_ws/install/serial_motor_demo/lib/python3.10/site-packages:/home/edisonwong/robot_ws/install/serial_motor_demo_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/edisonwong/robot_ws/build/serial_motor_demo/build --no-deps install_data

@@ -1,0 +1,278 @@
+[0.150s] Invoking command in '/home/edisonwong/robot_ws/build/hardware_interface': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/edisonwong/robot_ws/build/hardware_interface -- -j4 -l4
+[0.449s] [35m[1mConsolidate compiler generated dependencies of target hardware_interface[0m
+[0.481s] [35m[1mConsolidate compiler generated dependencies of target gmock[0m
+[0.486s] [35m[1mConsolidate compiler generated dependencies of target gmock_main[0m
+[0.671s] [  8%] Built target gmock
+[0.682s] [ 13%] Built target gmock_main
+[0.761s] [ 29%] Built target hardware_interface
+[0.782s] [35m[1mConsolidate compiler generated dependencies of target test_macros[0m
+[0.884s] [35m[1mConsolidate compiler generated dependencies of target mock_components[0m
+[0.932s] [35m[1mConsolidate compiler generated dependencies of target test_joint_handle[0m
+[0.940s] [35m[1mConsolidate compiler generated dependencies of target fake_components[0m
+[0.975s] [ 35%] Built target test_macros
+[1.106s] [ 40%] Built target mock_components
+[1.131s] [ 45%] Built target test_joint_handle
+[1.164s] [ 48%] [32mBuilding CXX object CMakeFiles/fake_components.dir/src/mock_components/fake_generic_system.cpp.o[0m
+[1.250s] [ 51%] [32mBuilding CXX object CMakeFiles/test_component_interfaces.dir/test/test_component_interfaces.cpp.o[0m
+[1.319s] [ 54%] [32mBuilding CXX object CMakeFiles/test_component_parser.dir/test/test_component_parser.cpp.o[0m
+[1.444s] [ 56%] [32mBuilding CXX object CMakeFiles/test_components.dir/test/test_components/test_actuator.cpp.o[0m
+[13.842s] [ 59%] [32mBuilding CXX object CMakeFiles/test_components.dir/test/test_components/test_sensor.cpp.o[0m
+[14.777s] In file included from [01m[K/opt/ros/humble/src/gtest_vendor/include/gtest/gtest.h:375[m[K,
+[14.778s]                  from [01m[K/opt/ros/humble/src/gmock_vendor/include/gmock/internal/gmock-internal-utils.h:47[m[K,
+[14.778s]                  from [01m[K/opt/ros/humble/src/gmock_vendor/include/gmock/gmock-actions.h:51[m[K,
+[14.779s]                  from [01m[K/opt/ros/humble/src/gmock_vendor/include/gmock/gmock.h:59[m[K,
+[14.779s]                  from [01m[K/home/edisonwong/robot_ws/src/ros2_control/hardware_interface/test/test_component_parser.cpp:15[m[K:
+[14.780s] [01m[K/home/edisonwong/robot_ws/src/ros2_control/hardware_interface/test/test_component_parser.cpp:[m[K In member function ‘[01m[Kvirtual void TestComponentParser_successfully_parse_valid_urdf_system_one_interface_Test::TestBody()[m[K’:
+[14.781s] [01m[K/home/edisonwong/robot_ws/src/ros2_control/hardware_interface/test/test_component_parser.cpp:126:19:[m[K [01;31m[Kerror: [m[K‘[01m[Kconst struct hardware_interface::HardwareInfo[m[K’ has no member named ‘[01m[Khardware_plugin_name[m[K’
+[14.781s]   126 |     hardware_info.[01;31m[Khardware_plugin_name[m[K,
+[14.782s]       |                   [01;31m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[14.782s] [01m[K/opt/ros/humble/src/gtest_vendor/include/gtest/gtest_pred_impl.h:77:52:[m[K [01;36m[Knote: [m[Kin definition of macro ‘[01m[KGTEST_ASSERT_[m[K’
+[14.783s]    77 |   if (const ::testing::AssertionResult gtest_ar = ([01;36m[Kexpression[m[K)) \
+[14.784s]       |                                                    [01;36m[K^~~~~~~~~~[m[K
+[14.784s] [01m[K/opt/ros/humble/src/gtest_vendor/include/gtest/gtest_pred_impl.h:164:3:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KGTEST_PRED_FORMAT2_[m[K’
+[14.789s]   164 |   [01;36m[KGTEST_PRED_FORMAT2_[m[K(pred_format, v1, v2, GTEST_NONFATAL_FAILURE_)
+[14.790s]       |   [01;36m[K^~~~~~~~~~~~~~~~~~~[m[K
+[14.791s] [01m[K/opt/ros/humble/src/gtest_vendor/include/gtest/gtest.h:2028:3:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KEXPECT_PRED_FORMAT2[m[K’
+[14.792s]  2028 |   [01;36m[KEXPECT_PRED_FORMAT2[m[K(::testing::internal::EqHelper::Compare, val1, val2)
+[14.792s]       |   [01;36m[K^~~~~~~~~~~~~~~~~~~[m[K
+[14.793s] [01m[K/home/edisonwong/robot_ws/src/ros2_control/hardware_interface/test/test_component_parser.cpp:125:3:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KEXPECT_EQ[m[K’
+[14.794s]   125 |   [01;36m[KEXPECT_EQ[m[K(
+[14.794s]       |   [01;36m[K^~~~~~~~~[m[K
+[14.822s] [01m[K/home/edisonwong/robot_ws/src/ros2_control/hardware_interface/test/test_component_parser.cpp:[m[K In member function ‘[01m[Kvirtual void TestComponentParser_successfully_parse_valid_urdf_system_multi_interface_Test::TestBody()[m[K’:
+[14.822s] [01m[K/home/edisonwong/robot_ws/src/ros2_control/hardware_interface/test/test_component_parser.cpp:165:19:[m[K [01;31m[Kerror: [m[K‘[01m[Kconst struct hardware_interface::HardwareInfo[m[K’ has no member named ‘[01m[Khardware_plugin_name[m[K’
+[14.823s]   165 |     hardware_info.[01;31m[Khardware_plugin_name[m[K,
+[14.824s]       |                   [01;31m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[14.824s] [01m[K/opt/ros/humble/src/gtest_vendor/include/gtest/gtest_pred_impl.h:77:52:[m[K [01;36m[Knote: [m[Kin definition of macro ‘[01m[KGTEST_ASSERT_[m[K’
+[14.825s]    77 |   if (const ::testing::AssertionResult gtest_ar = ([01;36m[Kexpression[m[K)) \
+[14.826s]       |                                                    [01;36m[K^~~~~~~~~~[m[K
+[14.826s] [01m[K/opt/ros/humble/src/gtest_vendor/include/gtest/gtest_pred_impl.h:164:3:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KGTEST_PRED_FORMAT2_[m[K’
+[14.827s]   164 |   [01;36m[KGTEST_PRED_FORMAT2_[m[K(pred_format, v1, v2, GTEST_NONFATAL_FAILURE_)
+[14.828s]       |   [01;36m[K^~~~~~~~~~~~~~~~~~~[m[K
+[14.828s] [01m[K/opt/ros/humble/src/gtest_vendor/include/gtest/gtest.h:2028:3:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KEXPECT_PRED_FORMAT2[m[K’
+[14.829s]  2028 |   [01;36m[KEXPECT_PRED_FORMAT2[m[K(::testing::internal::EqHelper::Compare, val1, val2)
+[14.830s]       |   [01;36m[K^~~~~~~~~~~~~~~~~~~[m[K
+[14.831s] [01m[K/home/edisonwong/robot_ws/src/ros2_control/hardware_interface/test/test_component_parser.cpp:164:3:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KEXPECT_EQ[m[K’
+[14.831s]   164 |   [01;36m[KEXPECT_EQ[m[K(
+[14.832s]       |   [01;36m[K^~~~~~~~~[m[K
+[14.862s] [01m[K/home/edisonwong/robot_ws/src/ros2_control/hardware_interface/test/test_component_parser.cpp:[m[K In member function ‘[01m[Kvirtual void TestComponentParser_successfully_parse_valid_urdf_system_robot_with_sensor_Test::TestBody()[m[K’:
+[14.863s] [01m[K/home/edisonwong/robot_ws/src/ros2_control/hardware_interface/test/test_component_parser.cpp:202:19:[m[K [01;31m[Kerror: [m[K‘[01m[Kconst struct hardware_interface::HardwareInfo[m[K’ has no member named ‘[01m[Khardware_plugin_name[m[K’
+[14.863s]   202 |     hardware_info.[01;31m[Khardware_plugin_name[m[K, "ros2_control_demo_hardware/RRBotSystemWithSensorHardware");
+[14.864s]       |                   [01;31m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[14.865s] [01m[K/opt/ros/humble/src/gtest_vendor/include/gtest/gtest_pred_impl.h:77:52:[m[K [01;36m[Knote: [m[Kin definition of macro ‘[01m[KGTEST_ASSERT_[m[K’
+[14.866s]    77 |   if (const ::testing::AssertionResult gtest_ar = ([01;36m[Kexpression[m[K)) \
+[14.868s]       |                                                    [01;36m[K^~~~~~~~~~[m[K
+[14.869s] [01m[K/opt/ros/humble/src/gtest_vendor/include/gtest/gtest_pred_impl.h:164:3:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KGTEST_PRED_FORMAT2_[m[K’
+[14.870s]   164 |   [01;36m[KGTEST_PRED_FORMAT2_[m[K(pred_format, v1, v2, GTEST_NONFATAL_FAILURE_)
+[14.871s]       |   [01;36m[K^~~~~~~~~~~~~~~~~~~[m[K
+[14.872s] [01m[K/opt/ros/humble/src/gtest_vendor/include/gtest/gtest.h:2028:3:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KEXPECT_PRED_FORMAT2[m[K’
+[14.872s]  2028 |   [01;36m[KEXPECT_PRED_FORMAT2[m[K(::testing::internal::EqHelper::Compare, val1, val2)
+[14.886s]       |   [01;36m[K^~~~~~~~~~~~~~~~~~~[m[K
+[14.887s] [01m[K/home/edisonwong/robot_ws/src/ros2_control/hardware_interface/test/test_component_parser.cpp:201:3:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KEXPECT_EQ[m[K’
+[14.888s]   201 |   [01;36m[KEXPECT_EQ[m[K(
+[14.889s]       |   [01;36m[K^~~~~~~~~[m[K
+[14.889s] [ 62%] [32m[1mLinking CXX shared library libfake_components.so[0m
+[14.919s] [01m[K/home/edisonwong/robot_ws/src/ros2_control/hardware_interface/test/test_component_parser.cpp:[m[K In member function ‘[01m[Kvirtual void TestComponentParser_successfully_parse_valid_urdf_system_robot_with_external_sensor_Test::TestBody()[m[K’:
+[14.920s] [01m[K/home/edisonwong/robot_ws/src/ros2_control/hardware_interface/test/test_component_parser.cpp:246:19:[m[K [01;31m[Kerror: [m[K‘[01m[Kstruct hardware_interface::HardwareInfo[m[K’ has no member named ‘[01m[Khardware_plugin_name[m[K’
+[14.921s]   246 |     hardware_info.[01;31m[Khardware_plugin_name[m[K,
+[14.922s]       |                   [01;31m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[14.923s] [01m[K/opt/ros/humble/src/gtest_vendor/include/gtest/gtest_pred_impl.h:77:52:[m[K [01;36m[Knote: [m[Kin definition of macro ‘[01m[KGTEST_ASSERT_[m[K’
+[14.924s]    77 |   if (const ::testing::AssertionResult gtest_ar = ([01;36m[Kexpression[m[K)) \
+[14.925s]       |                                                    [01;36m[K^~~~~~~~~~[m[K
+[14.926s] [01m[K/opt/ros/humble/src/gtest_vendor/include/gtest/gtest_pred_impl.h:164:3:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KGTEST_PRED_FORMAT2_[m[K’
+[14.928s]   164 |   [01;36m[KGTEST_PRED_FORMAT2_[m[K(pred_format, v1, v2, GTEST_NONFATAL_FAILURE_)
+[14.929s]       |   [01;36m[K^~~~~~~~~~~~~~~~~~~[m[K
+[14.930s] [01m[K/opt/ros/humble/src/gtest_vendor/include/gtest/gtest.h:2028:3:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KEXPECT_PRED_FORMAT2[m[K’
+[14.931s]  2028 |   [01;36m[KEXPECT_PRED_FORMAT2[m[K(::testing::internal::EqHelper::Compare, val1, val2)
+[14.932s]       |   [01;36m[K^~~~~~~~~~~~~~~~~~~[m[K
+[14.945s] [01m[K/home/edisonwong/robot_ws/src/ros2_control/hardware_interface/test/test_component_parser.cpp:245:3:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KEXPECT_EQ[m[K’
+[14.946s]   245 |   [01;36m[KEXPECT_EQ[m[K(
+[14.947s]       |   [01;36m[K^~~~~~~~~[m[K
+[14.971s] [01m[K/home/edisonwong/robot_ws/src/ros2_control/hardware_interface/test/test_component_parser.cpp:[m[K In member function ‘[01m[Kvirtual void TestComponentParser_successfully_parse_valid_urdf_actuator_modular_robot_Test::TestBody()[m[K’:
+[14.972s] [01m[K/home/edisonwong/robot_ws/src/ros2_control/hardware_interface/test/test_component_parser.cpp:287:19:[m[K [01;31m[Kerror: [m[K‘[01m[Kstruct hardware_interface::HardwareInfo[m[K’ has no member named ‘[01m[Khardware_plugin_name[m[K’
+[14.973s]   287 |     hardware_info.[01;31m[Khardware_plugin_name[m[K, "ros2_control_demo_hardware/PositionActuatorHardware");
+[14.974s]       |                   [01;31m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[14.976s] [01m[K/opt/ros/humble/src/gtest_vendor/include/gtest/gtest_pred_impl.h:77:52:[m[K [01;36m[Knote: [m[Kin definition of macro ‘[01m[KGTEST_ASSERT_[m[K’
+[14.977s]    77 |   if (const ::testing::AssertionResult gtest_ar = ([01;36m[Kexpression[m[K)) \
+[14.978s]       |                                                    [01;36m[K^~~~~~~~~~[m[K
+[14.980s] [01m[K/opt/ros/humble/src/gtest_vendor/include/gtest/gtest_pred_impl.h:164:3:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KGTEST_PRED_FORMAT2_[m[K’
+[14.981s]   164 |   [01;36m[KGTEST_PRED_FORMAT2_[m[K(pred_format, v1, v2, GTEST_NONFATAL_FAILURE_)
+[14.982s]       |   [01;36m[K^~~~~~~~~~~~~~~~~~~[m[K
+[14.983s] [01m[K/opt/ros/humble/src/gtest_vendor/include/gtest/gtest.h:2028:3:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KEXPECT_PRED_FORMAT2[m[K’
+[14.984s]  2028 |   [01;36m[KEXPECT_PRED_FORMAT2[m[K(::testing::internal::EqHelper::Compare, val1, val2)
+[14.996s]       |   [01;36m[K^~~~~~~~~~~~~~~~~~~[m[K
+[14.999s] [01m[K/home/edisonwong/robot_ws/src/ros2_control/hardware_interface/test/test_component_parser.cpp:286:3:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KEXPECT_EQ[m[K’
+[15.000s]   286 |   [01;36m[KEXPECT_EQ[m[K(
+[15.000s]       |   [01;36m[K^~~~~~~~~[m[K
+[15.001s] [01m[K/home/edisonwong/robot_ws/src/ros2_control/hardware_interface/test/test_component_parser.cpp:300:19:[m[K [01;31m[Kerror: [m[K‘[01m[Kstruct hardware_interface::HardwareInfo[m[K’ has no member named ‘[01m[Khardware_plugin_name[m[K’
+[15.003s]   300 |     hardware_info.[01;31m[Khardware_plugin_name[m[K, "ros2_control_demo_hardware/PositionActuatorHardware");
+[15.004s]       |                   [01;31m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[15.005s] [01m[K/opt/ros/humble/src/gtest_vendor/include/gtest/gtest_pred_impl.h:77:52:[m[K [01;36m[Knote: [m[Kin definition of macro ‘[01m[KGTEST_ASSERT_[m[K’
+[15.007s]    77 |   if (const ::testing::AssertionResult gtest_ar = ([01;36m[Kexpression[m[K)) \
+[15.008s]       |                                                    [01;36m[K^~~~~~~~~~[m[K
+[15.009s] [01m[K/opt/ros/humble/src/gtest_vendor/include/gtest/gtest_pred_impl.h:164:3:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KGTEST_PRED_FORMAT2_[m[K’
+[15.013s]   164 |   [01;36m[KGTEST_PRED_FORMAT2_[m[K(pred_format, v1, v2, GTEST_NONFATAL_FAILURE_)
+[15.014s]       |   [01;36m[K^~~~~~~~~~~~~~~~~~~[m[K
+[15.015s] [01m[K/opt/ros/humble/src/gtest_vendor/include/gtest/gtest.h:2028:3:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KEXPECT_PRED_FORMAT2[m[K’
+[15.016s]  2028 |   [01;36m[KEXPECT_PRED_FORMAT2[m[K(::testing::internal::EqHelper::Compare, val1, val2)
+[15.016s]       |   [01;36m[K^~~~~~~~~~~~~~~~~~~[m[K
+[15.017s] [01m[K/home/edisonwong/robot_ws/src/ros2_control/hardware_interface/test/test_component_parser.cpp:299:3:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KEXPECT_EQ[m[K’
+[15.018s]   299 |   [01;36m[KEXPECT_EQ[m[K(
+[15.019s]       |   [01;36m[K^~~~~~~~~[m[K
+[15.039s] [01m[K/home/edisonwong/robot_ws/src/ros2_control/hardware_interface/test/test_component_parser.cpp:[m[K In member function ‘[01m[Kvirtual void TestComponentParser_successfully_parse_valid_urdf_actuator_modular_robot_with_sensors_Test::TestBody()[m[K’:
+[15.041s] [01m[K/home/edisonwong/robot_ws/src/ros2_control/hardware_interface/test/test_component_parser.cpp:322:19:[m[K [01;31m[Kerror: [m[K‘[01m[Kstruct hardware_interface::HardwareInfo[m[K’ has no member named ‘[01m[Khardware_plugin_name[m[K’
+[15.042s]   322 |     hardware_info.[01;31m[Khardware_plugin_name[m[K, "ros2_control_demo_hardware/VelocityActuatorHardware");
+[15.043s]       |                   [01;31m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[15.045s] [01m[K/opt/ros/humble/src/gtest_vendor/include/gtest/gtest_pred_impl.h:77:52:[m[K [01;36m[Knote: [m[Kin definition of macro ‘[01m[KGTEST_ASSERT_[m[K’
+[15.046s]    77 |   if (const ::testing::AssertionResult gtest_ar = ([01;36m[Kexpression[m[K)) \
+[15.048s]       |                                                    [01;36m[K^~~~~~~~~~[m[K
+[15.049s] [01m[K/opt/ros/humble/src/gtest_vendor/include/gtest/gtest_pred_impl.h:164:3:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KGTEST_PRED_FORMAT2_[m[K’
+[15.051s]   164 |   [01;36m[KGTEST_PRED_FORMAT2_[m[K(pred_format, v1, v2, GTEST_NONFATAL_FAILURE_)
+[15.052s]       |   [01;36m[K^~~~~~~~~~~~~~~~~~~[m[K
+[15.065s] [01m[K/opt/ros/humble/src/gtest_vendor/include/gtest/gtest.h:2028:3:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KEXPECT_PRED_FORMAT2[m[K’
+[15.066s]  2028 |   [01;36m[KEXPECT_PRED_FORMAT2[m[K(::testing::internal::EqHelper::Compare, val1, val2)
+[15.067s]       |   [01;36m[K^~~~~~~~~~~~~~~~~~~[m[K
+[15.068s] [01m[K/home/edisonwong/robot_ws/src/ros2_control/hardware_interface/test/test_component_parser.cpp:321:3:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KEXPECT_EQ[m[K’
+[15.068s]   321 |   [01;36m[KEXPECT_EQ[m[K(
+[15.069s]       |   [01;36m[K^~~~~~~~~[m[K
+[15.094s] [01m[K/home/edisonwong/robot_ws/src/ros2_control/hardware_interface/test/test_component_parser.cpp:347:19:[m[K [01;31m[Kerror: [m[K‘[01m[Kstruct hardware_interface::HardwareInfo[m[K’ has no member named ‘[01m[Khardware_plugin_name[m[K’
+[15.095s]   347 |     hardware_info.[01;31m[Khardware_plugin_name[m[K, "ros2_control_demo_hardware/VelocityActuatorHardware");
+[15.096s]       |                   [01;31m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[15.100s] [01m[K/opt/ros/humble/src/gtest_vendor/include/gtest/gtest_pred_impl.h:77:52:[m[K [01;36m[Knote: [m[Kin definition of macro ‘[01m[KGTEST_ASSERT_[m[K’
+[15.101s]    77 |   if (const ::testing::AssertionResult gtest_ar = ([01;36m[Kexpression[m[K)) \
+[15.102s]       |                                                    [01;36m[K^~~~~~~~~~[m[K
+[15.104s] [01m[K/opt/ros/humble/src/gtest_vendor/include/gtest/gtest_pred_impl.h:164:3:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KGTEST_PRED_FORMAT2_[m[K’
+[15.105s]   164 |   [01;36m[KGTEST_PRED_FORMAT2_[m[K(pred_format, v1, v2, GTEST_NONFATAL_FAILURE_)
+[15.106s]       |   [01;36m[K^~~~~~~~~~~~~~~~~~~[m[K
+[15.108s] [01m[K/opt/ros/humble/src/gtest_vendor/include/gtest/gtest.h:2028:3:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KEXPECT_PRED_FORMAT2[m[K’
+[15.109s]  2028 |   [01;36m[KEXPECT_PRED_FORMAT2[m[K(::testing::internal::EqHelper::Compare, val1, val2)
+[15.109s]       |   [01;36m[K^~~~~~~~~~~~~~~~~~~[m[K
+[15.118s] [01m[K/home/edisonwong/robot_ws/src/ros2_control/hardware_interface/test/test_component_parser.cpp:346:3:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KEXPECT_EQ[m[K’
+[15.119s]   346 |   [01;36m[KEXPECT_EQ[m[K(
+[15.120s]       |   [01;36m[K^~~~~~~~~[m[K
+[15.144s] [01m[K/home/edisonwong/robot_ws/src/ros2_control/hardware_interface/test/test_component_parser.cpp:364:19:[m[K [01;31m[Kerror: [m[K‘[01m[Kstruct hardware_interface::HardwareInfo[m[K’ has no member named ‘[01m[Khardware_plugin_name[m[K’
+[15.145s]   364 |     hardware_info.[01;31m[Khardware_plugin_name[m[K, "ros2_control_demo_hardware/PositionSensorHardware");
+[15.147s]       |                   [01;31m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[15.149s] [01m[K/opt/ros/humble/src/gtest_vendor/include/gtest/gtest_pred_impl.h:77:52:[m[K [01;36m[Knote: [m[Kin definition of macro ‘[01m[KGTEST_ASSERT_[m[K’
+[15.150s]    77 |   if (const ::testing::AssertionResult gtest_ar = ([01;36m[Kexpression[m[K)) \
+[15.151s]       |                                                    [01;36m[K^~~~~~~~~~[m[K
+[15.153s] [01m[K/opt/ros/humble/src/gtest_vendor/include/gtest/gtest_pred_impl.h:164:3:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KGTEST_PRED_FORMAT2_[m[K’
+[15.154s]   164 |   [01;36m[KGTEST_PRED_FORMAT2_[m[K(pred_format, v1, v2, GTEST_NONFATAL_FAILURE_)
+[15.155s]       |   [01;36m[K^~~~~~~~~~~~~~~~~~~[m[K
+[15.157s] [01m[K/opt/ros/humble/src/gtest_vendor/include/gtest/gtest.h:2028:3:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KEXPECT_PRED_FORMAT2[m[K’
+[15.165s]  2028 |   [01;36m[KEXPECT_PRED_FORMAT2[m[K(::testing::internal::EqHelper::Compare, val1, val2)
+[15.166s]       |   [01;36m[K^~~~~~~~~~~~~~~~~~~[m[K
+[15.167s] [01m[K/home/edisonwong/robot_ws/src/ros2_control/hardware_interface/test/test_component_parser.cpp:363:3:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KEXPECT_EQ[m[K’
+[15.168s]   363 |   [01;36m[KEXPECT_EQ[m[K(
+[15.168s]       |   [01;36m[K^~~~~~~~~[m[K
+[15.190s] [01m[K/home/edisonwong/robot_ws/src/ros2_control/hardware_interface/test/test_component_parser.cpp:381:19:[m[K [01;31m[Kerror: [m[K‘[01m[Kstruct hardware_interface::HardwareInfo[m[K’ has no member named ‘[01m[Khardware_plugin_name[m[K’
+[15.200s]   381 |     hardware_info.[01;31m[Khardware_plugin_name[m[K, "ros2_control_demo_hardware/PositionSensorHardware");
+[15.201s]       |                   [01;31m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[15.202s] [01m[K/opt/ros/humble/src/gtest_vendor/include/gtest/gtest_pred_impl.h:77:52:[m[K [01;36m[Knote: [m[Kin definition of macro ‘[01m[KGTEST_ASSERT_[m[K’
+[15.204s]    77 |   if (const ::testing::AssertionResult gtest_ar = ([01;36m[Kexpression[m[K)) \
+[15.205s]       |                                                    [01;36m[K^~~~~~~~~~[m[K
+[15.206s] [01m[K/opt/ros/humble/src/gtest_vendor/include/gtest/gtest_pred_impl.h:164:3:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KGTEST_PRED_FORMAT2_[m[K’
+[15.208s]   164 |   [01;36m[KGTEST_PRED_FORMAT2_[m[K(pred_format, v1, v2, GTEST_NONFATAL_FAILURE_)
+[15.210s]       |   [01;36m[K^~~~~~~~~~~~~~~~~~~[m[K
+[15.211s] [01m[K/opt/ros/humble/src/gtest_vendor/include/gtest/gtest.h:2028:3:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KEXPECT_PRED_FORMAT2[m[K’
+[15.218s]  2028 |   [01;36m[KEXPECT_PRED_FORMAT2[m[K(::testing::internal::EqHelper::Compare, val1, val2)
+[15.218s]       |   [01;36m[K^~~~~~~~~~~~~~~~~~~[m[K
+[15.219s] [01m[K/home/edisonwong/robot_ws/src/ros2_control/hardware_interface/test/test_component_parser.cpp:380:3:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KEXPECT_EQ[m[K’
+[15.220s]   380 |   [01;36m[KEXPECT_EQ[m[K(
+[15.221s]       |   [01;36m[K^~~~~~~~~[m[K
+[15.280s] [01m[K/home/edisonwong/robot_ws/src/ros2_control/hardware_interface/test/test_component_parser.cpp:[m[K In member function ‘[01m[Kvirtual void TestComponentParser_successfully_parse_valid_urdf_system_multi_joints_transmission_Test::TestBody()[m[K’:
+[15.282s] [01m[K/home/edisonwong/robot_ws/src/ros2_control/hardware_interface/test/test_component_parser.cpp:407:19:[m[K [01;31m[Kerror: [m[K‘[01m[Kstruct hardware_interface::HardwareInfo[m[K’ has no member named ‘[01m[Khardware_plugin_name[m[K’
+[15.283s]   407 |     hardware_info.[01;31m[Khardware_plugin_name[m[K, "ros2_control_demo_hardware/ActuatorHardwareMultiDOF");
+[15.284s]       |                   [01;31m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[15.284s] [01m[K/opt/ros/humble/src/gtest_vendor/include/gtest/gtest_pred_impl.h:77:52:[m[K [01;36m[Knote: [m[Kin definition of macro ‘[01m[KGTEST_ASSERT_[m[K’
+[15.285s]    77 |   if (const ::testing::AssertionResult gtest_ar = ([01;36m[Kexpression[m[K)) \
+[15.286s]       |                                                    [01;36m[K^~~~~~~~~~[m[K
+[15.287s] [01m[K/opt/ros/humble/src/gtest_vendor/include/gtest/gtest_pred_impl.h:164:3:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KGTEST_PRED_FORMAT2_[m[K’
+[15.288s]   164 |   [01;36m[KGTEST_PRED_FORMAT2_[m[K(pred_format, v1, v2, GTEST_NONFATAL_FAILURE_)
+[15.289s]       |   [01;36m[K^~~~~~~~~~~~~~~~~~~[m[K
+[15.289s] [01m[K/opt/ros/humble/src/gtest_vendor/include/gtest/gtest.h:2028:3:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KEXPECT_PRED_FORMAT2[m[K’
+[15.290s]  2028 |   [01;36m[KEXPECT_PRED_FORMAT2[m[K(::testing::internal::EqHelper::Compare, val1, val2)
+[15.291s]       |   [01;36m[K^~~~~~~~~~~~~~~~~~~[m[K
+[15.292s] [01m[K/home/edisonwong/robot_ws/src/ros2_control/hardware_interface/test/test_component_parser.cpp:406:3:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KEXPECT_EQ[m[K’
+[15.302s]   406 |   [01;36m[KEXPECT_EQ[m[K(
+[15.305s]       |   [01;36m[K^~~~~~~~~[m[K
+[15.347s] [01m[K/home/edisonwong/robot_ws/src/ros2_control/hardware_interface/test/test_component_parser.cpp:[m[K In member function ‘[01m[Kvirtual void TestComponentParser_successfully_parse_valid_urdf_sensor_only_Test::TestBody()[m[K’:
+[15.348s] [01m[K/home/edisonwong/robot_ws/src/ros2_control/hardware_interface/test/test_component_parser.cpp:448:27:[m[K [01;31m[Kerror: [m[K‘[01m[Kstruct hardware_interface::HardwareInfo[m[K’ has no member named ‘[01m[Khardware_plugin_name[m[K’
+[15.349s]   448 |   EXPECT_EQ(hardware_info.[01;31m[Khardware_plugin_name[m[K, "ros2_control_demo_hardware/CameraWithIMUSensor");
+[15.350s]       |                           [01;31m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[15.351s] [01m[K/opt/ros/humble/src/gtest_vendor/include/gtest/gtest_pred_impl.h:77:52:[m[K [01;36m[Knote: [m[Kin definition of macro ‘[01m[KGTEST_ASSERT_[m[K’
+[15.352s]    77 |   if (const ::testing::AssertionResult gtest_ar = ([01;36m[Kexpression[m[K)) \
+[15.353s]       |                                                    [01;36m[K^~~~~~~~~~[m[K
+[15.354s] [01m[K/opt/ros/humble/src/gtest_vendor/include/gtest/gtest_pred_impl.h:164:3:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KGTEST_PRED_FORMAT2_[m[K’
+[15.355s]   164 |   [01;36m[KGTEST_PRED_FORMAT2_[m[K(pred_format, v1, v2, GTEST_NONFATAL_FAILURE_)
+[15.356s]       |   [01;36m[K^~~~~~~~~~~~~~~~~~~[m[K
+[15.356s] [01m[K/opt/ros/humble/src/gtest_vendor/include/gtest/gtest.h:2028:3:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KEXPECT_PRED_FORMAT2[m[K’
+[15.361s]  2028 |   [01;36m[KEXPECT_PRED_FORMAT2[m[K(::testing::internal::EqHelper::Compare, val1, val2)
+[15.363s]       |   [01;36m[K^~~~~~~~~~~~~~~~~~~[m[K
+[15.363s] [01m[K/home/edisonwong/robot_ws/src/ros2_control/hardware_interface/test/test_component_parser.cpp:448:3:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KEXPECT_EQ[m[K’
+[15.364s]   448 |   [01;36m[KEXPECT_EQ[m[K(hardware_info.hardware_plugin_name, "ros2_control_demo_hardware/CameraWithIMUSensor");
+[15.365s]       |   [01;36m[K^~~~~~~~~[m[K
+[15.400s] [01m[K/home/edisonwong/robot_ws/src/ros2_control/hardware_interface/test/test_component_parser.cpp:[m[K In member function ‘[01m[Kvirtual void TestComponentParser_successfully_parse_valid_urdf_actuator_only_Test::TestBody()[m[K’:
+[15.410s] [01m[K/home/edisonwong/robot_ws/src/ros2_control/hardware_interface/test/test_component_parser.cpp:478:19:[m[K [01;31m[Kerror: [m[K‘[01m[Kstruct hardware_interface::HardwareInfo[m[K’ has no member named ‘[01m[Khardware_plugin_name[m[K’
+[15.411s]   478 |     hardware_info.[01;31m[Khardware_plugin_name[m[K, "ros2_control_demo_hardware/VelocityActuatorHardware");
+[15.412s]       |                   [01;31m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[15.413s] [01m[K/opt/ros/humble/src/gtest_vendor/include/gtest/gtest_pred_impl.h:77:52:[m[K [01;36m[Knote: [m[Kin definition of macro ‘[01m[KGTEST_ASSERT_[m[K’
+[15.414s]    77 |   if (const ::testing::AssertionResult gtest_ar = ([01;36m[Kexpression[m[K)) \
+[15.415s]       |                                                    [01;36m[K^~~~~~~~~~[m[K
+[15.415s] [01m[K/opt/ros/humble/src/gtest_vendor/include/gtest/gtest_pred_impl.h:164:3:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KGTEST_PRED_FORMAT2_[m[K’
+[15.416s]   164 |   [01;36m[KGTEST_PRED_FORMAT2_[m[K(pred_format, v1, v2, GTEST_NONFATAL_FAILURE_)
+[15.417s]       |   [01;36m[K^~~~~~~~~~~~~~~~~~~[m[K
+[15.418s] [01m[K/opt/ros/humble/src/gtest_vendor/include/gtest/gtest.h:2028:3:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KEXPECT_PRED_FORMAT2[m[K’
+[15.418s]  2028 |   [01;36m[KEXPECT_PRED_FORMAT2[m[K(::testing::internal::EqHelper::Compare, val1, val2)
+[15.419s]       |   [01;36m[K^~~~~~~~~~~~~~~~~~~[m[K
+[15.420s] [01m[K/home/edisonwong/robot_ws/src/ros2_control/hardware_interface/test/test_component_parser.cpp:477:3:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KEXPECT_EQ[m[K’
+[15.420s]   477 |   [01;36m[KEXPECT_EQ[m[K(
+[15.433s]       |   [01;36m[K^~~~~~~~~[m[K
+[15.587s] [01m[K/home/edisonwong/robot_ws/src/ros2_control/hardware_interface/test/test_component_parser.cpp:[m[K In member function ‘[01m[Kvirtual void TestComponentParser_successfully_parse_valid_urdf_system_robot_with_gpio_Test::TestBody()[m[K’:
+[15.590s] [01m[K/home/edisonwong/robot_ws/src/ros2_control/hardware_interface/test/test_component_parser.cpp:550:19:[m[K [01;31m[Kerror: [m[K‘[01m[Kstruct hardware_interface::HardwareInfo[m[K’ has no member named ‘[01m[Khardware_plugin_name[m[K’
+[15.592s]   550 |     hardware_info.[01;31m[Khardware_plugin_name[m[K, "ros2_control_demo_hardware/RRBotSystemWithGPIOHardware");
+[15.594s]       |                   [01;31m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[15.596s] [01m[K/opt/ros/humble/src/gtest_vendor/include/gtest/gtest_pred_impl.h:77:52:[m[K [01;36m[Knote: [m[Kin definition of macro ‘[01m[KGTEST_ASSERT_[m[K’
+[15.598s]    77 |   if (const ::testing::AssertionResult gtest_ar = ([01;36m[Kexpression[m[K)) \
+[15.600s]       |                                                    [01;36m[K^~~~~~~~~~[m[K
+[15.601s] [01m[K/opt/ros/humble/src/gtest_vendor/include/gtest/gtest_pred_impl.h:164:3:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KGTEST_PRED_FORMAT2_[m[K’
+[15.602s]   164 |   [01;36m[KGTEST_PRED_FORMAT2_[m[K(pred_format, v1, v2, GTEST_NONFATAL_FAILURE_)
+[15.618s]       |   [01;36m[K^~~~~~~~~~~~~~~~~~~[m[K
+[15.621s] [01m[K/opt/ros/humble/src/gtest_vendor/include/gtest/gtest.h:2028:3:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KEXPECT_PRED_FORMAT2[m[K’
+[15.622s]  2028 |   [01;36m[KEXPECT_PRED_FORMAT2[m[K(::testing::internal::EqHelper::Compare, val1, val2)
+[15.623s]       |   [01;36m[K^~~~~~~~~~~~~~~~~~~[m[K
+[15.624s] [01m[K/home/edisonwong/robot_ws/src/ros2_control/hardware_interface/test/test_component_parser.cpp:549:3:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KEXPECT_EQ[m[K’
+[15.625s]   549 |   [01;36m[KEXPECT_EQ[m[K(
+[15.626s]       |   [01;36m[K^~~~~~~~~[m[K
+[15.672s] [01m[K/home/edisonwong/robot_ws/src/ros2_control/hardware_interface/test/test_component_parser.cpp:[m[K In member function ‘[01m[Kvirtual void TestComponentParser_successfully_parse_valid_urdf_system_with_size_and_data_type_Test::TestBody()[m[K’:
+[15.674s] [01m[K/home/edisonwong/robot_ws/src/ros2_control/hardware_interface/test/test_component_parser.cpp:593:19:[m[K [01;31m[Kerror: [m[K‘[01m[Kstruct hardware_interface::HardwareInfo[m[K’ has no member named ‘[01m[Khardware_plugin_name[m[K’
+[15.677s]   593 |     hardware_info.[01;31m[Khardware_plugin_name[m[K,
+[15.679s]       |                   [01;31m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[15.681s] [01m[K/opt/ros/humble/src/gtest_vendor/include/gtest/gtest_pred_impl.h:77:52:[m[K [01;36m[Knote: [m[Kin definition of macro ‘[01m[KGTEST_ASSERT_[m[K’
+[15.683s]    77 |   if (const ::testing::AssertionResult gtest_ar = ([01;36m[Kexpression[m[K)) \
+[15.684s]       |                                                    [01;36m[K^~~~~~~~~~[m[K
+[15.694s] [01m[K/opt/ros/humble/src/gtest_vendor/include/gtest/gtest_pred_impl.h:164:3:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KGTEST_PRED_FORMAT2_[m[K’
+[15.695s]   164 |   [01;36m[KGTEST_PRED_FORMAT2_[m[K(pred_format, v1, v2, GTEST_NONFATAL_FAILURE_)
+[15.696s]       |   [01;36m[K^~~~~~~~~~~~~~~~~~~[m[K
+[15.698s] [01m[K/opt/ros/humble/src/gtest_vendor/include/gtest/gtest.h:2028:3:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KEXPECT_PRED_FORMAT2[m[K’
+[15.699s]  2028 |   [01;36m[KEXPECT_PRED_FORMAT2[m[K(::testing::internal::EqHelper::Compare, val1, val2)
+[15.700s]       |   [01;36m[K^~~~~~~~~~~~~~~~~~~[m[K
+[15.702s] [01m[K/home/edisonwong/robot_ws/src/ros2_control/hardware_interface/test/test_component_parser.cpp:592:3:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KEXPECT_EQ[m[K’
+[15.703s]   592 |   [01;36m[KEXPECT_EQ[m[K(
+[15.704s]       |   [01;36m[K^~~~~~~~~[m[K
+[16.552s] [ 64%] Built target fake_components
+[16.856s] [ 67%] [32mBuilding CXX object CMakeFiles/test_hardware_components.dir/test/test_hardware_components/test_single_joint_actuator.cpp.o[0m
+[19.786s] gmake[2]: *** [CMakeFiles/test_component_parser.dir/build.make:76: CMakeFiles/test_component_parser.dir/test/test_component_parser.cpp.o] Error 1
+[19.790s] gmake[1]: *** [CMakeFiles/Makefile2:357: CMakeFiles/test_component_parser.dir/all] Error 2
+[19.791s] gmake[1]: *** Waiting for unfinished jobs....
+[19.895s] [ 70%] [32mBuilding CXX object CMakeFiles/test_hardware_components.dir/test/test_hardware_components/test_force_torque_sensor.cpp.o[0m
+[25.511s] [ 72%] [32mBuilding CXX object CMakeFiles/test_components.dir/test/test_components/test_system.cpp.o[0m
+[28.753s] [ 75%] [32m[1mLinking CXX executable test_component_interfaces[0m
+[31.277s] [ 75%] Built target test_component_interfaces
+[31.658s] [ 78%] [32mBuilding CXX object CMakeFiles/test_hardware_components.dir/test/test_hardware_components/test_system_with_command_modes.cpp.o[0m
+[34.249s] [ 81%] [32m[1mLinking CXX shared library libtest_components.so[0m
+[35.092s] [ 81%] Built target test_components
+[38.821s] [ 83%] [32mBuilding CXX object CMakeFiles/test_hardware_components.dir/test/test_hardware_components/test_two_joint_system.cpp.o[0m
+[45.035s] [ 86%] [32m[1mLinking CXX shared library libtest_hardware_components.so[0m
+[45.916s] [ 86%] Built target test_hardware_components
+[45.920s] gmake: *** [Makefile:146: all] Error 2
+[45.927s] Invoked command in '/home/edisonwong/robot_ws/build/hardware_interface' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/edisonwong/robot_ws/build/hardware_interface -- -j4 -l4

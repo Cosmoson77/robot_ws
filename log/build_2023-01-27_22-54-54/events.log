@@ -1,0 +1,323 @@
+[0.000000] (-) TimerEvent: {}
+[0.002021] (controller_manager_msgs) JobQueued: {'identifier': 'controller_manager_msgs', 'dependencies': OrderedDict()}
+[0.002765] (joint_limits) JobQueued: {'identifier': 'joint_limits', 'dependencies': OrderedDict()}
+[0.005649] (my_bot) JobQueued: {'identifier': 'my_bot', 'dependencies': OrderedDict()}
+[0.006010] (ros2_control_test_assets) JobQueued: {'identifier': 'ros2_control_test_assets', 'dependencies': OrderedDict()}
+[0.006205] (serial) JobQueued: {'identifier': 'serial', 'dependencies': OrderedDict()}
+[0.006312] (serial_motor_demo_msgs) JobQueued: {'identifier': 'serial_motor_demo_msgs', 'dependencies': OrderedDict()}
+[0.006411] (hardware_interface) JobQueued: {'identifier': 'hardware_interface', 'dependencies': OrderedDict([('ros2_control_test_assets', '/home/edisonwong/robot_ws/install/ros2_control_test_assets')])}
+[0.006522] (rqt_controller_manager) JobQueued: {'identifier': 'rqt_controller_manager', 'dependencies': OrderedDict([('controller_manager_msgs', '/home/edisonwong/robot_ws/install/controller_manager_msgs')])}
+[0.006660] (serial_motor_demo) JobQueued: {'identifier': 'serial_motor_demo', 'dependencies': OrderedDict([('serial_motor_demo_msgs', '/home/edisonwong/robot_ws/install/serial_motor_demo_msgs')])}
+[0.006775] (controller_interface) JobQueued: {'identifier': 'controller_interface', 'dependencies': OrderedDict([('hardware_interface', '/home/edisonwong/robot_ws/install/hardware_interface')])}
+[0.006878] (transmission_interface) JobQueued: {'identifier': 'transmission_interface', 'dependencies': OrderedDict([('hardware_interface', '/home/edisonwong/robot_ws/install/hardware_interface')])}
+[0.006979] (controller_manager) JobQueued: {'identifier': 'controller_manager', 'dependencies': OrderedDict([('controller_manager_msgs', '/home/edisonwong/robot_ws/install/controller_manager_msgs'), ('ros2_control_test_assets', '/home/edisonwong/robot_ws/install/ros2_control_test_assets'), ('hardware_interface', '/home/edisonwong/robot_ws/install/hardware_interface'), ('controller_interface', '/home/edisonwong/robot_ws/install/controller_interface')])}
+[0.007150] (diffdrive_arduino) JobQueued: {'identifier': 'diffdrive_arduino', 'dependencies': OrderedDict([('controller_manager_msgs', '/home/edisonwong/robot_ws/install/controller_manager_msgs'), ('ros2_control_test_assets', '/home/edisonwong/robot_ws/install/ros2_control_test_assets'), ('serial', '/home/edisonwong/robot_ws/install/serial'), ('hardware_interface', '/home/edisonwong/robot_ws/install/hardware_interface'), ('controller_interface', '/home/edisonwong/robot_ws/install/controller_interface'), ('controller_manager', '/home/edisonwong/robot_ws/install/controller_manager')])}
+[0.007273] (ros2controlcli) JobQueued: {'identifier': 'ros2controlcli', 'dependencies': OrderedDict([('controller_manager_msgs', '/home/edisonwong/robot_ws/install/controller_manager_msgs'), ('ros2_control_test_assets', '/home/edisonwong/robot_ws/install/ros2_control_test_assets'), ('hardware_interface', '/home/edisonwong/robot_ws/install/hardware_interface'), ('controller_interface', '/home/edisonwong/robot_ws/install/controller_interface'), ('controller_manager', '/home/edisonwong/robot_ws/install/controller_manager')])}
+[0.007402] (ros2_control) JobQueued: {'identifier': 'ros2_control', 'dependencies': OrderedDict([('controller_manager_msgs', '/home/edisonwong/robot_ws/install/controller_manager_msgs'), ('joint_limits', '/home/edisonwong/robot_ws/install/joint_limits'), ('ros2_control_test_assets', '/home/edisonwong/robot_ws/install/ros2_control_test_assets'), ('hardware_interface', '/home/edisonwong/robot_ws/install/hardware_interface'), ('controller_interface', '/home/edisonwong/robot_ws/install/controller_interface'), ('transmission_interface', '/home/edisonwong/robot_ws/install/transmission_interface'), ('controller_manager', '/home/edisonwong/robot_ws/install/controller_manager'), ('ros2controlcli', '/home/edisonwong/robot_ws/install/ros2controlcli')])}
+[0.007539] (controller_manager_msgs) JobStarted: {'identifier': 'controller_manager_msgs'}
+[0.076161] (ros2_control_test_assets) JobStarted: {'identifier': 'ros2_control_test_assets'}
+[0.098741] (-) TimerEvent: {}
+[0.108647] (joint_limits) JobStarted: {'identifier': 'joint_limits'}
+[0.139394] (serial) JobStarted: {'identifier': 'serial'}
+[0.181307] (controller_manager_msgs) JobProgress: {'identifier': 'controller_manager_msgs', 'progress': 'cmake'}
+[0.182425] (controller_manager_msgs) Command: {'cmd': ['/usr/bin/cmake', '/home/edisonwong/robot_ws/ros2_control/controller_manager_msgs', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/edisonwong/robot_ws/install/controller_manager_msgs'], 'cwd': '/home/edisonwong/robot_ws/build/controller_manager_msgs', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'edisonwong'), ('SSH_CLIENT', '172.20.10.3 36356 22'), ('LC_TIME', 'ms_MY.UTF-8'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/edisonwong'), ('OLDPWD', '/home/edisonwong'), ('SSH_TTY', '/dev/pts/0'), ('ROS_PYTHON_VERSION', '3'), ('LC_MONETARY', 'ms_MY.UTF-8'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'edisonwong'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '4'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('LC_ADDRESS', 'ms_MY.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('LC_TELEPHONE', 'ms_MY.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ms_MY.UTF-8'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ms_MY.UTF-8'), ('LC_IDENTIFICATION', 'ms_MY.UTF-8'), ('PWD', '/home/edisonwong/robot_ws/build/controller_manager_msgs'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '172.20.10.3 36356 172.20.10.4 22'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ms_MY.UTF-8'), ('LC_PAPER', 'ms_MY.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.200494] (-) TimerEvent: {}
+[0.210799] (ros2_control_test_assets) JobProgress: {'identifier': 'ros2_control_test_assets', 'progress': 'cmake'}
+[0.212094] (ros2_control_test_assets) Command: {'cmd': ['/usr/bin/cmake', '/home/edisonwong/robot_ws/ros2_control/ros2_control_test_assets', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/edisonwong/robot_ws/install/ros2_control_test_assets'], 'cwd': '/home/edisonwong/robot_ws/build/ros2_control_test_assets', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'edisonwong'), ('SSH_CLIENT', '172.20.10.3 36356 22'), ('LC_TIME', 'ms_MY.UTF-8'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/edisonwong'), ('OLDPWD', '/home/edisonwong'), ('SSH_TTY', '/dev/pts/0'), ('ROS_PYTHON_VERSION', '3'), ('LC_MONETARY', 'ms_MY.UTF-8'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'edisonwong'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '4'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('LC_ADDRESS', 'ms_MY.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('LC_TELEPHONE', 'ms_MY.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ms_MY.UTF-8'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ms_MY.UTF-8'), ('LC_IDENTIFICATION', 'ms_MY.UTF-8'), ('PWD', '/home/edisonwong/robot_ws/build/ros2_control_test_assets'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '172.20.10.3 36356 172.20.10.4 22'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ms_MY.UTF-8'), ('LC_PAPER', 'ms_MY.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.232678] (joint_limits) JobProgress: {'identifier': 'joint_limits', 'progress': 'cmake'}
+[0.232882] (joint_limits) Command: {'cmd': ['/usr/bin/cmake', '/home/edisonwong/robot_ws/ros2_control/joint_limits', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/edisonwong/robot_ws/install/joint_limits'], 'cwd': '/home/edisonwong/robot_ws/build/joint_limits', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'edisonwong'), ('SSH_CLIENT', '172.20.10.3 36356 22'), ('LC_TIME', 'ms_MY.UTF-8'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/edisonwong'), ('OLDPWD', '/home/edisonwong'), ('SSH_TTY', '/dev/pts/0'), ('ROS_PYTHON_VERSION', '3'), ('LC_MONETARY', 'ms_MY.UTF-8'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'edisonwong'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '4'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('LC_ADDRESS', 'ms_MY.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('LC_TELEPHONE', 'ms_MY.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ms_MY.UTF-8'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ms_MY.UTF-8'), ('LC_IDENTIFICATION', 'ms_MY.UTF-8'), ('PWD', '/home/edisonwong/robot_ws/build/joint_limits'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '172.20.10.3 36356 172.20.10.4 22'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ms_MY.UTF-8'), ('LC_PAPER', 'ms_MY.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.260953] (serial) JobProgress: {'identifier': 'serial', 'progress': 'cmake'}
+[0.271752] (serial) JobProgress: {'identifier': 'serial', 'progress': 'build'}
+[0.276205] (serial) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/edisonwong/robot_ws/build/serial', '--', '-j4', '-l4'], 'cwd': '/home/edisonwong/robot_ws/build/serial', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'edisonwong'), ('SSH_CLIENT', '172.20.10.3 36356 22'), ('LC_TIME', 'ms_MY.UTF-8'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/edisonwong'), ('OLDPWD', '/home/edisonwong'), ('SSH_TTY', '/dev/pts/0'), ('ROS_PYTHON_VERSION', '3'), ('LC_MONETARY', 'ms_MY.UTF-8'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'edisonwong'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '4'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('LC_ADDRESS', 'ms_MY.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('LC_TELEPHONE', 'ms_MY.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ms_MY.UTF-8'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ms_MY.UTF-8'), ('LC_IDENTIFICATION', 'ms_MY.UTF-8'), ('PWD', '/home/edisonwong/robot_ws/build/serial'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '172.20.10.3 36356 172.20.10.4 22'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ms_MY.UTF-8'), ('LC_PAPER', 'ms_MY.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.300751] (-) TimerEvent: {}
+[0.401710] (-) TimerEvent: {}
+[0.502879] (-) TimerEvent: {}
+[0.603861] (-) TimerEvent: {}
+[0.704883] (-) TimerEvent: {}
+[0.806205] (-) TimerEvent: {}
+[0.907723] (-) TimerEvent: {}
+[0.976328] (serial) StdoutLine: {'line': b'[ 14%] Built target gtest_main\n'}
+[0.985040] (serial) StdoutLine: {'line': b'[ 28%] Built target gtest\n'}
+[0.988314] (serial) StdoutLine: {'line': b'[ 57%] Built target serial\n'}
+[1.007915] (-) TimerEvent: {}
+[1.108759] (-) TimerEvent: {}
+[1.148305] (serial) StdoutLine: {'line': b'[ 71%] Built target serial_example\n'}
+[1.169914] (serial) StdoutLine: {'line': b'[ 85%] Built target serial-test-timer\n'}
+[1.209050] (-) TimerEvent: {}
+[1.253797] (serial) StdoutLine: {'line': b'[100%] Built target serial-test\n'}
+[1.302061] (serial) CommandEnded: {'returncode': 0}
+[1.309554] (-) TimerEvent: {}
+[1.412613] (-) TimerEvent: {}
+[1.507660] (ros2_control_test_assets) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.3.0\n'}
+[1.508611] (controller_manager_msgs) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.3.0\n'}
+[1.510175] (joint_limits) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.3.0\n'}
+[1.512821] (-) TimerEvent: {}
+[1.558863] (serial) JobProgress: {'identifier': 'serial', 'progress': 'install'}
+[1.603746] (serial) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/edisonwong/robot_ws/build/serial'], 'cwd': '/home/edisonwong/robot_ws/build/serial', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'edisonwong'), ('SSH_CLIENT', '172.20.10.3 36356 22'), ('LC_TIME', 'ms_MY.UTF-8'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/edisonwong'), ('OLDPWD', '/home/edisonwong'), ('SSH_TTY', '/dev/pts/0'), ('ROS_PYTHON_VERSION', '3'), ('LC_MONETARY', 'ms_MY.UTF-8'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'edisonwong'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '4'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('LC_ADDRESS', 'ms_MY.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('LC_TELEPHONE', 'ms_MY.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ms_MY.UTF-8'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ms_MY.UTF-8'), ('LC_IDENTIFICATION', 'ms_MY.UTF-8'), ('PWD', '/home/edisonwong/robot_ws/build/serial'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '172.20.10.3 36356 172.20.10.4 22'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ms_MY.UTF-8'), ('LC_PAPER', 'ms_MY.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[1.613608] (-) TimerEvent: {}
+[1.635974] (serial) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[1.644711] (serial) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[1.658298] (serial) StdoutLine: {'line': b'-- Up-to-date symlink: /home/edisonwong/robot_ws/install/serial/lib/libserial.a\n'}
+[1.667187] (serial) StdoutLine: {'line': b'-- Up-to-date symlink: /home/edisonwong/robot_ws/install/serial/include/serial/serial.h\n'}
+[1.670086] (serial) StdoutLine: {'line': b'-- Up-to-date symlink: /home/edisonwong/robot_ws/install/serial/include/serial/v8stdint.h\n'}
+[1.681525] (serial) StdoutLine: {'line': b'-- Up-to-date symlink: /home/edisonwong/robot_ws/install/serial/share/serial/environment/library_path.sh\n'}
+[1.684157] (serial) StdoutLine: {'line': b'-- Up-to-date symlink: /home/edisonwong/robot_ws/install/serial/share/serial/environment/library_path.dsv\n'}
+[1.696493] (serial) StdoutLine: {'line': b'-- Up-to-date symlink: /home/edisonwong/robot_ws/install/serial/share/ament_index/resource_index/package_run_dependencies/serial\n'}
+[1.702346] (serial) StdoutLine: {'line': b'-- Up-to-date symlink: /home/edisonwong/robot_ws/install/serial/share/ament_index/resource_index/parent_prefix_path/serial\n'}
+[1.705906] (serial) StdoutLine: {'line': b'-- Up-to-date symlink: /home/edisonwong/robot_ws/install/serial/share/serial/environment/ament_prefix_path.sh\n'}
+[1.708757] (serial) StdoutLine: {'line': b'-- Up-to-date symlink: /home/edisonwong/robot_ws/install/serial/share/serial/environment/ament_prefix_path.dsv\n'}
+[1.713775] (-) TimerEvent: {}
+[1.714690] (serial) StdoutLine: {'line': b'-- Up-to-date symlink: /home/edisonwong/robot_ws/install/serial/share/serial/environment/path.sh\n'}
+[1.717638] (serial) StdoutLine: {'line': b'-- Up-to-date symlink: /home/edisonwong/robot_ws/install/serial/share/serial/environment/path.dsv\n'}
+[1.722013] (serial) StdoutLine: {'line': b'-- Up-to-date symlink: /home/edisonwong/robot_ws/install/serial/share/serial/local_setup.bash\n'}
+[1.725803] (serial) StdoutLine: {'line': b'-- Up-to-date symlink: /home/edisonwong/robot_ws/install/serial/share/serial/local_setup.sh\n'}
+[1.730066] (serial) StdoutLine: {'line': b'-- Up-to-date symlink: /home/edisonwong/robot_ws/install/serial/share/serial/local_setup.zsh\n'}
+[1.733661] (serial) StdoutLine: {'line': b'-- Up-to-date symlink: /home/edisonwong/robot_ws/install/serial/share/serial/local_setup.dsv\n'}
+[1.734847] (serial) StdoutLine: {'line': b'-- Symlinking: /home/edisonwong/robot_ws/install/serial/share/serial/package.dsv\n'}
+[1.780066] (serial) StdoutLine: {'line': b'-- Up-to-date symlink: /home/edisonwong/robot_ws/install/serial/share/ament_index/resource_index/packages/serial\n'}
+[1.787568] (serial) StdoutLine: {'line': b'-- Up-to-date symlink: /home/edisonwong/robot_ws/install/serial/share/serial/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[1.793648] (serial) StdoutLine: {'line': b'-- Up-to-date symlink: /home/edisonwong/robot_ws/install/serial/share/serial/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[1.796895] (serial) StdoutLine: {'line': b'-- Up-to-date symlink: /home/edisonwong/robot_ws/install/serial/share/serial/cmake/serialConfig.cmake\n'}
+[1.804237] (serial) StdoutLine: {'line': b'-- Up-to-date symlink: /home/edisonwong/robot_ws/install/serial/share/serial/cmake/serialConfig-version.cmake\n'}
+[1.805565] (serial) StdoutLine: {'line': b'-- Up-to-date symlink: /home/edisonwong/robot_ws/install/serial/share/serial/package.xml\n'}
+[1.813973] (-) TimerEvent: {}
+[1.824665] (serial) CommandEnded: {'returncode': 0}
+[1.914168] (-) TimerEvent: {}
+[2.018250] (-) TimerEvent: {}
+[2.120795] (-) TimerEvent: {}
+[2.221726] (-) TimerEvent: {}
+[2.323684] (-) TimerEvent: {}
+[2.360284] (controller_manager_msgs) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.3.0\n'}
+[2.361427] (ros2_control_test_assets) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.3.0\n'}
+[2.362360] (joint_limits) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.3.0\n'}
+[2.367079] (serial) JobEnded: {'identifier': 'serial', 'rc': 0}
+[2.370824] (serial_motor_demo_msgs) JobStarted: {'identifier': 'serial_motor_demo_msgs'}
+[2.411056] (ros2_control_test_assets) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[2.412216] (controller_manager_msgs) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[2.412908] (joint_limits) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[2.419574] (serial_motor_demo_msgs) JobProgress: {'identifier': 'serial_motor_demo_msgs', 'progress': 'cmake'}
+[2.423876] (-) TimerEvent: {}
+[2.427314] (serial_motor_demo_msgs) JobProgress: {'identifier': 'serial_motor_demo_msgs', 'progress': 'build'}
+[2.428998] (serial_motor_demo_msgs) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/edisonwong/robot_ws/build/serial_motor_demo_msgs', '--', '-j4', '-l4'], 'cwd': '/home/edisonwong/robot_ws/build/serial_motor_demo_msgs', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'edisonwong'), ('SSH_CLIENT', '172.20.10.3 36356 22'), ('LC_TIME', 'ms_MY.UTF-8'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/edisonwong'), ('OLDPWD', '/home/edisonwong'), ('SSH_TTY', '/dev/pts/0'), ('ROS_PYTHON_VERSION', '3'), ('LC_MONETARY', 'ms_MY.UTF-8'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'edisonwong'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '4'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('LC_ADDRESS', 'ms_MY.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('LC_TELEPHONE', 'ms_MY.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ms_MY.UTF-8'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ms_MY.UTF-8'), ('LC_IDENTIFICATION', 'ms_MY.UTF-8'), ('PWD', '/home/edisonwong/robot_ws/build/serial_motor_demo_msgs'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '172.20.10.3 36356 172.20.10.4 22'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ms_MY.UTF-8'), ('LC_PAPER', 'ms_MY.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[2.524135] (-) TimerEvent: {}
+[2.573104] (serial_motor_demo_msgs) StderrLine: {'line': b'\x1b[0mCMake Error: The source directory "/home/edisonwong/robot_ws/serial_motor_demo/serial_motor_demo_msgs" does not exist.\n'}
+[2.574085] (serial_motor_demo_msgs) StderrLine: {'line': b'Specify --help for usage, or press the help button on the CMake GUI.\x1b[0m\n'}
+[2.578049] (serial_motor_demo_msgs) StderrLine: {'line': b'gmake: *** [Makefile:1179: cmake_check_build_system] Error 1\n'}
+[2.594014] (serial_motor_demo_msgs) CommandEnded: {'returncode': 2}
+[2.624415] (-) TimerEvent: {}
+[2.726983] (-) TimerEvent: {}
+[2.828815] (-) TimerEvent: {}
+[2.856309] (joint_limits) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[2.861863] (controller_manager_msgs) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[2.867441] (ros2_control_test_assets) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[2.887782] (joint_limits) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[2.892511] (controller_manager_msgs) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[2.893716] (joint_limits) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[2.894566] (controller_manager_msgs) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[2.897272] (controller_manager_msgs) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[2.898146] (joint_limits) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[2.903249] (ros2_control_test_assets) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[2.904607] (ros2_control_test_assets) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[2.906399] (ros2_control_test_assets) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[2.917955] (joint_limits) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[2.918821] (controller_manager_msgs) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[2.921898] (ros2_control_test_assets) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[2.929016] (-) TimerEvent: {}
+[3.029876] (-) TimerEvent: {}
+[3.131023] (-) TimerEvent: {}
+[3.232712] (-) TimerEvent: {}
+[3.339416] (-) TimerEvent: {}
+[3.400564] (controller_manager_msgs) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[3.402216] (ros2_control_test_assets) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[3.404144] (joint_limits) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[3.435038] (ros2_control_test_assets) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[3.436106] (controller_manager_msgs) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[3.437106] (controller_manager_msgs) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[3.437993] (controller_manager_msgs) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[3.439339] (-) TimerEvent: {}
+[3.440108] (ros2_control_test_assets) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[3.440657] (joint_limits) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[3.441572] (joint_limits) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[3.442038] (ros2_control_test_assets) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[3.442599] (joint_limits) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[3.476588] (serial_motor_demo_msgs) JobEnded: {'identifier': 'serial_motor_demo_msgs', 'rc': 2}
+[3.479226] (ros2_control_test_assets) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.3 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[3.479765] (joint_limits) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.3 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[3.480165] (controller_manager_msgs) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.3 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[3.539582] (-) TimerEvent: {}
+[3.640550] (-) TimerEvent: {}
+[3.742927] (-) TimerEvent: {}
+[3.847432] (-) TimerEvent: {}
+[3.972270] (-) TimerEvent: {}
+[4.074389] (-) TimerEvent: {}
+[4.176806] (-) TimerEvent: {}
+[4.280223] (-) TimerEvent: {}
+[4.381942] (-) TimerEvent: {}
+[4.483785] (-) TimerEvent: {}
+[4.587719] (-) TimerEvent: {}
+[4.688869] (-) TimerEvent: {}
+[4.699039] (controller_manager_msgs) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3.10 (found version "3.10.6") found components: Interpreter \n'}
+[4.700034] (joint_limits) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3.10 (found version "3.10.6") found components: Interpreter \n'}
+[4.712675] (ros2_control_test_assets) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3.10 (found version "3.10.6") found components: Interpreter \n'}
+[4.789017] (-) TimerEvent: {}
+[4.889911] (-) TimerEvent: {}
+[4.991674] (-) TimerEvent: {}
+[5.094279] (-) TimerEvent: {}
+[5.179355] (joint_limits) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[5.180093] (ros2_control_test_assets) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[5.180653] (controller_manager_msgs) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[5.194424] (-) TimerEvent: {}
+[5.296189] (-) TimerEvent: {}
+[5.397692] (-) TimerEvent: {}
+[5.499373] (-) TimerEvent: {}
+[5.601017] (-) TimerEvent: {}
+[5.610877] (controller_manager_msgs) StdoutLine: {'line': b'-- Found builtin_interfaces: 1.2.1 (/opt/ros/humble/share/builtin_interfaces/cmake)\n'}
+[5.613800] (joint_limits) StdoutLine: {'line': b'-- Found rclcpp: 16.0.2 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[5.701172] (-) TimerEvent: {}
+[5.803152] (-) TimerEvent: {}
+[5.904828] (-) TimerEvent: {}
+[5.962761] (ros2_control_test_assets) StdoutLine: {'line': b'-- Configuring done\n'}
+[5.985266] (ros2_control_test_assets) StdoutLine: {'line': b'-- Generating done\n'}
+[5.990731] (ros2_control_test_assets) StdoutLine: {'line': b'-- Build files have been written to: /home/edisonwong/robot_ws/build/ros2_control_test_assets\n'}
+[6.005029] (-) TimerEvent: {}
+[6.007622] (ros2_control_test_assets) JobEnded: {'identifier': 'ros2_control_test_assets', 'rc': 'SIGINT'}
+[6.043978] (controller_manager_msgs) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.4 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[6.105202] (-) TimerEvent: {}
+[6.107477] (controller_manager_msgs) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.4 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[6.151102] (joint_limits) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.4 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[6.193758] (controller_manager_msgs) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.4 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[6.202328] (joint_limits) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.4 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[6.205363] (-) TimerEvent: {}
+[6.270810] (joint_limits) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.4 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[6.305553] (-) TimerEvent: {}
+[6.316229] (controller_manager_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[6.364483] (joint_limits) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[6.405726] (-) TimerEvent: {}
+[6.484551] (controller_manager_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[6.500005] (joint_limits) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[6.505867] (-) TimerEvent: {}
+[6.606660] (-) TimerEvent: {}
+[6.648360] (controller_manager_msgs) StdoutLine: {'line': b'-- Found lifecycle_msgs: 1.2.1 (/opt/ros/humble/share/lifecycle_msgs/cmake)\n'}
+[6.706806] (-) TimerEvent: {}
+[6.768400] (controller_manager_msgs) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[6.806976] (-) TimerEvent: {}
+[6.907740] (-) TimerEvent: {}
+[6.989947] (joint_limits) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[7.007901] (-) TimerEvent: {}
+[7.026590] (joint_limits) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.2 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[7.108300] (-) TimerEvent: {}
+[7.210532] (-) TimerEvent: {}
+[7.311572] (-) TimerEvent: {}
+[7.412780] (-) TimerEvent: {}
+[7.513814] (-) TimerEvent: {}
+[7.615119] (-) TimerEvent: {}
+[7.716173] (-) TimerEvent: {}
+[7.808232] (joint_limits) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[7.816354] (-) TimerEvent: {}
+[7.917218] (-) TimerEvent: {}
+[8.018064] (-) TimerEvent: {}
+[8.116258] (joint_limits) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[8.118208] (-) TimerEvent: {}
+[8.218981] (-) TimerEvent: {}
+[8.319822] (-) TimerEvent: {}
+[8.420596] (-) TimerEvent: {}
+[8.521513] (-) TimerEvent: {}
+[8.622661] (-) TimerEvent: {}
+[8.644137] (joint_limits) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[8.690344] (controller_manager_msgs) StdoutLine: {'line': b'-- Found ament_cmake_cppcheck: 0.12.4 (/opt/ros/humble/share/ament_cmake_cppcheck/cmake)\n'}
+[8.720917] (controller_manager_msgs) StdoutLine: {'line': b'-- Found ament_cmake_cpplint: 0.12.4 (/opt/ros/humble/share/ament_cmake_cpplint/cmake)\n'}
+[8.722762] (-) TimerEvent: {}
+[8.757295] (controller_manager_msgs) StdoutLine: {'line': b'-- Found ament_cmake_uncrustify: 0.12.4 (/opt/ros/humble/share/ament_cmake_uncrustify/cmake)\n'}
+[8.772768] (joint_limits) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[8.797332] (controller_manager_msgs) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)\n'}
+[8.822964] (-) TimerEvent: {}
+[8.923721] (-) TimerEvent: {}
+[9.024647] (-) TimerEvent: {}
+[9.125901] (-) TimerEvent: {}
+[9.227180] (-) TimerEvent: {}
+[9.328245] (-) TimerEvent: {}
+[9.429352] (-) TimerEvent: {}
+[9.530462] (-) TimerEvent: {}
+[9.631799] (-) TimerEvent: {}
+[9.732794] (-) TimerEvent: {}
+[9.833570] (-) TimerEvent: {}
+[9.934525] (-) TimerEvent: {}
+[9.973734] (joint_limits) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[9.976120] (joint_limits) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[10.034755] (-) TimerEvent: {}
+[10.135578] (-) TimerEvent: {}
+[10.236375] (-) TimerEvent: {}
+[10.337292] (-) TimerEvent: {}
+[10.363189] (joint_limits) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[10.367774] (joint_limits) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[10.437586] (-) TimerEvent: {}
+[10.538501] (-) TimerEvent: {}
+[10.639343] (-) TimerEvent: {}
+[10.740103] (-) TimerEvent: {}
+[10.840861] (-) TimerEvent: {}
+[10.941637] (-) TimerEvent: {}
+[11.042409] (-) TimerEvent: {}
+[11.143272] (-) TimerEvent: {}
+[11.244369] (-) TimerEvent: {}
+[11.313935] (joint_limits) StdoutLine: {'line': b'-- Found rclcpp_lifecycle: 16.0.2 (/opt/ros/humble/share/rclcpp_lifecycle/cmake)\n'}
+[11.344563] (-) TimerEvent: {}
+[11.445328] (-) TimerEvent: {}
+[11.497099] (controller_manager_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[11.545517] (-) TimerEvent: {}
+[11.583933] (joint_limits) StdoutLine: {'line': b'-- Found ament_cmake_gtest: 1.3.3 (/opt/ros/humble/share/ament_cmake_gtest/cmake)\n'}
+[11.612694] (joint_limits) StdoutLine: {'line': b'-- Found launch_testing_ament_cmake: 1.0.3 (/opt/ros/humble/share/launch_testing_ament_cmake/cmake)\n'}
+[11.641378] (joint_limits) StdoutLine: {'line': b'-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)\n'}
+[11.645660] (-) TimerEvent: {}
+[11.746587] (-) TimerEvent: {}
+[11.770092] (joint_limits) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.6", minimum required is "3.6") \n'}
+[11.808186] (joint_limits) StdoutLine: {'line': b'-- Found PythonLibs: /usr/lib/aarch64-linux-gnu/libpython3.10.so (found suitable version "3.10.6", minimum required is "3.5") \n'}
+[11.809118] (joint_limits) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[11.809676] (joint_limits) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10\n'}
+[11.810179] (joint_limits) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/aarch64-linux-gnu/libpython3.10.so\n'}
+[11.846764] (-) TimerEvent: {}
+[11.931684] (joint_limits) StdoutLine: {'line': b'-- Found PythonExtra: .so  \n'}
+[11.946901] (-) TimerEvent: {}
+[11.964520] (joint_limits) StdoutLine: {'line': b"-- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built\n"}
+[12.047093] (-) TimerEvent: {}
+[12.147898] (-) TimerEvent: {}
+[12.212170] (controller_manager_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[12.248066] (-) TimerEvent: {}
+[12.349049] (-) TimerEvent: {}
+[12.363127] (controller_manager_msgs) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.6", minimum required is "3.6") \n'}
+[12.372743] (joint_limits) StdoutLine: {'line': b'-- Configuring done\n'}
+[12.384295] (controller_manager_msgs) StdoutLine: {'line': b'-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)\n'}
+[12.449175] (-) TimerEvent: {}
+[12.470794] (joint_limits) StdoutLine: {'line': b'-- Generating done\n'}
+[12.482892] (joint_limits) StdoutLine: {'line': b'-- Build files have been written to: /home/edisonwong/robot_ws/build/joint_limits\n'}
+[12.527703] (controller_manager_msgs) StdoutLine: {'line': b'-- Found PythonLibs: /usr/lib/aarch64-linux-gnu/libpython3.10.so (found suitable version "3.10.6", minimum required is "3.5") \n'}
+[12.528820] (controller_manager_msgs) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[12.529858] (controller_manager_msgs) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10\n'}
+[12.530607] (controller_manager_msgs) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/aarch64-linux-gnu/libpython3.10.so\n'}
+[12.533170] (joint_limits) JobEnded: {'identifier': 'joint_limits', 'rc': 'SIGINT'}
+[12.549345] (-) TimerEvent: {}
+[12.636708] (controller_manager_msgs) StdoutLine: {'line': b'-- Found PythonExtra: .so  \n'}
+[12.649548] (-) TimerEvent: {}
+[12.750190] (-) TimerEvent: {}
+[12.850961] (-) TimerEvent: {}
+[12.894696] (controller_manager_msgs) StdoutLine: {'line': b'-- Found ament_cmake_flake8: 0.12.4 (/opt/ros/humble/share/ament_cmake_flake8/cmake)\n'}
+[12.925902] (controller_manager_msgs) StdoutLine: {'line': b'-- Found ament_cmake_pep257: 0.12.4 (/opt/ros/humble/share/ament_cmake_pep257/cmake)\n'}
+[12.951119] (-) TimerEvent: {}
+[13.036430] (controller_manager_msgs) StdoutLine: {'line': b'-- Configuring done\n'}
+[13.051277] (-) TimerEvent: {}
+[13.151970] (-) TimerEvent: {}
+[13.252666] (-) TimerEvent: {}
+[13.353371] (-) TimerEvent: {}
+[13.371204] (controller_manager_msgs) StdoutLine: {'line': b'-- Generating done\n'}
+[13.387536] (controller_manager_msgs) StdoutLine: {'line': b'-- Build files have been written to: /home/edisonwong/robot_ws/build/controller_manager_msgs\n'}
+[13.416207] (controller_manager_msgs) JobEnded: {'identifier': 'controller_manager_msgs', 'rc': 'SIGINT'}
+[13.420015] (my_bot) JobSkipped: {'identifier': 'my_bot'}
+[13.420161] (hardware_interface) JobSkipped: {'identifier': 'hardware_interface'}
+[13.420254] (rqt_controller_manager) JobSkipped: {'identifier': 'rqt_controller_manager'}
+[13.420342] (serial_motor_demo) JobSkipped: {'identifier': 'serial_motor_demo'}
+[13.420427] (controller_interface) JobSkipped: {'identifier': 'controller_interface'}
+[13.420513] (transmission_interface) JobSkipped: {'identifier': 'transmission_interface'}
+[13.420597] (controller_manager) JobSkipped: {'identifier': 'controller_manager'}
+[13.420681] (diffdrive_arduino) JobSkipped: {'identifier': 'diffdrive_arduino'}
+[13.420764] (ros2controlcli) JobSkipped: {'identifier': 'ros2controlcli'}
+[13.420848] (ros2_control) JobSkipped: {'identifier': 'ros2_control'}
+[13.420932] (-) EventReactorShutdown: {}

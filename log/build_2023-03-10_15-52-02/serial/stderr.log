@@ -1,0 +1,24 @@
+In file included from [01m[K/usr/include/boost/bind.hpp:30[m[K,
+                 from [01m[K/home/edisonwong/robot_ws/src/serial/tests/unix_serial_tests.cc:23[m[K:
+[01m[K/usr/include/boost/bind.hpp:36:1:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: The practice of declaring the Bind placeholders (_1, _2, ...) in the global namespace is deprecated. Please use <boost/bind/bind.hpp> + using namespace boost::placeholders, or define BOOST_BIND_GLOBAL_PLACEHOLDERS to retain the current behavior.[m[K’
+   36 | [01;36m[KBOOST_PRAGMA_MESSAGE[m[K(
+      | [01;36m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/edisonwong/robot_ws/src/serial/tests/unix_serial_tests.cc:[m[K In member function ‘[01m[Kvirtual void {anonymous}::SerialTests_readWorks_Test::TestBody()[m[K’:
+[01m[K/home/edisonwong/robot_ws/src/serial/tests/unix_serial_tests.cc:71:8:[m[K [01;35m[Kwarning: [m[Kignoring return value of ‘[01m[Kssize_t write(int, const void*, size_t)[m[K’ declared with attribute ‘[01m[Kwarn_unused_result[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-result-Wunused-result]8;;[m[K]
+   71 |   [01;35m[Kwrite(master_fd, "abc\n", 4)[m[K;
+      |   [01;35m[K~~~~~^~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/edisonwong/robot_ws/src/serial/tests/unix_serial_tests.cc:[m[K In member function ‘[01m[Kvirtual void {anonymous}::SerialTests_writeWorks_Test::TestBody()[m[K’:
+[01m[K/home/edisonwong/robot_ws/src/serial/tests/unix_serial_tests.cc:79:7:[m[K [01;35m[Kwarning: [m[Kignoring return value of ‘[01m[Kssize_t read(int, void*, size_t)[m[K’ declared with attribute ‘[01m[Kwarn_unused_result[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-result-Wunused-result]8;;[m[K]
+   79 |   [01;35m[Kread(master_fd, buf, 4)[m[K;
+      |   [01;35m[K~~~~^~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/edisonwong/robot_ws/src/serial/tests/unix_serial_tests.cc:[m[K In member function ‘[01m[Kvirtual void {anonymous}::SerialTests_timeoutWorks_Test::TestBody()[m[K’:
+[01m[K/home/edisonwong/robot_ws/src/serial/tests/unix_serial_tests.cc:89:8:[m[K [01;35m[Kwarning: [m[Kignoring return value of ‘[01m[Kssize_t write(int, const void*, size_t)[m[K’ declared with attribute ‘[01m[Kwarn_unused_result[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-result-Wunused-result]8;;[m[K]
+   89 |   [01;35m[Kwrite(master_fd, "abc\n", 4)[m[K;
+      |   [01;35m[K~~~~~^~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/edisonwong/robot_ws/src/serial/tests/unix_serial_tests.cc:[m[K In member function ‘[01m[Kvirtual void {anonymous}::SerialTests_partialRead_Test::TestBody()[m[K’:
+[01m[K/home/edisonwong/robot_ws/src/serial/tests/unix_serial_tests.cc:96:8:[m[K [01;35m[Kwarning: [m[Kignoring return value of ‘[01m[Kssize_t write(int, const void*, size_t)[m[K’ declared with attribute ‘[01m[Kwarn_unused_result[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-result-Wunused-result]8;;[m[K]
+   96 |   [01;35m[Kwrite(master_fd, "abc\n", 4)[m[K;
+      |   [01;35m[K~~~~~^~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/edisonwong/robot_ws/src/serial/tests/unix_serial_tests.cc:103:8:[m[K [01;35m[Kwarning: [m[Kignoring return value of ‘[01m[Kssize_t write(int, const void*, size_t)[m[K’ declared with attribute ‘[01m[Kwarn_unused_result[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-result-Wunused-result]8;;[m[K]
+  103 |   [01;35m[Kwrite(master_fd, "abc\n", 4)[m[K;
+      |   [01;35m[K~~~~~^~~~~~~~~~~~~~~~~~~~~~~[m[K

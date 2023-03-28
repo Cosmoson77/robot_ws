@@ -1,0 +1,34 @@
+[0.216s] Invoking command in '/home/edisonwong/robot_ws/build/serial': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/edisonwong/robot_ws/install/serial_motor_demo:/opt/ros/humble /usr/bin/cmake --build /home/edisonwong/robot_ws/build/serial -- -j4 -l4
+[1.061s] [ 14%] Built target gtest
+[1.065s] [ 28%] Built target gtest_main
+[1.133s] [ 57%] Built target serial
+[1.434s] [ 71%] Built target serial_example
+[1.550s] [ 85%] Built target serial-test
+[1.556s] [100%] Built target serial-test-timer
+[1.811s] Invoked command in '/home/edisonwong/robot_ws/build/serial' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/edisonwong/robot_ws/install/serial_motor_demo:/opt/ros/humble /usr/bin/cmake --build /home/edisonwong/robot_ws/build/serial -- -j4 -l4
+[2.248s] Invoking command in '/home/edisonwong/robot_ws/build/serial': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/edisonwong/robot_ws/install/serial_motor_demo:/opt/ros/humble /usr/bin/cmake --install /home/edisonwong/robot_ws/build/serial
+[2.309s] -- Install configuration: ""
+[2.318s] -- Execute custom install script
+[2.324s] -- Up-to-date symlink: /home/edisonwong/robot_ws/install/serial/lib/libserial.a
+[2.330s] -- Up-to-date symlink: /home/edisonwong/robot_ws/install/serial/include/serial/serial.h
+[2.334s] -- Up-to-date symlink: /home/edisonwong/robot_ws/install/serial/include/serial/v8stdint.h
+[2.337s] -- Up-to-date symlink: /home/edisonwong/robot_ws/install/serial/share/serial/environment/library_path.sh
+[2.340s] -- Up-to-date symlink: /home/edisonwong/robot_ws/install/serial/share/serial/environment/library_path.dsv
+[2.343s] -- Up-to-date symlink: /home/edisonwong/robot_ws/install/serial/share/ament_index/resource_index/package_run_dependencies/serial
+[2.348s] -- Up-to-date symlink: /home/edisonwong/robot_ws/install/serial/share/ament_index/resource_index/parent_prefix_path/serial
+[2.354s] -- Up-to-date symlink: /home/edisonwong/robot_ws/install/serial/share/serial/environment/ament_prefix_path.sh
+[2.355s] -- Up-to-date symlink: /home/edisonwong/robot_ws/install/serial/share/serial/environment/ament_prefix_path.dsv
+[2.359s] -- Up-to-date symlink: /home/edisonwong/robot_ws/install/serial/share/serial/environment/path.sh
+[2.362s] -- Up-to-date symlink: /home/edisonwong/robot_ws/install/serial/share/serial/environment/path.dsv
+[2.365s] -- Up-to-date symlink: /home/edisonwong/robot_ws/install/serial/share/serial/local_setup.bash
+[2.369s] -- Up-to-date symlink: /home/edisonwong/robot_ws/install/serial/share/serial/local_setup.sh
+[2.375s] -- Up-to-date symlink: /home/edisonwong/robot_ws/install/serial/share/serial/local_setup.zsh
+[2.386s] -- Up-to-date symlink: /home/edisonwong/robot_ws/install/serial/share/serial/local_setup.dsv
+[2.387s] -- Symlinking: /home/edisonwong/robot_ws/install/serial/share/serial/package.dsv
+[2.433s] -- Up-to-date symlink: /home/edisonwong/robot_ws/install/serial/share/ament_index/resource_index/packages/serial
+[2.438s] -- Up-to-date symlink: /home/edisonwong/robot_ws/install/serial/share/serial/cmake/ament_cmake_export_include_directories-extras.cmake
+[2.444s] -- Up-to-date symlink: /home/edisonwong/robot_ws/install/serial/share/serial/cmake/ament_cmake_export_libraries-extras.cmake
+[2.447s] -- Up-to-date symlink: /home/edisonwong/robot_ws/install/serial/share/serial/cmake/serialConfig.cmake
+[2.454s] -- Up-to-date symlink: /home/edisonwong/robot_ws/install/serial/share/serial/cmake/serialConfig-version.cmake
+[2.458s] -- Up-to-date symlink: /home/edisonwong/robot_ws/install/serial/share/serial/package.xml
+[2.485s] Invoked command in '/home/edisonwong/robot_ws/build/serial' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/edisonwong/robot_ws/install/serial_motor_demo:/opt/ros/humble /usr/bin/cmake --install /home/edisonwong/robot_ws/build/serial

@@ -1,0 +1,1 @@
+Invoking command in '/home/edisonwong/robot_ws/build/ros2_control_test_assets': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/edisonwong/robot_ws/ros2_control/ros2_control_test_assets -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/edisonwong/robot_ws/install/ros2_control_test_assets

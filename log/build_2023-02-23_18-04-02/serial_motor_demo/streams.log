@@ -1,0 +1,30 @@
+[3.931s] Invoking command in '/home/edisonwong/robot_ws/build/serial_motor_demo': PYTHONPATH=/home/edisonwong/robot_ws/build/serial_motor_demo/prefix_override:/home/edisonwong/robot_ws/install/serial_motor_demo/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/edisonwong/robot_ws/build/serial_motor_demo/build --no-deps install_data
+[5.272s] /usr/lib/python3/dist-packages/setuptools/dist.py:723: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead
+[5.272s]   warnings.warn(
+[5.397s] running develop
+[5.398s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[5.399s]   warnings.warn(
+[5.405s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[5.405s]   warnings.warn(
+[5.741s] /usr/lib/python3/dist-packages/pkg_resources/__init__.py:116: PkgResourcesDeprecationWarning: 1.16.0-unknown is an invalid version and will not be supported in a future release
+[5.741s]   warnings.warn(
+[5.742s] /usr/lib/python3/dist-packages/pkg_resources/__init__.py:116: PkgResourcesDeprecationWarning: 1.1build1 is an invalid version and will not be supported in a future release
+[5.742s]   warnings.warn(
+[5.743s] /usr/lib/python3/dist-packages/pkg_resources/__init__.py:116: PkgResourcesDeprecationWarning: 0.1.43ubuntu1 is an invalid version and will not be supported in a future release
+[5.744s]   warnings.warn(
+[6.359s] running egg_info
+[6.360s] writing serial_motor_demo.egg-info/PKG-INFO
+[6.361s] writing dependency_links to serial_motor_demo.egg-info/dependency_links.txt
+[6.362s] writing entry points to serial_motor_demo.egg-info/entry_points.txt
+[6.363s] writing requirements to serial_motor_demo.egg-info/requires.txt
+[6.363s] writing top-level names to serial_motor_demo.egg-info/top_level.txt
+[6.372s] reading manifest file 'serial_motor_demo.egg-info/SOURCES.txt'
+[6.376s] writing manifest file 'serial_motor_demo.egg-info/SOURCES.txt'
+[6.382s] running build_ext
+[6.383s] Creating /home/edisonwong/robot_ws/install/serial_motor_demo/lib/python3.10/site-packages/serial-motor-demo.egg-link (link to .)
+[6.387s] Installing driver script to /home/edisonwong/robot_ws/install/serial_motor_demo/lib/serial_motor_demo
+[6.388s] Installing gui script to /home/edisonwong/robot_ws/install/serial_motor_demo/lib/serial_motor_demo
+[6.390s] 
+[6.390s] Installed /home/edisonwong/robot_ws/build/serial_motor_demo
+[6.391s] running install_data
+[6.539s] Invoked command in '/home/edisonwong/robot_ws/build/serial_motor_demo' returned '0': PYTHONPATH=/home/edisonwong/robot_ws/build/serial_motor_demo/prefix_override:/home/edisonwong/robot_ws/install/serial_motor_demo/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/edisonwong/robot_ws/build/serial_motor_demo/build --no-deps install_data

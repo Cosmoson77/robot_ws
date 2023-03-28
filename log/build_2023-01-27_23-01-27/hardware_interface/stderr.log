@@ -1,0 +1,9 @@
+gmake[2]: *** [CMakeFiles/test_component_interfaces.dir/build.make:76: CMakeFiles/test_component_interfaces.dir/test/test_component_interfaces.cpp.o] Interrupt
+gmake[2]: *** [CMakeFiles/test_component_parser.dir/build.make:76: CMakeFiles/test_component_parser.dir/test/test_component_parser.cpp.o] Interrupt
+gmake[2]: *** [CMakeFiles/test_components.dir/build.make:76: CMakeFiles/test_components.dir/test/test_components/test_actuator.cpp.o] Interrupt
+gmake[1]: *** [CMakeFiles/Makefile2:329: CMakeFiles/test_component_interfaces.dir/all] Interrupt
+gmake[1]: *** [CMakeFiles/Makefile2:357: CMakeFiles/test_component_parser.dir/all] Interrupt
+gmake[2]: *** [CMakeFiles/fake_components.dir/build.make:90: CMakeFiles/fake_components.dir/src/mock_components/fake_generic_system.cpp.o] Interrupt
+gmake[1]: *** [CMakeFiles/Makefile2:383: CMakeFiles/test_components.dir/all] Interrupt
+gmake[1]: *** [CMakeFiles/Makefile2:246: CMakeFiles/fake_components.dir/all] Interrupt
+gmake: *** [Makefile:146: all] Interrupt

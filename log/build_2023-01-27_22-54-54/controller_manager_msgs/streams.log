@@ -1,0 +1,42 @@
+[0.178s] Invoking command in '/home/edisonwong/robot_ws/build/controller_manager_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/edisonwong/robot_ws/ros2_control/controller_manager_msgs -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/edisonwong/robot_ws/install/controller_manager_msgs
+[1.502s] -- The C compiler identification is GNU 11.3.0
+[2.354s] -- The CXX compiler identification is GNU 11.3.0
+[2.405s] -- Detecting C compiler ABI info
+[2.855s] -- Detecting C compiler ABI info - done
+[2.885s] -- Check for working C compiler: /usr/bin/cc - skipped
+[2.887s] -- Detecting C compile features
+[2.890s] -- Detecting C compile features - done
+[2.912s] -- Detecting CXX compiler ABI info
+[3.393s] -- Detecting CXX compiler ABI info - done
+[3.429s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[3.430s] -- Detecting CXX compile features
+[3.432s] -- Detecting CXX compile features - done
+[3.473s] -- Found ament_cmake: 1.3.3 (/opt/ros/humble/share/ament_cmake/cmake)
+[4.692s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.6") found components: Interpreter 
+[5.173s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[5.604s] -- Found builtin_interfaces: 1.2.1 (/opt/ros/humble/share/builtin_interfaces/cmake)
+[6.037s] -- Found rosidl_generator_c: 3.1.4 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[6.100s] -- Found rosidl_adapter: 3.1.4 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[6.187s] -- Found rosidl_generator_cpp: 3.1.4 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[6.309s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[6.477s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[6.641s] -- Found lifecycle_msgs: 1.2.1 (/opt/ros/humble/share/lifecycle_msgs/cmake)
+[6.761s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[8.683s] -- Found ament_cmake_cppcheck: 0.12.4 (/opt/ros/humble/share/ament_cmake_cppcheck/cmake)
+[8.714s] -- Found ament_cmake_cpplint: 0.12.4 (/opt/ros/humble/share/ament_cmake_cpplint/cmake)
+[8.750s] -- Found ament_cmake_uncrustify: 0.12.4 (/opt/ros/humble/share/ament_cmake_uncrustify/cmake)
+[8.790s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[11.490s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[12.205s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[12.356s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.6", minimum required is "3.6") 
+[12.377s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[12.521s] -- Found PythonLibs: /usr/lib/aarch64-linux-gnu/libpython3.10.so (found suitable version "3.10.6", minimum required is "3.5") 
+[12.522s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[12.523s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[12.524s] -- Using PYTHON_LIBRARIES: /usr/lib/aarch64-linux-gnu/libpython3.10.so
+[12.630s] -- Found PythonExtra: .so  
+[12.888s] -- Found ament_cmake_flake8: 0.12.4 (/opt/ros/humble/share/ament_cmake_flake8/cmake)
+[12.919s] -- Found ament_cmake_pep257: 0.12.4 (/opt/ros/humble/share/ament_cmake_pep257/cmake)
+[13.029s] -- Configuring done
+[13.364s] -- Generating done
+[13.380s] -- Build files have been written to: /home/edisonwong/robot_ws/build/controller_manager_msgs

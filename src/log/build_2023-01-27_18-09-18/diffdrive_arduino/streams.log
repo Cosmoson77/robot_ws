@@ -1,0 +1,62 @@
+[0.051s] Invoking command in '/home/edisonwong/robot_ws/src/build/diffdrive_arduino': AMENT_PREFIX_PATH=/home/edisonwong/robot_ws/src/install/serial:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/edisonwong/robot_ws/src/install/serial:/opt/ros/humble LD_LIBRARY_PATH=/home/edisonwong/robot_ws/src/install/serial/lib:${LD_LIBRARY_PATH} /usr/bin/cmake /home/edisonwong/robot_ws/src/diffdrive_arduino -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/edisonwong/robot_ws/src/install/diffdrive_arduino
+[0.336s] -- The C compiler identification is GNU 11.3.0
+[0.625s] -- The CXX compiler identification is GNU 11.3.0
+[0.660s] -- Detecting C compiler ABI info
+[1.016s] -- Detecting C compiler ABI info - done
+[1.046s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.047s] -- Detecting C compile features
+[1.050s] -- Detecting C compile features - done
+[1.064s] -- Detecting CXX compiler ABI info
+[1.459s] -- Detecting CXX compiler ABI info - done
+[1.491s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.492s] -- Detecting CXX compile features
+[1.494s] -- Detecting CXX compile features - done
+[1.524s] -- Found ament_cmake: 1.3.3 (/opt/ros/humble/share/ament_cmake/cmake)
+[2.519s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.6") found components: Interpreter 
+[2.845s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[3.185s] -- Found serial: 1.2.1 (/home/edisonwong/robot_ws/src/install/serial/share/serial/cmake)
+[3.214s] -- Found hardware_interface: 2.18.0 (/opt/ros/humble/share/hardware_interface/cmake)
+[3.653s] -- Found rosidl_generator_c: 3.1.4 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[3.710s] -- Found rosidl_adapter: 3.1.4 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[3.786s] -- Found rosidl_generator_cpp: 3.1.4 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[3.887s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[4.036s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[7.775s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[7.805s] -- Found rmw_fastrtps_cpp: 6.2.2 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[8.529s] -- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[8.834s] -- Found FastRTPS: /opt/ros/humble/include  
+[9.366s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[9.459s] -- Looking for pthread.h
+[9.826s] -- Looking for pthread.h - found
+[9.827s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[10.194s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[10.200s] -- Found Threads: TRUE  
+[10.977s] -- Found controller_manager: 2.18.0 (/opt/ros/humble/share/controller_manager/cmake)
+[16.322s] -- Configuring done
+[16.679s] -- Generating done
+[16.689s] -- Build files have been written to: /home/edisonwong/robot_ws/src/build/diffdrive_arduino
+[16.734s] Invoked command in '/home/edisonwong/robot_ws/src/build/diffdrive_arduino' returned '0': AMENT_PREFIX_PATH=/home/edisonwong/robot_ws/src/install/serial:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/edisonwong/robot_ws/src/install/serial:/opt/ros/humble LD_LIBRARY_PATH=/home/edisonwong/robot_ws/src/install/serial/lib:${LD_LIBRARY_PATH} /usr/bin/cmake /home/edisonwong/robot_ws/src/diffdrive_arduino -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/edisonwong/robot_ws/src/install/diffdrive_arduino
+[16.744s] Invoking command in '/home/edisonwong/robot_ws/src/build/diffdrive_arduino': AMENT_PREFIX_PATH=/home/edisonwong/robot_ws/src/install/serial:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/edisonwong/robot_ws/src/install/serial:/opt/ros/humble LD_LIBRARY_PATH=/home/edisonwong/robot_ws/src/install/serial/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --build /home/edisonwong/robot_ws/src/build/diffdrive_arduino -- -j4 -l4
+[16.993s] [ 42%] [32mBuilding CXX object CMakeFiles/diffdrive_arduino.dir/src/diffdrive_arduino.cpp.o[0m
+[16.995s] [ 42%] [32mBuilding CXX object CMakeFiles/fake_robot.dir/src/fake_robot.cpp.o[0m
+[16.997s] [ 42%] [32mBuilding CXX object CMakeFiles/diffdrive_arduino.dir/src/wheel.cpp.o[0m
+[17.003s] [ 57%] [32mBuilding CXX object CMakeFiles/fake_robot.dir/src/wheel.cpp.o[0m
+[19.066s] [ 71%] [32mBuilding CXX object CMakeFiles/diffdrive_arduino.dir/src/arduino_comms.cpp.o[0m
+[19.251s] In file included from [01m[K/home/edisonwong/robot_ws/src/diffdrive_arduino/src/fake_robot.cpp:1[m[K:
+[19.252s] [01m[K/home/edisonwong/robot_ws/src/diffdrive_arduino/include/diffdrive_arduino/fake_robot.h:7:10:[m[K [01;31m[Kfatal error: [m[Khardware_interface/base_interface.hpp: No such file or directory
+[19.252s]     7 | #include [01;31m[K"hardware_interface/base_interface.hpp"[m[K
+[19.253s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[19.253s] compilation terminated.
+[19.265s] gmake[2]: *** [CMakeFiles/fake_robot.dir/build.make:76: CMakeFiles/fake_robot.dir/src/fake_robot.cpp.o] Error 1
+[19.266s] gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/fake_robot.dir/all] Error 2
+[19.266s] gmake[1]: *** Waiting for unfinished jobs....
+[19.302s] In file included from [01m[K/home/edisonwong/robot_ws/src/diffdrive_arduino/src/diffdrive_arduino.cpp:1[m[K:
+[19.303s] [01m[K/home/edisonwong/robot_ws/src/diffdrive_arduino/include/diffdrive_arduino/diffdrive_arduino.h:7:10:[m[K [01;31m[Kfatal error: [m[Khardware_interface/base_interface.hpp: No such file or directory
+[19.303s]     7 | #include [01;31m[K"hardware_interface/base_interface.hpp"[m[K
+[19.304s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[19.304s] compilation terminated.
+[19.316s] gmake[2]: *** [CMakeFiles/diffdrive_arduino.dir/build.make:76: CMakeFiles/diffdrive_arduino.dir/src/diffdrive_arduino.cpp.o] Error 1
+[19.316s] gmake[2]: *** Waiting for unfinished jobs....
+[31.726s] gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/diffdrive_arduino.dir/all] Error 2
+[31.727s] gmake: *** [Makefile:146: all] Error 2
+[31.734s] Invoked command in '/home/edisonwong/robot_ws/src/build/diffdrive_arduino' returned '2': AMENT_PREFIX_PATH=/home/edisonwong/robot_ws/src/install/serial:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/edisonwong/robot_ws/src/install/serial:/opt/ros/humble LD_LIBRARY_PATH=/home/edisonwong/robot_ws/src/install/serial/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --build /home/edisonwong/robot_ws/src/build/diffdrive_arduino -- -j4 -l4

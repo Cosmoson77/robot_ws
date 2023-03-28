@@ -1,0 +1,60 @@
+[0.352s] Invoking command in '/home/edisonwong/robot_ws/build/serial': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/edisonwong/robot_ws/src/serial -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/edisonwong/robot_ws/install/serial
+[0.374s] -- Found ament_cmake: 1.3.3 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.623s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.647s] -- Found ament_cmake_gtest: 1.3.3 (/opt/ros/humble/share/ament_cmake_gtest/cmake)
+[0.666s] -- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[0.803s] -- Configuring done
+[0.833s] -- Generating done
+[0.836s] -- Build files have been written to: /home/edisonwong/robot_ws/build/serial
+[0.841s] Invoked command in '/home/edisonwong/robot_ws/build/serial' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/edisonwong/robot_ws/src/serial -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/edisonwong/robot_ws/install/serial
+[0.844s] Invoking command in '/home/edisonwong/robot_ws/build/serial': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/edisonwong/robot_ws/build/serial
+[0.899s] [35m[1mConsolidate compiler generated dependencies of target gtest_main[0m
+[0.900s] [35m[1mConsolidate compiler generated dependencies of target serial[0m
+[0.901s] [35m[1mConsolidate compiler generated dependencies of target gtest[0m
+[0.932s] [  7%] [32mBuilding CXX object CMakeFiles/serial.dir/src/serial.cc.o[0m
+[0.934s] [ 14%] [32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o[0m
+[0.936s] [ 21%] [32mBuilding CXX object CMakeFiles/serial.dir/src/impl/unix.cc.o[0m
+[0.943s] [ 28%] [32mBuilding CXX object CMakeFiles/serial.dir/src/impl/list_ports/list_ports_linux.cc.o[0m
+[0.947s] [ 35%] [32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[2.901s] [ 42%] [32m[1mLinking CXX static library libserial.a[0m
+[2.922s] [ 50%] [32m[1mLinking CXX static library libgtest_main.a[0m
+[3.060s] [ 50%] Built target gtest_main
+[3.071s] [ 50%] Built target serial
+[3.082s] [35m[1mConsolidate compiler generated dependencies of target serial_example[0m
+[3.095s] [ 57%] [32mBuilding CXX object CMakeFiles/serial_example.dir/examples/serial_example.cc.o[0m
+[3.676s] [ 64%] [32m[1mLinking CXX executable serial_example[0m
+[3.776s] [ 64%] Built target serial_example
+[9.964s] [ 71%] [32m[1mLinking CXX static library libgtest.a[0m
+[10.034s] [ 71%] Built target gtest
+[10.046s] [35m[1mConsolidate compiler generated dependencies of target serial-test[0m
+[10.046s] [35m[1mConsolidate compiler generated dependencies of target serial-test-timer[0m
+[10.060s] [ 78%] [32mBuilding CXX object tests/CMakeFiles/serial-test-timer.dir/unit/unix_timer_tests.cc.o[0m
+[10.063s] [ 85%] [32mBuilding CXX object tests/CMakeFiles/serial-test.dir/unix_serial_tests.cc.o[0m
+[11.075s] In file included from [01m[K/usr/include/boost/bind.hpp:30[m[K,
+[11.075s]                  from [01m[K/home/edisonwong/robot_ws/src/serial/tests/unix_serial_tests.cc:23[m[K:
+[11.076s] [01m[K/usr/include/boost/bind.hpp:36:1:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: The practice of declaring the Bind placeholders (_1, _2, ...) in the global namespace is deprecated. Please use <boost/bind/bind.hpp> + using namespace boost::placeholders, or define BOOST_BIND_GLOBAL_PLACEHOLDERS to retain the current behavior.[m[K’
+[11.076s]    36 | [01;36m[KBOOST_PRAGMA_MESSAGE[m[K(
+[11.076s]       | [01;36m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[11.193s] [01m[K/home/edisonwong/robot_ws/src/serial/tests/unix_serial_tests.cc:[m[K In member function ‘[01m[Kvirtual void {anonymous}::SerialTests_readWorks_Test::TestBody()[m[K’:
+[11.193s] [01m[K/home/edisonwong/robot_ws/src/serial/tests/unix_serial_tests.cc:71:8:[m[K [01;35m[Kwarning: [m[Kignoring return value of ‘[01m[Kssize_t write(int, const void*, size_t)[m[K’ declared with attribute ‘[01m[Kwarn_unused_result[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-result-Wunused-result]8;;[m[K]
+[11.193s]    71 |   [01;35m[Kwrite(master_fd, "abc\n", 4)[m[K;
+[11.193s]       |   [01;35m[K~~~~~^~~~~~~~~~~~~~~~~~~~~~~[m[K
+[11.197s] [01m[K/home/edisonwong/robot_ws/src/serial/tests/unix_serial_tests.cc:[m[K In member function ‘[01m[Kvirtual void {anonymous}::SerialTests_writeWorks_Test::TestBody()[m[K’:
+[11.197s] [01m[K/home/edisonwong/robot_ws/src/serial/tests/unix_serial_tests.cc:79:7:[m[K [01;35m[Kwarning: [m[Kignoring return value of ‘[01m[Kssize_t read(int, void*, size_t)[m[K’ declared with attribute ‘[01m[Kwarn_unused_result[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-result-Wunused-result]8;;[m[K]
+[11.197s]    79 |   [01;35m[Kread(master_fd, buf, 4)[m[K;
+[11.197s]       |   [01;35m[K~~~~^~~~~~~~~~~~~~~~~~~[m[K
+[11.198s] [01m[K/home/edisonwong/robot_ws/src/serial/tests/unix_serial_tests.cc:[m[K In member function ‘[01m[Kvirtual void {anonymous}::SerialTests_timeoutWorks_Test::TestBody()[m[K’:
+[11.198s] [01m[K/home/edisonwong/robot_ws/src/serial/tests/unix_serial_tests.cc:89:8:[m[K [01;35m[Kwarning: [m[Kignoring return value of ‘[01m[Kssize_t write(int, const void*, size_t)[m[K’ declared with attribute ‘[01m[Kwarn_unused_result[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-result-Wunused-result]8;;[m[K]
+[11.198s]    89 |   [01;35m[Kwrite(master_fd, "abc\n", 4)[m[K;
+[11.198s]       |   [01;35m[K~~~~~^~~~~~~~~~~~~~~~~~~~~~~[m[K
+[11.198s] [01m[K/home/edisonwong/robot_ws/src/serial/tests/unix_serial_tests.cc:[m[K In member function ‘[01m[Kvirtual void {anonymous}::SerialTests_partialRead_Test::TestBody()[m[K’:
+[11.198s] [01m[K/home/edisonwong/robot_ws/src/serial/tests/unix_serial_tests.cc:96:8:[m[K [01;35m[Kwarning: [m[Kignoring return value of ‘[01m[Kssize_t write(int, const void*, size_t)[m[K’ declared with attribute ‘[01m[Kwarn_unused_result[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-result-Wunused-result]8;;[m[K]
+[11.199s]    96 |   [01;35m[Kwrite(master_fd, "abc\n", 4)[m[K;
+[11.199s]       |   [01;35m[K~~~~~^~~~~~~~~~~~~~~~~~~~~~~[m[K
+[11.199s] [01m[K/home/edisonwong/robot_ws/src/serial/tests/unix_serial_tests.cc:103:8:[m[K [01;35m[Kwarning: [m[Kignoring return value of ‘[01m[Kssize_t write(int, const void*, size_t)[m[K’ declared with attribute ‘[01m[Kwarn_unused_result[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-result-Wunused-result]8;;[m[K]
+[11.199s]   103 |   [01;35m[Kwrite(master_fd, "abc\n", 4)[m[K;
+[11.199s]       |   [01;35m[K~~~~~^~~~~~~~~~~~~~~~~~~~~~~[m[K
+[11.216s] [ 92%] [32m[1mLinking CXX executable serial-test-timer[0m
+[11.325s] [ 92%] Built target serial-test-timer
+[11.511s] [100%] [32m[1mLinking CXX executable serial-test[0m
+[11.611s] [100%] Built target serial-test

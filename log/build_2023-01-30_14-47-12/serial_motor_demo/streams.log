@@ -1,0 +1,30 @@
+[3.452s] Invoking command in '/home/edisonwong/robot_ws/build/serial_motor_demo': CMAKE_PREFIX_PATH=/home/edisonwong/robot_ws/install/serial_motor_demo_msgs:/home/edisonwong/robot_ws/src/install/serial_motor_demo_msgs:/home/edisonwong/robot_ws/src/install/diffdrive_arduino:/home/edisonwong/robot_ws/src/install/serial:/home/edisonwong/robot_ws/src/install/my_bot:/home/edisonwong/robot_ws/install/diffdrive_arduino:/home/edisonwong/robot_ws/install/serial:/home/edisonwong/robot_ws/install/my_bot LD_LIBRARY_PATH=/home/edisonwong/robot_ws/install/serial_motor_demo_msgs/lib:/home/edisonwong/robot_ws/src/install/serial_motor_demo_msgs/lib:/home/edisonwong/robot_ws/src/install/diffdrive_arduino/lib:/home/edisonwong/robot_ws/src/install/serial/lib:/home/edisonwong/robot_ws/install/diffdrive_arduino/lib:/home/edisonwong/robot_ws/install/serial/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib PYTHONPATH=/home/edisonwong/robot_ws/build/serial_motor_demo/prefix_override:/home/edisonwong/robot_ws/install/serial_motor_demo/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/edisonwong/robot_ws/build/serial_motor_demo/build --no-deps install_data
+[4.706s] /usr/lib/python3/dist-packages/setuptools/dist.py:723: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead
+[4.706s]   warnings.warn(
+[4.834s] running develop
+[4.835s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[4.836s]   warnings.warn(
+[4.841s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[4.841s]   warnings.warn(
+[5.177s] /usr/lib/python3/dist-packages/pkg_resources/__init__.py:116: PkgResourcesDeprecationWarning: 1.16.0-unknown is an invalid version and will not be supported in a future release
+[5.178s]   warnings.warn(
+[5.178s] /usr/lib/python3/dist-packages/pkg_resources/__init__.py:116: PkgResourcesDeprecationWarning: 1.1build1 is an invalid version and will not be supported in a future release
+[5.179s]   warnings.warn(
+[5.179s] /usr/lib/python3/dist-packages/pkg_resources/__init__.py:116: PkgResourcesDeprecationWarning: 0.1.43ubuntu1 is an invalid version and will not be supported in a future release
+[5.180s]   warnings.warn(
+[5.802s] running egg_info
+[5.803s] writing serial_motor_demo.egg-info/PKG-INFO
+[5.804s] writing dependency_links to serial_motor_demo.egg-info/dependency_links.txt
+[5.805s] writing entry points to serial_motor_demo.egg-info/entry_points.txt
+[5.806s] writing requirements to serial_motor_demo.egg-info/requires.txt
+[5.807s] writing top-level names to serial_motor_demo.egg-info/top_level.txt
+[5.815s] reading manifest file 'serial_motor_demo.egg-info/SOURCES.txt'
+[5.819s] writing manifest file 'serial_motor_demo.egg-info/SOURCES.txt'
+[5.826s] running build_ext
+[5.826s] Creating /home/edisonwong/robot_ws/install/serial_motor_demo/lib/python3.10/site-packages/serial-motor-demo.egg-link (link to .)
+[5.831s] Installing driver script to /home/edisonwong/robot_ws/install/serial_motor_demo/lib/serial_motor_demo
+[5.831s] Installing gui script to /home/edisonwong/robot_ws/install/serial_motor_demo/lib/serial_motor_demo
+[5.833s] 
+[5.834s] Installed /home/edisonwong/robot_ws/build/serial_motor_demo
+[5.834s] running install_data
+[5.980s] Invoked command in '/home/edisonwong/robot_ws/build/serial_motor_demo' returned '0': CMAKE_PREFIX_PATH=/home/edisonwong/robot_ws/install/serial_motor_demo_msgs:/home/edisonwong/robot_ws/src/install/serial_motor_demo_msgs:/home/edisonwong/robot_ws/src/install/diffdrive_arduino:/home/edisonwong/robot_ws/src/install/serial:/home/edisonwong/robot_ws/src/install/my_bot:/home/edisonwong/robot_ws/install/diffdrive_arduino:/home/edisonwong/robot_ws/install/serial:/home/edisonwong/robot_ws/install/my_bot LD_LIBRARY_PATH=/home/edisonwong/robot_ws/install/serial_motor_demo_msgs/lib:/home/edisonwong/robot_ws/src/install/serial_motor_demo_msgs/lib:/home/edisonwong/robot_ws/src/install/diffdrive_arduino/lib:/home/edisonwong/robot_ws/src/install/serial/lib:/home/edisonwong/robot_ws/install/diffdrive_arduino/lib:/home/edisonwong/robot_ws/install/serial/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib PYTHONPATH=/home/edisonwong/robot_ws/build/serial_motor_demo/prefix_override:/home/edisonwong/robot_ws/install/serial_motor_demo/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/edisonwong/robot_ws/build/serial_motor_demo/build --no-deps install_data

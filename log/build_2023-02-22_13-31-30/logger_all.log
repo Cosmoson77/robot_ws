@@ -1,0 +1,496 @@
+[1.656s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--symlink-install']
+[1.657s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=True, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=4, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0xffffaf0ad510>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0xffffaf8a6470>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0xffffaf8a6470>>)
+[1.806s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[1.807s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[1.807s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[1.807s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[1.807s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[1.808s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[1.808s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/edisonwong/robot_ws'
+[1.808s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[1.809s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[1.809s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[1.809s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[1.810s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[1.810s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[1.810s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[1.810s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[1.810s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[1.863s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[1.864s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[1.864s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[1.865s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[1.865s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[1.866s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[1.866s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[1.866s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[1.867s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[1.868s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[1.868s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[1.869s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[1.870s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[1.870s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[1.870s] Level 1:colcon.colcon_core.package_identification:_identify(serial_motor_demo) by extensions ['ignore', 'ignore_ament_install']
+[1.871s] Level 1:colcon.colcon_core.package_identification:_identify(serial_motor_demo) by extension 'ignore'
+[1.871s] Level 1:colcon.colcon_core.package_identification:_identify(serial_motor_demo) by extension 'ignore_ament_install'
+[1.871s] Level 1:colcon.colcon_core.package_identification:_identify(serial_motor_demo) by extensions ['colcon_pkg']
+[1.871s] Level 1:colcon.colcon_core.package_identification:_identify(serial_motor_demo) by extension 'colcon_pkg'
+[1.872s] Level 1:colcon.colcon_core.package_identification:_identify(serial_motor_demo) by extensions ['colcon_meta']
+[1.872s] Level 1:colcon.colcon_core.package_identification:_identify(serial_motor_demo) by extension 'colcon_meta'
+[1.872s] Level 1:colcon.colcon_core.package_identification:_identify(serial_motor_demo) by extensions ['ros']
+[1.872s] Level 1:colcon.colcon_core.package_identification:_identify(serial_motor_demo) by extension 'ros'
+[1.873s] Level 1:colcon.colcon_core.package_identification:_identify(serial_motor_demo) by extensions ['cmake', 'python']
+[1.873s] Level 1:colcon.colcon_core.package_identification:_identify(serial_motor_demo) by extension 'cmake'
+[1.873s] Level 1:colcon.colcon_core.package_identification:_identify(serial_motor_demo) by extension 'python'
+[1.873s] Level 1:colcon.colcon_core.package_identification:_identify(serial_motor_demo) by extensions ['python_setup_py']
+[1.873s] Level 1:colcon.colcon_core.package_identification:_identify(serial_motor_demo) by extension 'python_setup_py'
+[1.874s] Level 1:colcon.colcon_core.package_identification:_identify(serial_motor_demo/serial_motor_demo) by extensions ['ignore', 'ignore_ament_install']
+[1.874s] Level 1:colcon.colcon_core.package_identification:_identify(serial_motor_demo/serial_motor_demo) by extension 'ignore'
+[1.875s] Level 1:colcon.colcon_core.package_identification:_identify(serial_motor_demo/serial_motor_demo) by extension 'ignore_ament_install'
+[1.875s] Level 1:colcon.colcon_core.package_identification:_identify(serial_motor_demo/serial_motor_demo) by extensions ['colcon_pkg']
+[1.875s] Level 1:colcon.colcon_core.package_identification:_identify(serial_motor_demo/serial_motor_demo) by extension 'colcon_pkg'
+[1.875s] Level 1:colcon.colcon_core.package_identification:_identify(serial_motor_demo/serial_motor_demo) by extensions ['colcon_meta']
+[1.875s] Level 1:colcon.colcon_core.package_identification:_identify(serial_motor_demo/serial_motor_demo) by extension 'colcon_meta'
+[1.876s] Level 1:colcon.colcon_core.package_identification:_identify(serial_motor_demo/serial_motor_demo) by extensions ['ros']
+[1.876s] Level 1:colcon.colcon_core.package_identification:_identify(serial_motor_demo/serial_motor_demo) by extension 'ros'
+[1.886s] DEBUG:colcon.colcon_core.package_identification:Package 'serial_motor_demo/serial_motor_demo' with type 'ros.ament_python' and name 'serial_motor_demo'
+[1.887s] Level 1:colcon.colcon_core.package_identification:_identify(serial_motor_demo/serial_motor_demo_msgs) by extensions ['ignore', 'ignore_ament_install']
+[1.887s] Level 1:colcon.colcon_core.package_identification:_identify(serial_motor_demo/serial_motor_demo_msgs) by extension 'ignore'
+[1.888s] Level 1:colcon.colcon_core.package_identification:_identify(serial_motor_demo/serial_motor_demo_msgs) by extension 'ignore_ament_install'
+[1.888s] Level 1:colcon.colcon_core.package_identification:_identify(serial_motor_demo/serial_motor_demo_msgs) by extensions ['colcon_pkg']
+[1.888s] Level 1:colcon.colcon_core.package_identification:_identify(serial_motor_demo/serial_motor_demo_msgs) by extension 'colcon_pkg'
+[1.888s] Level 1:colcon.colcon_core.package_identification:_identify(serial_motor_demo/serial_motor_demo_msgs) by extensions ['colcon_meta']
+[1.888s] Level 1:colcon.colcon_core.package_identification:_identify(serial_motor_demo/serial_motor_demo_msgs) by extension 'colcon_meta'
+[1.889s] Level 1:colcon.colcon_core.package_identification:_identify(serial_motor_demo/serial_motor_demo_msgs) by extensions ['ros']
+[1.889s] Level 1:colcon.colcon_core.package_identification:_identify(serial_motor_demo/serial_motor_demo_msgs) by extension 'ros'
+[1.891s] DEBUG:colcon.colcon_core.package_identification:Package 'serial_motor_demo/serial_motor_demo_msgs' with type 'ros.ament_cmake' and name 'serial_motor_demo_msgs'
+[1.892s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[1.892s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[1.893s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[1.893s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[1.893s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[1.893s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[1.893s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[1.894s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[1.894s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[1.894s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[1.894s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[1.895s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[1.895s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[1.895s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[1.896s] Level 1:colcon.colcon_core.package_identification:_identify(src/build) by extensions ['ignore', 'ignore_ament_install']
+[1.896s] Level 1:colcon.colcon_core.package_identification:_identify(src/build) by extension 'ignore'
+[1.896s] Level 1:colcon.colcon_core.package_identification:_identify(src/build) ignored
+[1.897s] Level 1:colcon.colcon_core.package_identification:_identify(src/diffdrive_arduino) by extensions ['ignore', 'ignore_ament_install']
+[1.897s] Level 1:colcon.colcon_core.package_identification:_identify(src/diffdrive_arduino) by extension 'ignore'
+[1.897s] Level 1:colcon.colcon_core.package_identification:_identify(src/diffdrive_arduino) by extension 'ignore_ament_install'
+[1.898s] Level 1:colcon.colcon_core.package_identification:_identify(src/diffdrive_arduino) by extensions ['colcon_pkg']
+[1.898s] Level 1:colcon.colcon_core.package_identification:_identify(src/diffdrive_arduino) by extension 'colcon_pkg'
+[1.898s] Level 1:colcon.colcon_core.package_identification:_identify(src/diffdrive_arduino) by extensions ['colcon_meta']
+[1.898s] Level 1:colcon.colcon_core.package_identification:_identify(src/diffdrive_arduino) by extension 'colcon_meta'
+[1.899s] Level 1:colcon.colcon_core.package_identification:_identify(src/diffdrive_arduino) by extensions ['ros']
+[1.899s] Level 1:colcon.colcon_core.package_identification:_identify(src/diffdrive_arduino) by extension 'ros'
+[1.903s] DEBUG:colcon.colcon_core.package_identification:Package 'src/diffdrive_arduino' with type 'ros.ament_cmake' and name 'diffdrive_arduino'
+[1.904s] Level 1:colcon.colcon_core.package_identification:_identify(src/install) by extensions ['ignore', 'ignore_ament_install']
+[1.904s] Level 1:colcon.colcon_core.package_identification:_identify(src/install) by extension 'ignore'
+[1.905s] Level 1:colcon.colcon_core.package_identification:_identify(src/install) ignored
+[1.905s] Level 1:colcon.colcon_core.package_identification:_identify(src/laser_filters) by extensions ['ignore', 'ignore_ament_install']
+[1.906s] Level 1:colcon.colcon_core.package_identification:_identify(src/laser_filters) by extension 'ignore'
+[1.906s] Level 1:colcon.colcon_core.package_identification:_identify(src/laser_filters) by extension 'ignore_ament_install'
+[1.906s] Level 1:colcon.colcon_core.package_identification:_identify(src/laser_filters) by extensions ['colcon_pkg']
+[1.907s] Level 1:colcon.colcon_core.package_identification:_identify(src/laser_filters) by extension 'colcon_pkg'
+[1.907s] Level 1:colcon.colcon_core.package_identification:_identify(src/laser_filters) by extensions ['colcon_meta']
+[1.907s] Level 1:colcon.colcon_core.package_identification:_identify(src/laser_filters) by extension 'colcon_meta'
+[1.907s] Level 1:colcon.colcon_core.package_identification:_identify(src/laser_filters) by extensions ['ros']
+[1.907s] Level 1:colcon.colcon_core.package_identification:_identify(src/laser_filters) by extension 'ros'
+[1.913s] DEBUG:colcon.colcon_core.package_identification:Package 'src/laser_filters' with type 'ros.ament_cmake' and name 'laser_filters'
+[1.914s] Level 1:colcon.colcon_core.package_identification:_identify(src/log) by extensions ['ignore', 'ignore_ament_install']
+[1.914s] Level 1:colcon.colcon_core.package_identification:_identify(src/log) by extension 'ignore'
+[1.914s] Level 1:colcon.colcon_core.package_identification:_identify(src/log) ignored
+[1.915s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_bot) by extensions ['ignore', 'ignore_ament_install']
+[1.915s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_bot) by extension 'ignore'
+[1.916s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_bot) by extension 'ignore_ament_install'
+[1.916s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_bot) by extensions ['colcon_pkg']
+[1.916s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_bot) by extension 'colcon_pkg'
+[1.916s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_bot) by extensions ['colcon_meta']
+[1.916s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_bot) by extension 'colcon_meta'
+[1.917s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_bot) by extensions ['ros']
+[1.917s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_bot) by extension 'ros'
+[1.919s] DEBUG:colcon.colcon_core.package_identification:Package 'src/my_bot' with type 'ros.ament_cmake' and name 'my_bot'
+[1.920s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial) by extensions ['ignore', 'ignore_ament_install']
+[1.921s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial) by extension 'ignore'
+[1.921s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial) by extension 'ignore_ament_install'
+[1.921s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial) by extensions ['colcon_pkg']
+[1.921s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial) by extension 'colcon_pkg'
+[1.922s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial) by extensions ['colcon_meta']
+[1.922s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial) by extension 'colcon_meta'
+[1.922s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial) by extensions ['ros']
+[1.923s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial) by extension 'ros'
+[1.925s] DEBUG:colcon.colcon_core.package_identification:Package 'src/serial' with type 'ros.ament_cmake' and name 'serial'
+[1.925s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[1.926s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[1.926s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[1.926s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[1.926s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[2.035s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[2.035s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[2.051s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 6 installed packages in /home/edisonwong/robot_ws/install
+[2.065s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 311 installed packages in /opt/ros/humble
+[2.074s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[2.391s] Level 5:colcon.colcon_core.verb:set package 'laser_filters' build argument 'cmake_args' from command line to 'None'
+[2.391s] Level 5:colcon.colcon_core.verb:set package 'laser_filters' build argument 'cmake_target' from command line to 'None'
+[2.391s] Level 5:colcon.colcon_core.verb:set package 'laser_filters' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.392s] Level 5:colcon.colcon_core.verb:set package 'laser_filters' build argument 'cmake_clean_cache' from command line to 'False'
+[2.392s] Level 5:colcon.colcon_core.verb:set package 'laser_filters' build argument 'cmake_clean_first' from command line to 'False'
+[2.392s] Level 5:colcon.colcon_core.verb:set package 'laser_filters' build argument 'cmake_force_configure' from command line to 'False'
+[2.392s] Level 5:colcon.colcon_core.verb:set package 'laser_filters' build argument 'ament_cmake_args' from command line to 'None'
+[2.392s] Level 5:colcon.colcon_core.verb:set package 'laser_filters' build argument 'catkin_cmake_args' from command line to 'None'
+[2.392s] Level 5:colcon.colcon_core.verb:set package 'laser_filters' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.392s] DEBUG:colcon.colcon_core.verb:Building package 'laser_filters' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/edisonwong/robot_ws/build/laser_filters', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/edisonwong/robot_ws/install/laser_filters', 'merge_install': False, 'path': '/home/edisonwong/robot_ws/src/laser_filters', 'symlink_install': True, 'test_result_base': None}
+[2.397s] Level 5:colcon.colcon_core.verb:set package 'my_bot' build argument 'cmake_args' from command line to 'None'
+[2.397s] Level 5:colcon.colcon_core.verb:set package 'my_bot' build argument 'cmake_target' from command line to 'None'
+[2.398s] Level 5:colcon.colcon_core.verb:set package 'my_bot' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.398s] Level 5:colcon.colcon_core.verb:set package 'my_bot' build argument 'cmake_clean_cache' from command line to 'False'
+[2.398s] Level 5:colcon.colcon_core.verb:set package 'my_bot' build argument 'cmake_clean_first' from command line to 'False'
+[2.398s] Level 5:colcon.colcon_core.verb:set package 'my_bot' build argument 'cmake_force_configure' from command line to 'False'
+[2.398s] Level 5:colcon.colcon_core.verb:set package 'my_bot' build argument 'ament_cmake_args' from command line to 'None'
+[2.398s] Level 5:colcon.colcon_core.verb:set package 'my_bot' build argument 'catkin_cmake_args' from command line to 'None'
+[2.398s] Level 5:colcon.colcon_core.verb:set package 'my_bot' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.399s] DEBUG:colcon.colcon_core.verb:Building package 'my_bot' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/edisonwong/robot_ws/build/my_bot', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/edisonwong/robot_ws/install/my_bot', 'merge_install': False, 'path': '/home/edisonwong/robot_ws/src/my_bot', 'symlink_install': True, 'test_result_base': None}
+[2.403s] Level 5:colcon.colcon_core.verb:set package 'serial' build argument 'cmake_args' from command line to 'None'
+[2.404s] Level 5:colcon.colcon_core.verb:set package 'serial' build argument 'cmake_target' from command line to 'None'
+[2.404s] Level 5:colcon.colcon_core.verb:set package 'serial' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.404s] Level 5:colcon.colcon_core.verb:set package 'serial' build argument 'cmake_clean_cache' from command line to 'False'
+[2.404s] Level 5:colcon.colcon_core.verb:set package 'serial' build argument 'cmake_clean_first' from command line to 'False'
+[2.404s] Level 5:colcon.colcon_core.verb:set package 'serial' build argument 'cmake_force_configure' from command line to 'False'
+[2.404s] Level 5:colcon.colcon_core.verb:set package 'serial' build argument 'ament_cmake_args' from command line to 'None'
+[2.404s] Level 5:colcon.colcon_core.verb:set package 'serial' build argument 'catkin_cmake_args' from command line to 'None'
+[2.404s] Level 5:colcon.colcon_core.verb:set package 'serial' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.405s] DEBUG:colcon.colcon_core.verb:Building package 'serial' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/edisonwong/robot_ws/build/serial', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/edisonwong/robot_ws/install/serial', 'merge_install': False, 'path': '/home/edisonwong/robot_ws/src/serial', 'symlink_install': True, 'test_result_base': None}
+[2.409s] Level 5:colcon.colcon_core.verb:set package 'serial_motor_demo_msgs' build argument 'cmake_args' from command line to 'None'
+[2.410s] Level 5:colcon.colcon_core.verb:set package 'serial_motor_demo_msgs' build argument 'cmake_target' from command line to 'None'
+[2.410s] Level 5:colcon.colcon_core.verb:set package 'serial_motor_demo_msgs' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.410s] Level 5:colcon.colcon_core.verb:set package 'serial_motor_demo_msgs' build argument 'cmake_clean_cache' from command line to 'False'
+[2.410s] Level 5:colcon.colcon_core.verb:set package 'serial_motor_demo_msgs' build argument 'cmake_clean_first' from command line to 'False'
+[2.410s] Level 5:colcon.colcon_core.verb:set package 'serial_motor_demo_msgs' build argument 'cmake_force_configure' from command line to 'False'
+[2.410s] Level 5:colcon.colcon_core.verb:set package 'serial_motor_demo_msgs' build argument 'ament_cmake_args' from command line to 'None'
+[2.410s] Level 5:colcon.colcon_core.verb:set package 'serial_motor_demo_msgs' build argument 'catkin_cmake_args' from command line to 'None'
+[2.411s] Level 5:colcon.colcon_core.verb:set package 'serial_motor_demo_msgs' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.411s] DEBUG:colcon.colcon_core.verb:Building package 'serial_motor_demo_msgs' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/edisonwong/robot_ws/build/serial_motor_demo_msgs', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/edisonwong/robot_ws/install/serial_motor_demo_msgs', 'merge_install': False, 'path': '/home/edisonwong/robot_ws/serial_motor_demo/serial_motor_demo_msgs', 'symlink_install': True, 'test_result_base': None}
+[2.415s] Level 5:colcon.colcon_core.verb:set package 'diffdrive_arduino' build argument 'cmake_args' from command line to 'None'
+[2.416s] Level 5:colcon.colcon_core.verb:set package 'diffdrive_arduino' build argument 'cmake_target' from command line to 'None'
+[2.416s] Level 5:colcon.colcon_core.verb:set package 'diffdrive_arduino' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.416s] Level 5:colcon.colcon_core.verb:set package 'diffdrive_arduino' build argument 'cmake_clean_cache' from command line to 'False'
+[2.416s] Level 5:colcon.colcon_core.verb:set package 'diffdrive_arduino' build argument 'cmake_clean_first' from command line to 'False'
+[2.416s] Level 5:colcon.colcon_core.verb:set package 'diffdrive_arduino' build argument 'cmake_force_configure' from command line to 'False'
+[2.416s] Level 5:colcon.colcon_core.verb:set package 'diffdrive_arduino' build argument 'ament_cmake_args' from command line to 'None'
+[2.416s] Level 5:colcon.colcon_core.verb:set package 'diffdrive_arduino' build argument 'catkin_cmake_args' from command line to 'None'
+[2.417s] Level 5:colcon.colcon_core.verb:set package 'diffdrive_arduino' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.417s] DEBUG:colcon.colcon_core.verb:Building package 'diffdrive_arduino' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/edisonwong/robot_ws/build/diffdrive_arduino', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/edisonwong/robot_ws/install/diffdrive_arduino', 'merge_install': False, 'path': '/home/edisonwong/robot_ws/src/diffdrive_arduino', 'symlink_install': True, 'test_result_base': None}
+[2.421s] Level 5:colcon.colcon_core.verb:set package 'serial_motor_demo' build argument 'cmake_args' from command line to 'None'
+[2.422s] Level 5:colcon.colcon_core.verb:set package 'serial_motor_demo' build argument 'cmake_target' from command line to 'None'
+[2.422s] Level 5:colcon.colcon_core.verb:set package 'serial_motor_demo' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.422s] Level 5:colcon.colcon_core.verb:set package 'serial_motor_demo' build argument 'cmake_clean_cache' from command line to 'False'
+[2.422s] Level 5:colcon.colcon_core.verb:set package 'serial_motor_demo' build argument 'cmake_clean_first' from command line to 'False'
+[2.422s] Level 5:colcon.colcon_core.verb:set package 'serial_motor_demo' build argument 'cmake_force_configure' from command line to 'False'
+[2.422s] Level 5:colcon.colcon_core.verb:set package 'serial_motor_demo' build argument 'ament_cmake_args' from command line to 'None'
+[2.422s] Level 5:colcon.colcon_core.verb:set package 'serial_motor_demo' build argument 'catkin_cmake_args' from command line to 'None'
+[2.423s] Level 5:colcon.colcon_core.verb:set package 'serial_motor_demo' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.423s] DEBUG:colcon.colcon_core.verb:Building package 'serial_motor_demo' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/edisonwong/robot_ws/build/serial_motor_demo', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/edisonwong/robot_ws/install/serial_motor_demo', 'merge_install': False, 'path': '/home/edisonwong/robot_ws/serial_motor_demo/serial_motor_demo', 'symlink_install': True, 'test_result_base': None}
+[2.426s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[2.440s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[2.441s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/edisonwong/robot_ws/src/serial' with build type 'ament_cmake'
+[2.442s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/edisonwong/robot_ws/src/serial'
+[2.465s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[2.466s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.466s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.497s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/edisonwong/robot_ws/serial_motor_demo/serial_motor_demo_msgs' with build type 'ament_cmake'
+[2.498s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/edisonwong/robot_ws/serial_motor_demo/serial_motor_demo_msgs'
+[2.505s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.506s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.535s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/edisonwong/robot_ws/src/laser_filters' with build type 'ament_cmake'
+[2.536s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/edisonwong/robot_ws/src/laser_filters'
+[2.542s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.543s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.574s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/edisonwong/robot_ws/src/my_bot' with build type 'ament_cmake'
+[2.574s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/edisonwong/robot_ws/src/my_bot'
+[2.581s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.582s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.632s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/edisonwong/robot_ws/build/serial': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/edisonwong/robot_ws/install/serial_motor_demo:/opt/ros/humble /usr/bin/cmake --build /home/edisonwong/robot_ws/build/serial -- -j4 -l4
+[2.672s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/edisonwong/robot_ws/build/serial_motor_demo_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/edisonwong/robot_ws/install/serial_motor_demo:/opt/ros/humble /usr/bin/cmake --build /home/edisonwong/robot_ws/build/serial_motor_demo_msgs -- -j4 -l4
+[2.689s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/edisonwong/robot_ws/build/laser_filters': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/edisonwong/robot_ws/install/serial_motor_demo:/opt/ros/humble /usr/bin/cmake --build /home/edisonwong/robot_ws/build/laser_filters -- -j4 -l4
+[2.715s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/edisonwong/robot_ws/build/my_bot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/edisonwong/robot_ws/install/serial_motor_demo:/opt/ros/humble /usr/bin/cmake --build /home/edisonwong/robot_ws/build/my_bot -- -j4 -l4
+[3.112s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/edisonwong/robot_ws/build/my_bot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/edisonwong/robot_ws/install/serial_motor_demo:/opt/ros/humble /usr/bin/cmake --build /home/edisonwong/robot_ws/build/my_bot -- -j4 -l4
+[3.680s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/edisonwong/robot_ws/build/my_bot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/edisonwong/robot_ws/install/serial_motor_demo:/opt/ros/humble /usr/bin/cmake --install /home/edisonwong/robot_ws/build/my_bot
+[3.752s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/edisonwong/robot_ws/build/serial' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/edisonwong/robot_ws/install/serial_motor_demo:/opt/ros/humble /usr/bin/cmake --build /home/edisonwong/robot_ws/build/serial -- -j4 -l4
+[3.881s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/edisonwong/robot_ws/build/laser_filters' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/edisonwong/robot_ws/install/serial_motor_demo:/opt/ros/humble /usr/bin/cmake --build /home/edisonwong/robot_ws/build/laser_filters -- -j4 -l4
+[4.196s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/edisonwong/robot_ws/build/serial': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/edisonwong/robot_ws/install/serial_motor_demo:/opt/ros/humble /usr/bin/cmake --install /home/edisonwong/robot_ws/build/serial
+[4.217s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(my_bot)
+[4.223s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/edisonwong/robot_ws/build/my_bot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/edisonwong/robot_ws/install/serial_motor_demo:/opt/ros/humble /usr/bin/cmake --install /home/edisonwong/robot_ws/build/my_bot
+[4.267s] Level 1:colcon.colcon_core.environment:checking '/home/edisonwong/robot_ws/install/my_bot' for CMake module files
+[4.278s] Level 1:colcon.colcon_core.environment:checking '/home/edisonwong/robot_ws/install/my_bot' for CMake config files
+[4.285s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_bot', 'cmake_prefix_path')
+[4.297s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/edisonwong/robot_ws/install/my_bot/share/my_bot/hook/cmake_prefix_path.ps1'
+[4.301s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/edisonwong/robot_ws/install/my_bot/share/my_bot/hook/cmake_prefix_path.dsv'
+[4.306s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/edisonwong/robot_ws/install/my_bot/share/my_bot/hook/cmake_prefix_path.sh'
+[4.314s] Level 1:colcon.colcon_core.environment:checking '/home/edisonwong/robot_ws/install/my_bot/bin'
+[4.315s] Level 1:colcon.colcon_core.environment:checking '/home/edisonwong/robot_ws/install/my_bot/lib/pkgconfig/my_bot.pc'
+[4.317s] Level 1:colcon.colcon_core.environment:checking '/home/edisonwong/robot_ws/install/my_bot/lib/python3.10/site-packages'
+[4.319s] Level 1:colcon.colcon_core.environment:checking '/home/edisonwong/robot_ws/install/my_bot/bin'
+[4.327s] INFO:colcon.colcon_core.shell:Creating package script '/home/edisonwong/robot_ws/install/my_bot/share/my_bot/package.ps1'
+[4.334s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/edisonwong/robot_ws/install/my_bot/share/my_bot/package.dsv'
+[4.340s] INFO:colcon.colcon_core.shell:Creating package script '/home/edisonwong/robot_ws/install/my_bot/share/my_bot/package.sh'
+[4.346s] INFO:colcon.colcon_core.shell:Creating package script '/home/edisonwong/robot_ws/install/my_bot/share/my_bot/package.bash'
+[4.356s] INFO:colcon.colcon_core.shell:Creating package script '/home/edisonwong/robot_ws/install/my_bot/share/my_bot/package.zsh'
+[4.370s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/edisonwong/robot_ws/install/my_bot/share/colcon-core/packages/my_bot)
+[4.389s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(serial)
+[4.396s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/edisonwong/robot_ws/build/serial' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/edisonwong/robot_ws/install/serial_motor_demo:/opt/ros/humble /usr/bin/cmake --install /home/edisonwong/robot_ws/build/serial
+[4.408s] Level 1:colcon.colcon_core.environment:checking '/home/edisonwong/robot_ws/install/serial' for CMake module files
+[4.411s] Level 1:colcon.colcon_core.environment:checking '/home/edisonwong/robot_ws/install/serial' for CMake config files
+[4.428s] Level 1:colcon.colcon_core.shell:create_environment_hook('serial', 'cmake_prefix_path')
+[4.435s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/edisonwong/robot_ws/install/serial/share/serial/hook/cmake_prefix_path.ps1'
+[4.444s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/edisonwong/robot_ws/install/serial/share/serial/hook/cmake_prefix_path.dsv'
+[4.448s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/edisonwong/robot_ws/install/serial/share/serial/hook/cmake_prefix_path.sh'
+[4.452s] Level 1:colcon.colcon_core.environment:checking '/home/edisonwong/robot_ws/install/serial/lib'
+[4.453s] Level 1:colcon.colcon_core.environment:checking '/home/edisonwong/robot_ws/install/serial/bin'
+[4.454s] Level 1:colcon.colcon_core.environment:checking '/home/edisonwong/robot_ws/install/serial/lib/pkgconfig/serial.pc'
+[4.456s] Level 1:colcon.colcon_core.environment:checking '/home/edisonwong/robot_ws/install/serial/lib/python3.10/site-packages'
+[4.458s] Level 1:colcon.colcon_core.environment:checking '/home/edisonwong/robot_ws/install/serial/bin'
+[4.466s] INFO:colcon.colcon_core.shell:Creating package script '/home/edisonwong/robot_ws/install/serial/share/serial/package.ps1'
+[4.470s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/edisonwong/robot_ws/install/serial/share/serial/package.dsv'
+[4.473s] INFO:colcon.colcon_core.shell:Creating package script '/home/edisonwong/robot_ws/install/serial/share/serial/package.sh'
+[4.476s] INFO:colcon.colcon_core.shell:Creating package script '/home/edisonwong/robot_ws/install/serial/share/serial/package.bash'
+[4.479s] INFO:colcon.colcon_core.shell:Creating package script '/home/edisonwong/robot_ws/install/serial/share/serial/package.zsh'
+[4.482s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/edisonwong/robot_ws/install/serial/share/colcon-core/packages/serial)
+[4.519s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/edisonwong/robot_ws/build/laser_filters': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/edisonwong/robot_ws/install/serial_motor_demo:/opt/ros/humble /usr/bin/cmake --install /home/edisonwong/robot_ws/build/laser_filters
+[4.681s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(my_bot)
+[4.697s] Level 1:colcon.colcon_core.environment:checking '/home/edisonwong/robot_ws/install/my_bot' for CMake module files
+[4.703s] Level 1:colcon.colcon_core.environment:checking '/home/edisonwong/robot_ws/install/my_bot' for CMake config files
+[4.707s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_bot', 'cmake_prefix_path')
+[4.714s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/edisonwong/robot_ws/install/my_bot/share/my_bot/hook/cmake_prefix_path.ps1'
+[4.717s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/edisonwong/robot_ws/install/my_bot/share/my_bot/hook/cmake_prefix_path.dsv'
+[4.719s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/edisonwong/robot_ws/install/my_bot/share/my_bot/hook/cmake_prefix_path.sh'
+[4.723s] Level 1:colcon.colcon_core.environment:checking '/home/edisonwong/robot_ws/install/my_bot/bin'
+[4.724s] Level 1:colcon.colcon_core.environment:checking '/home/edisonwong/robot_ws/install/my_bot/lib/pkgconfig/my_bot.pc'
+[4.725s] Level 1:colcon.colcon_core.environment:checking '/home/edisonwong/robot_ws/install/my_bot/lib/python3.10/site-packages'
+[4.727s] Level 1:colcon.colcon_core.environment:checking '/home/edisonwong/robot_ws/install/my_bot/bin'
+[4.735s] INFO:colcon.colcon_core.shell:Creating package script '/home/edisonwong/robot_ws/install/my_bot/share/my_bot/package.ps1'
+[4.739s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/edisonwong/robot_ws/install/my_bot/share/my_bot/package.dsv'
+[4.742s] INFO:colcon.colcon_core.shell:Creating package script '/home/edisonwong/robot_ws/install/my_bot/share/my_bot/package.sh'
+[4.747s] INFO:colcon.colcon_core.shell:Creating package script '/home/edisonwong/robot_ws/install/my_bot/share/my_bot/package.bash'
+[4.756s] INFO:colcon.colcon_core.shell:Creating package script '/home/edisonwong/robot_ws/install/my_bot/share/my_bot/package.zsh'
+[4.760s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/edisonwong/robot_ws/install/my_bot/share/colcon-core/packages/my_bot)
+[4.766s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(laser_filters)
+[4.768s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/edisonwong/robot_ws/build/laser_filters' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/edisonwong/robot_ws/install/serial_motor_demo:/opt/ros/humble /usr/bin/cmake --install /home/edisonwong/robot_ws/build/laser_filters
+[4.778s] Level 1:colcon.colcon_core.environment:checking '/home/edisonwong/robot_ws/install/laser_filters' for CMake module files
+[4.783s] Level 1:colcon.colcon_core.environment:checking '/home/edisonwong/robot_ws/install/laser_filters' for CMake config files
+[4.786s] Level 1:colcon.colcon_core.shell:create_environment_hook('laser_filters', 'cmake_prefix_path')
+[4.793s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/edisonwong/robot_ws/install/laser_filters/share/laser_filters/hook/cmake_prefix_path.ps1'
+[4.796s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/edisonwong/robot_ws/install/laser_filters/share/laser_filters/hook/cmake_prefix_path.dsv'
+[4.798s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/edisonwong/robot_ws/install/laser_filters/share/laser_filters/hook/cmake_prefix_path.sh'
+[4.801s] Level 1:colcon.colcon_core.environment:checking '/home/edisonwong/robot_ws/install/laser_filters/lib'
+[4.802s] Level 1:colcon.colcon_core.shell:create_environment_hook('laser_filters', 'ld_library_path_lib')
+[4.809s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/edisonwong/robot_ws/install/laser_filters/share/laser_filters/hook/ld_library_path_lib.ps1'
+[4.811s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/edisonwong/robot_ws/install/laser_filters/share/laser_filters/hook/ld_library_path_lib.dsv'
+[4.814s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/edisonwong/robot_ws/install/laser_filters/share/laser_filters/hook/ld_library_path_lib.sh'
+[4.816s] Level 1:colcon.colcon_core.environment:checking '/home/edisonwong/robot_ws/install/laser_filters/bin'
+[4.817s] Level 1:colcon.colcon_core.environment:checking '/home/edisonwong/robot_ws/install/laser_filters/lib/pkgconfig/laser_filters.pc'
+[4.818s] Level 1:colcon.colcon_core.environment:checking '/home/edisonwong/robot_ws/install/laser_filters/lib/python3.10/site-packages'
+[4.819s] Level 1:colcon.colcon_core.environment:checking '/home/edisonwong/robot_ws/install/laser_filters/bin'
+[4.827s] INFO:colcon.colcon_core.shell:Creating package script '/home/edisonwong/robot_ws/install/laser_filters/share/laser_filters/package.ps1'
+[4.829s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/edisonwong/robot_ws/install/laser_filters/share/laser_filters/package.dsv'
+[4.832s] INFO:colcon.colcon_core.shell:Creating package script '/home/edisonwong/robot_ws/install/laser_filters/share/laser_filters/package.sh'
+[4.835s] INFO:colcon.colcon_core.shell:Creating package script '/home/edisonwong/robot_ws/install/laser_filters/share/laser_filters/package.bash'
+[4.837s] INFO:colcon.colcon_core.shell:Creating package script '/home/edisonwong/robot_ws/install/laser_filters/share/laser_filters/package.zsh'
+[4.839s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/edisonwong/robot_ws/install/laser_filters/share/colcon-core/packages/laser_filters)
+[4.892s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(serial)
+[4.903s] Level 1:colcon.colcon_core.environment:checking '/home/edisonwong/robot_ws/install/serial' for CMake module files
+[4.906s] Level 1:colcon.colcon_core.environment:checking '/home/edisonwong/robot_ws/install/serial' for CMake config files
+[4.909s] Level 1:colcon.colcon_core.shell:create_environment_hook('serial', 'cmake_prefix_path')
+[4.915s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/edisonwong/robot_ws/install/serial/share/serial/hook/cmake_prefix_path.ps1'
+[4.918s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/edisonwong/robot_ws/install/serial/share/serial/hook/cmake_prefix_path.dsv'
+[4.920s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/edisonwong/robot_ws/install/serial/share/serial/hook/cmake_prefix_path.sh'
+[4.923s] Level 1:colcon.colcon_core.environment:checking '/home/edisonwong/robot_ws/install/serial/lib'
+[4.924s] Level 1:colcon.colcon_core.environment:checking '/home/edisonwong/robot_ws/install/serial/bin'
+[4.924s] Level 1:colcon.colcon_core.environment:checking '/home/edisonwong/robot_ws/install/serial/lib/pkgconfig/serial.pc'
+[4.925s] Level 1:colcon.colcon_core.environment:checking '/home/edisonwong/robot_ws/install/serial/lib/python3.10/site-packages'
+[4.927s] Level 1:colcon.colcon_core.environment:checking '/home/edisonwong/robot_ws/install/serial/bin'
+[4.933s] INFO:colcon.colcon_core.shell:Creating package script '/home/edisonwong/robot_ws/install/serial/share/serial/package.ps1'
+[4.936s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/edisonwong/robot_ws/install/serial/share/serial/package.dsv'
+[4.939s] INFO:colcon.colcon_core.shell:Creating package script '/home/edisonwong/robot_ws/install/serial/share/serial/package.sh'
+[4.942s] INFO:colcon.colcon_core.shell:Creating package script '/home/edisonwong/robot_ws/install/serial/share/serial/package.bash'
+[4.944s] INFO:colcon.colcon_core.shell:Creating package script '/home/edisonwong/robot_ws/install/serial/share/serial/package.zsh'
+[4.947s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/edisonwong/robot_ws/install/serial/share/colcon-core/packages/serial)
+[4.948s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/edisonwong/robot_ws/src/diffdrive_arduino' with build type 'ament_cmake'
+[4.950s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/edisonwong/robot_ws/src/diffdrive_arduino'
+[4.957s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[4.958s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[5.038s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/edisonwong/robot_ws/build/diffdrive_arduino': CMAKE_PREFIX_PATH=/home/edisonwong/robot_ws/install/serial:/home/edisonwong/robot_ws/install/serial_motor_demo_msgs:/home/edisonwong/robot_ws/install/diffdrive_arduino:/home/edisonwong/robot_ws/install/my_bot:/home/edisonwong/robot_ws/install/laser_filters:/home/edisonwong/robot_ws/install/serial_motor_demo:/opt/ros/humble /usr/bin/cmake --build /home/edisonwong/robot_ws/build/diffdrive_arduino -- -j4 -l4
+[5.136s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(laser_filters)
+[5.147s] Level 1:colcon.colcon_core.environment:checking '/home/edisonwong/robot_ws/install/laser_filters' for CMake module files
+[5.151s] Level 1:colcon.colcon_core.environment:checking '/home/edisonwong/robot_ws/install/laser_filters' for CMake config files
+[5.155s] Level 1:colcon.colcon_core.shell:create_environment_hook('laser_filters', 'cmake_prefix_path')
+[5.161s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/edisonwong/robot_ws/install/laser_filters/share/laser_filters/hook/cmake_prefix_path.ps1'
+[5.164s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/edisonwong/robot_ws/install/laser_filters/share/laser_filters/hook/cmake_prefix_path.dsv'
+[5.166s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/edisonwong/robot_ws/install/laser_filters/share/laser_filters/hook/cmake_prefix_path.sh'
+[5.171s] Level 1:colcon.colcon_core.environment:checking '/home/edisonwong/robot_ws/install/laser_filters/lib'
+[5.171s] Level 1:colcon.colcon_core.shell:create_environment_hook('laser_filters', 'ld_library_path_lib')
+[5.178s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/edisonwong/robot_ws/install/laser_filters/share/laser_filters/hook/ld_library_path_lib.ps1'
+[5.181s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/edisonwong/robot_ws/install/laser_filters/share/laser_filters/hook/ld_library_path_lib.dsv'
+[5.183s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/edisonwong/robot_ws/install/laser_filters/share/laser_filters/hook/ld_library_path_lib.sh'
+[5.187s] Level 1:colcon.colcon_core.environment:checking '/home/edisonwong/robot_ws/install/laser_filters/bin'
+[5.188s] Level 1:colcon.colcon_core.environment:checking '/home/edisonwong/robot_ws/install/laser_filters/lib/pkgconfig/laser_filters.pc'
+[5.189s] Level 1:colcon.colcon_core.environment:checking '/home/edisonwong/robot_ws/install/laser_filters/lib/python3.10/site-packages'
+[5.190s] Level 1:colcon.colcon_core.environment:checking '/home/edisonwong/robot_ws/install/laser_filters/bin'
+[5.198s] INFO:colcon.colcon_core.shell:Creating package script '/home/edisonwong/robot_ws/install/laser_filters/share/laser_filters/package.ps1'
+[5.201s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/edisonwong/robot_ws/install/laser_filters/share/laser_filters/package.dsv'
+[5.204s] INFO:colcon.colcon_core.shell:Creating package script '/home/edisonwong/robot_ws/install/laser_filters/share/laser_filters/package.sh'
+[5.207s] INFO:colcon.colcon_core.shell:Creating package script '/home/edisonwong/robot_ws/install/laser_filters/share/laser_filters/package.bash'
+[5.210s] INFO:colcon.colcon_core.shell:Creating package script '/home/edisonwong/robot_ws/install/laser_filters/share/laser_filters/package.zsh'
+[5.213s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/edisonwong/robot_ws/install/laser_filters/share/colcon-core/packages/laser_filters)
+[5.425s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/edisonwong/robot_ws/build/diffdrive_arduino' returned '0': CMAKE_PREFIX_PATH=/home/edisonwong/robot_ws/install/serial:/home/edisonwong/robot_ws/install/serial_motor_demo_msgs:/home/edisonwong/robot_ws/install/diffdrive_arduino:/home/edisonwong/robot_ws/install/my_bot:/home/edisonwong/robot_ws/install/laser_filters:/home/edisonwong/robot_ws/install/serial_motor_demo:/opt/ros/humble /usr/bin/cmake --build /home/edisonwong/robot_ws/build/diffdrive_arduino -- -j4 -l4
+[5.673s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/edisonwong/robot_ws/build/diffdrive_arduino': CMAKE_PREFIX_PATH=/home/edisonwong/robot_ws/install/serial:/home/edisonwong/robot_ws/install/serial_motor_demo_msgs:/home/edisonwong/robot_ws/install/diffdrive_arduino:/home/edisonwong/robot_ws/install/my_bot:/home/edisonwong/robot_ws/install/laser_filters:/home/edisonwong/robot_ws/install/serial_motor_demo:/opt/ros/humble /usr/bin/cmake --install /home/edisonwong/robot_ws/build/diffdrive_arduino
+[5.813s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(diffdrive_arduino)
+[5.823s] Level 1:colcon.colcon_core.environment:checking '/home/edisonwong/robot_ws/install/diffdrive_arduino' for CMake module files
+[5.823s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/edisonwong/robot_ws/build/diffdrive_arduino' returned '0': CMAKE_PREFIX_PATH=/home/edisonwong/robot_ws/install/serial:/home/edisonwong/robot_ws/install/serial_motor_demo_msgs:/home/edisonwong/robot_ws/install/diffdrive_arduino:/home/edisonwong/robot_ws/install/my_bot:/home/edisonwong/robot_ws/install/laser_filters:/home/edisonwong/robot_ws/install/serial_motor_demo:/opt/ros/humble /usr/bin/cmake --install /home/edisonwong/robot_ws/build/diffdrive_arduino
+[5.827s] Level 1:colcon.colcon_core.environment:checking '/home/edisonwong/robot_ws/install/diffdrive_arduino' for CMake config files
+[5.831s] Level 1:colcon.colcon_core.shell:create_environment_hook('diffdrive_arduino', 'cmake_prefix_path')
+[5.838s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/edisonwong/robot_ws/install/diffdrive_arduino/share/diffdrive_arduino/hook/cmake_prefix_path.ps1'
+[5.840s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/edisonwong/robot_ws/install/diffdrive_arduino/share/diffdrive_arduino/hook/cmake_prefix_path.dsv'
+[5.842s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/edisonwong/robot_ws/install/diffdrive_arduino/share/diffdrive_arduino/hook/cmake_prefix_path.sh'
+[5.845s] Level 1:colcon.colcon_core.environment:checking '/home/edisonwong/robot_ws/install/diffdrive_arduino/lib'
+[5.846s] Level 1:colcon.colcon_core.shell:create_environment_hook('diffdrive_arduino', 'ld_library_path_lib')
+[5.851s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/edisonwong/robot_ws/install/diffdrive_arduino/share/diffdrive_arduino/hook/ld_library_path_lib.ps1'
+[5.853s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/edisonwong/robot_ws/install/diffdrive_arduino/share/diffdrive_arduino/hook/ld_library_path_lib.dsv'
+[5.855s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/edisonwong/robot_ws/install/diffdrive_arduino/share/diffdrive_arduino/hook/ld_library_path_lib.sh'
+[5.857s] Level 1:colcon.colcon_core.environment:checking '/home/edisonwong/robot_ws/install/diffdrive_arduino/bin'
+[5.858s] Level 1:colcon.colcon_core.environment:checking '/home/edisonwong/robot_ws/install/diffdrive_arduino/lib/pkgconfig/diffdrive_arduino.pc'
+[5.859s] Level 1:colcon.colcon_core.environment:checking '/home/edisonwong/robot_ws/install/diffdrive_arduino/lib/python3.10/site-packages'
+[5.860s] Level 1:colcon.colcon_core.environment:checking '/home/edisonwong/robot_ws/install/diffdrive_arduino/bin'
+[5.866s] INFO:colcon.colcon_core.shell:Creating package script '/home/edisonwong/robot_ws/install/diffdrive_arduino/share/diffdrive_arduino/package.ps1'
+[5.869s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/edisonwong/robot_ws/install/diffdrive_arduino/share/diffdrive_arduino/package.dsv'
+[5.871s] INFO:colcon.colcon_core.shell:Creating package script '/home/edisonwong/robot_ws/install/diffdrive_arduino/share/diffdrive_arduino/package.sh'
+[5.873s] INFO:colcon.colcon_core.shell:Creating package script '/home/edisonwong/robot_ws/install/diffdrive_arduino/share/diffdrive_arduino/package.bash'
+[5.875s] INFO:colcon.colcon_core.shell:Creating package script '/home/edisonwong/robot_ws/install/diffdrive_arduino/share/diffdrive_arduino/package.zsh'
+[5.878s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/edisonwong/robot_ws/install/diffdrive_arduino/share/colcon-core/packages/diffdrive_arduino)
+[5.886s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/edisonwong/robot_ws/build/serial_motor_demo_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/edisonwong/robot_ws/install/serial_motor_demo:/opt/ros/humble /usr/bin/cmake --build /home/edisonwong/robot_ws/build/serial_motor_demo_msgs -- -j4 -l4
+[6.094s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(diffdrive_arduino)
+[6.103s] Level 1:colcon.colcon_core.environment:checking '/home/edisonwong/robot_ws/install/diffdrive_arduino' for CMake module files
+[6.107s] Level 1:colcon.colcon_core.environment:checking '/home/edisonwong/robot_ws/install/diffdrive_arduino' for CMake config files
+[6.111s] Level 1:colcon.colcon_core.shell:create_environment_hook('diffdrive_arduino', 'cmake_prefix_path')
+[6.117s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/edisonwong/robot_ws/install/diffdrive_arduino/share/diffdrive_arduino/hook/cmake_prefix_path.ps1'
+[6.119s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/edisonwong/robot_ws/install/diffdrive_arduino/share/diffdrive_arduino/hook/cmake_prefix_path.dsv'
+[6.122s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/edisonwong/robot_ws/install/diffdrive_arduino/share/diffdrive_arduino/hook/cmake_prefix_path.sh'
+[6.125s] Level 1:colcon.colcon_core.environment:checking '/home/edisonwong/robot_ws/install/diffdrive_arduino/lib'
+[6.126s] Level 1:colcon.colcon_core.shell:create_environment_hook('diffdrive_arduino', 'ld_library_path_lib')
+[6.132s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/edisonwong/robot_ws/install/diffdrive_arduino/share/diffdrive_arduino/hook/ld_library_path_lib.ps1'
+[6.134s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/edisonwong/robot_ws/install/diffdrive_arduino/share/diffdrive_arduino/hook/ld_library_path_lib.dsv'
+[6.136s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/edisonwong/robot_ws/install/diffdrive_arduino/share/diffdrive_arduino/hook/ld_library_path_lib.sh'
+[6.139s] Level 1:colcon.colcon_core.environment:checking '/home/edisonwong/robot_ws/install/diffdrive_arduino/bin'
+[6.139s] Level 1:colcon.colcon_core.environment:checking '/home/edisonwong/robot_ws/install/diffdrive_arduino/lib/pkgconfig/diffdrive_arduino.pc'
+[6.140s] Level 1:colcon.colcon_core.environment:checking '/home/edisonwong/robot_ws/install/diffdrive_arduino/lib/python3.10/site-packages'
+[6.142s] Level 1:colcon.colcon_core.environment:checking '/home/edisonwong/robot_ws/install/diffdrive_arduino/bin'
+[6.148s] INFO:colcon.colcon_core.shell:Creating package script '/home/edisonwong/robot_ws/install/diffdrive_arduino/share/diffdrive_arduino/package.ps1'
+[6.151s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/edisonwong/robot_ws/install/diffdrive_arduino/share/diffdrive_arduino/package.dsv'
+[6.154s] INFO:colcon.colcon_core.shell:Creating package script '/home/edisonwong/robot_ws/install/diffdrive_arduino/share/diffdrive_arduino/package.sh'
+[6.157s] INFO:colcon.colcon_core.shell:Creating package script '/home/edisonwong/robot_ws/install/diffdrive_arduino/share/diffdrive_arduino/package.bash'
+[6.159s] INFO:colcon.colcon_core.shell:Creating package script '/home/edisonwong/robot_ws/install/diffdrive_arduino/share/diffdrive_arduino/package.zsh'
+[6.162s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/edisonwong/robot_ws/install/diffdrive_arduino/share/colcon-core/packages/diffdrive_arduino)
+[6.578s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/edisonwong/robot_ws/build/serial_motor_demo_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/edisonwong/robot_ws/install/serial_motor_demo:/opt/ros/humble /usr/bin/cmake --install /home/edisonwong/robot_ws/build/serial_motor_demo_msgs
+[7.024s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(serial_motor_demo_msgs)
+[7.035s] Level 1:colcon.colcon_core.environment:checking '/home/edisonwong/robot_ws/install/serial_motor_demo_msgs' for CMake module files
+[7.036s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/edisonwong/robot_ws/build/serial_motor_demo_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/edisonwong/robot_ws/install/serial_motor_demo:/opt/ros/humble /usr/bin/cmake --install /home/edisonwong/robot_ws/build/serial_motor_demo_msgs
+[7.042s] Level 1:colcon.colcon_core.environment:checking '/home/edisonwong/robot_ws/install/serial_motor_demo_msgs' for CMake config files
+[7.046s] Level 1:colcon.colcon_core.shell:create_environment_hook('serial_motor_demo_msgs', 'cmake_prefix_path')
+[7.052s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/edisonwong/robot_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/hook/cmake_prefix_path.ps1'
+[7.055s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/edisonwong/robot_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/hook/cmake_prefix_path.dsv'
+[7.056s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/edisonwong/robot_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/hook/cmake_prefix_path.sh'
+[7.059s] Level 1:colcon.colcon_core.environment:checking '/home/edisonwong/robot_ws/install/serial_motor_demo_msgs/lib'
+[7.060s] Level 1:colcon.colcon_core.shell:create_environment_hook('serial_motor_demo_msgs', 'ld_library_path_lib')
+[7.066s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/edisonwong/robot_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/hook/ld_library_path_lib.ps1'
+[7.068s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/edisonwong/robot_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/hook/ld_library_path_lib.dsv'
+[7.070s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/edisonwong/robot_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/hook/ld_library_path_lib.sh'
+[7.072s] Level 1:colcon.colcon_core.environment:checking '/home/edisonwong/robot_ws/install/serial_motor_demo_msgs/bin'
+[7.073s] Level 1:colcon.colcon_core.environment:checking '/home/edisonwong/robot_ws/install/serial_motor_demo_msgs/lib/pkgconfig/serial_motor_demo_msgs.pc'
+[7.074s] Level 1:colcon.colcon_core.environment:checking '/home/edisonwong/robot_ws/install/serial_motor_demo_msgs/lib/python3.10/site-packages'
+[7.075s] Level 1:colcon.colcon_core.environment:checking '/home/edisonwong/robot_ws/install/serial_motor_demo_msgs/bin'
+[7.081s] INFO:colcon.colcon_core.shell:Creating package script '/home/edisonwong/robot_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/package.ps1'
+[7.084s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/edisonwong/robot_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/package.dsv'
+[7.087s] INFO:colcon.colcon_core.shell:Creating package script '/home/edisonwong/robot_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/package.sh'
+[7.089s] INFO:colcon.colcon_core.shell:Creating package script '/home/edisonwong/robot_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/package.bash'
+[7.091s] INFO:colcon.colcon_core.shell:Creating package script '/home/edisonwong/robot_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/package.zsh'
+[7.093s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/edisonwong/robot_ws/install/serial_motor_demo_msgs/share/colcon-core/packages/serial_motor_demo_msgs)
+[7.788s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(serial_motor_demo_msgs)
+[7.800s] Level 1:colcon.colcon_core.environment:checking '/home/edisonwong/robot_ws/install/serial_motor_demo_msgs' for CMake module files
+[7.806s] Level 1:colcon.colcon_core.environment:checking '/home/edisonwong/robot_ws/install/serial_motor_demo_msgs' for CMake config files
+[7.809s] Level 1:colcon.colcon_core.shell:create_environment_hook('serial_motor_demo_msgs', 'cmake_prefix_path')
+[7.814s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/edisonwong/robot_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/hook/cmake_prefix_path.ps1'
+[7.817s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/edisonwong/robot_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/hook/cmake_prefix_path.dsv'
+[7.818s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/edisonwong/robot_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/hook/cmake_prefix_path.sh'
+[7.821s] Level 1:colcon.colcon_core.environment:checking '/home/edisonwong/robot_ws/install/serial_motor_demo_msgs/lib'
+[7.822s] Level 1:colcon.colcon_core.shell:create_environment_hook('serial_motor_demo_msgs', 'ld_library_path_lib')
+[7.828s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/edisonwong/robot_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/hook/ld_library_path_lib.ps1'
+[7.830s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/edisonwong/robot_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/hook/ld_library_path_lib.dsv'
+[7.832s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/edisonwong/robot_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/hook/ld_library_path_lib.sh'
+[7.834s] Level 1:colcon.colcon_core.environment:checking '/home/edisonwong/robot_ws/install/serial_motor_demo_msgs/bin'
+[7.834s] Level 1:colcon.colcon_core.environment:checking '/home/edisonwong/robot_ws/install/serial_motor_demo_msgs/lib/pkgconfig/serial_motor_demo_msgs.pc'
+[7.835s] Level 1:colcon.colcon_core.environment:checking '/home/edisonwong/robot_ws/install/serial_motor_demo_msgs/lib/python3.10/site-packages'
+[7.836s] Level 1:colcon.colcon_core.environment:checking '/home/edisonwong/robot_ws/install/serial_motor_demo_msgs/bin'
+[7.843s] INFO:colcon.colcon_core.shell:Creating package script '/home/edisonwong/robot_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/package.ps1'
+[7.845s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/edisonwong/robot_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/package.dsv'
+[7.848s] INFO:colcon.colcon_core.shell:Creating package script '/home/edisonwong/robot_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/package.sh'
+[7.851s] INFO:colcon.colcon_core.shell:Creating package script '/home/edisonwong/robot_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/package.bash'
+[7.853s] INFO:colcon.colcon_core.shell:Creating package script '/home/edisonwong/robot_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/package.zsh'
+[7.855s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/edisonwong/robot_ws/install/serial_motor_demo_msgs/share/colcon-core/packages/serial_motor_demo_msgs)
+[7.857s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/edisonwong/robot_ws/serial_motor_demo/serial_motor_demo' with build type 'ament_python'
+[7.858s] Level 1:colcon.colcon_core.shell:create_environment_hook('serial_motor_demo', 'ament_prefix_path')
+[7.864s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/edisonwong/robot_ws/install/serial_motor_demo/share/serial_motor_demo/hook/ament_prefix_path.ps1'
+[7.867s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/edisonwong/robot_ws/install/serial_motor_demo/share/serial_motor_demo/hook/ament_prefix_path.dsv'
+[7.869s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/edisonwong/robot_ws/install/serial_motor_demo/share/serial_motor_demo/hook/ament_prefix_path.sh'
+[7.876s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[7.877s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[9.289s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/edisonwong/robot_ws/serial_motor_demo/serial_motor_demo'
+[9.295s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[9.295s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[11.257s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/edisonwong/robot_ws/build/serial_motor_demo': PYTHONPATH=/home/edisonwong/robot_ws/build/serial_motor_demo/prefix_override:/home/edisonwong/robot_ws/install/serial_motor_demo/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/edisonwong/robot_ws/build/serial_motor_demo/build --no-deps install_data
+[13.739s] Level 1:colcon.colcon_core.shell:create_environment_hook('serial_motor_demo', 'pythonpath_develop')
+[13.746s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/edisonwong/robot_ws/build/serial_motor_demo/share/serial_motor_demo/hook/pythonpath_develop.ps1'
+[13.747s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/edisonwong/robot_ws/build/serial_motor_demo' returned '0': PYTHONPATH=/home/edisonwong/robot_ws/build/serial_motor_demo/prefix_override:/home/edisonwong/robot_ws/install/serial_motor_demo/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/edisonwong/robot_ws/build/serial_motor_demo/build --no-deps install_data
+[13.749s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/edisonwong/robot_ws/build/serial_motor_demo/share/serial_motor_demo/hook/pythonpath_develop.dsv'
+[13.751s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/edisonwong/robot_ws/build/serial_motor_demo/share/serial_motor_demo/hook/pythonpath_develop.sh'
+[13.762s] Level 1:colcon.colcon_core.environment:checking '/home/edisonwong/robot_ws/install/serial_motor_demo' for CMake module files
+[13.765s] Level 1:colcon.colcon_core.environment:checking '/home/edisonwong/robot_ws/install/serial_motor_demo' for CMake config files
+[13.768s] Level 1:colcon.colcon_core.environment:checking '/home/edisonwong/robot_ws/install/serial_motor_demo/lib'
+[13.769s] Level 1:colcon.colcon_core.environment:checking '/home/edisonwong/robot_ws/install/serial_motor_demo/bin'
+[13.769s] Level 1:colcon.colcon_core.environment:checking '/home/edisonwong/robot_ws/install/serial_motor_demo/lib/pkgconfig/serial_motor_demo.pc'
+[13.770s] Level 1:colcon.colcon_core.environment:checking '/home/edisonwong/robot_ws/install/serial_motor_demo/lib/python3.10/site-packages'
+[13.770s] Level 1:colcon.colcon_core.shell:create_environment_hook('serial_motor_demo', 'pythonpath')
+[13.776s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/edisonwong/robot_ws/install/serial_motor_demo/share/serial_motor_demo/hook/pythonpath.ps1'
+[13.778s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/edisonwong/robot_ws/install/serial_motor_demo/share/serial_motor_demo/hook/pythonpath.dsv'
+[13.780s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/edisonwong/robot_ws/install/serial_motor_demo/share/serial_motor_demo/hook/pythonpath.sh'
+[13.783s] Level 1:colcon.colcon_core.environment:checking '/home/edisonwong/robot_ws/install/serial_motor_demo/bin'
+[13.783s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(serial_motor_demo)
+[13.789s] INFO:colcon.colcon_core.shell:Creating package script '/home/edisonwong/robot_ws/install/serial_motor_demo/share/serial_motor_demo/package.ps1'
+[13.792s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/edisonwong/robot_ws/install/serial_motor_demo/share/serial_motor_demo/package.dsv'
+[13.795s] INFO:colcon.colcon_core.shell:Creating package script '/home/edisonwong/robot_ws/install/serial_motor_demo/share/serial_motor_demo/package.sh'
+[13.797s] INFO:colcon.colcon_core.shell:Creating package script '/home/edisonwong/robot_ws/install/serial_motor_demo/share/serial_motor_demo/package.bash'
+[13.799s] INFO:colcon.colcon_core.shell:Creating package script '/home/edisonwong/robot_ws/install/serial_motor_demo/share/serial_motor_demo/package.zsh'
+[13.801s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/edisonwong/robot_ws/install/serial_motor_demo/share/colcon-core/packages/serial_motor_demo)
+[13.803s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[13.804s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[13.804s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[13.805s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[13.831s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[13.832s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[13.832s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[13.874s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[13.881s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/edisonwong/robot_ws/install/local_setup.ps1'
+[13.885s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/edisonwong/robot_ws/install/_local_setup_util_ps1.py'
+[13.892s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/edisonwong/robot_ws/install/setup.ps1'
+[13.900s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/edisonwong/robot_ws/install/local_setup.sh'
+[13.903s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/edisonwong/robot_ws/install/_local_setup_util_sh.py'
+[13.906s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/edisonwong/robot_ws/install/setup.sh'
+[13.915s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/edisonwong/robot_ws/install/local_setup.bash'
+[13.917s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/edisonwong/robot_ws/install/setup.bash'
+[13.926s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/edisonwong/robot_ws/install/local_setup.zsh'
+[13.928s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/edisonwong/robot_ws/install/setup.zsh'

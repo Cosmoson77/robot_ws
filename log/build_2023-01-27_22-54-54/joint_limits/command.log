@@ -1,0 +1,1 @@
+Invoking command in '/home/edisonwong/robot_ws/build/joint_limits': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/edisonwong/robot_ws/ros2_control/joint_limits -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/edisonwong/robot_ws/install/joint_limits

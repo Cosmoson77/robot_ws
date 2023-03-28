@@ -1,0 +1,545 @@
+[0.000000] (-) TimerEvent: {}
+[0.001749] (my_bot) JobQueued: {'identifier': 'my_bot', 'dependencies': OrderedDict()}
+[0.002437] (serial) JobQueued: {'identifier': 'serial', 'dependencies': OrderedDict()}
+[0.005419] (diffdrive_arduino) JobQueued: {'identifier': 'diffdrive_arduino', 'dependencies': OrderedDict([('serial', '/home/edisonwong/robot_ws/src/install/serial')])}
+[0.005653] (serial) JobStarted: {'identifier': 'serial'}
+[0.073003] (my_bot) JobStarted: {'identifier': 'my_bot'}
+[0.098903] (-) TimerEvent: {}
+[0.113015] (serial) JobProgress: {'identifier': 'serial', 'progress': 'cmake'}
+[0.119871] (serial) JobProgress: {'identifier': 'serial', 'progress': 'build'}
+[0.123011] (serial) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/edisonwong/robot_ws/src/build/serial', '--', '-j4', '-l4'], 'cwd': '/home/edisonwong/robot_ws/src/build/serial', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'edisonwong'), ('SSH_CLIENT', '172.20.10.3 53906 22'), ('LC_TIME', 'ms_MY.UTF-8'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/edisonwong'), ('OLDPWD', '/home/edisonwong'), ('SSH_TTY', '/dev/pts/0'), ('ROS_PYTHON_VERSION', '3'), ('LC_MONETARY', 'ms_MY.UTF-8'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'edisonwong'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '3'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('LC_ADDRESS', 'ms_MY.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('LC_TELEPHONE', 'ms_MY.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ms_MY.UTF-8'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ms_MY.UTF-8'), ('LC_IDENTIFICATION', 'ms_MY.UTF-8'), ('PWD', '/home/edisonwong/robot_ws/src/build/serial'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '172.20.10.3 53906 172.20.10.4 22'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ms_MY.UTF-8'), ('LC_PAPER', 'ms_MY.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.154027] (my_bot) JobProgress: {'identifier': 'my_bot', 'progress': 'cmake'}
+[0.165127] (my_bot) JobProgress: {'identifier': 'my_bot', 'progress': 'build'}
+[0.166440] (my_bot) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/edisonwong/robot_ws/src/build/my_bot', '--', '-j4', '-l4'], 'cwd': '/home/edisonwong/robot_ws/src/build/my_bot', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'edisonwong'), ('SSH_CLIENT', '172.20.10.3 53906 22'), ('LC_TIME', 'ms_MY.UTF-8'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/edisonwong'), ('OLDPWD', '/home/edisonwong'), ('SSH_TTY', '/dev/pts/0'), ('ROS_PYTHON_VERSION', '3'), ('LC_MONETARY', 'ms_MY.UTF-8'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'edisonwong'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '3'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('LC_ADDRESS', 'ms_MY.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('LC_TELEPHONE', 'ms_MY.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ms_MY.UTF-8'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ms_MY.UTF-8'), ('LC_IDENTIFICATION', 'ms_MY.UTF-8'), ('PWD', '/home/edisonwong/robot_ws/src/build/my_bot'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '172.20.10.3 53906 172.20.10.4 22'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ms_MY.UTF-8'), ('LC_PAPER', 'ms_MY.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.199189] (-) TimerEvent: {}
+[0.300076] (-) TimerEvent: {}
+[0.401257] (-) TimerEvent: {}
+[0.501992] (-) TimerEvent: {}
+[0.603010] (-) TimerEvent: {}
+[0.617296] (my_bot) CommandEnded: {'returncode': 0}
+[0.648544] (serial) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target gtest_main\x1b[0m\n'}
+[0.653961] (serial) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target serial\x1b[0m\n'}
+[0.659092] (serial) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target gtest\x1b[0m\n'}
+[0.703197] (-) TimerEvent: {}
+[0.742029] (my_bot) JobProgress: {'identifier': 'my_bot', 'progress': 'install'}
+[0.785036] (my_bot) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/edisonwong/robot_ws/src/build/my_bot'], 'cwd': '/home/edisonwong/robot_ws/src/build/my_bot', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'edisonwong'), ('SSH_CLIENT', '172.20.10.3 53906 22'), ('LC_TIME', 'ms_MY.UTF-8'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/edisonwong'), ('OLDPWD', '/home/edisonwong'), ('SSH_TTY', '/dev/pts/0'), ('ROS_PYTHON_VERSION', '3'), ('LC_MONETARY', 'ms_MY.UTF-8'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'edisonwong'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '3'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('LC_ADDRESS', 'ms_MY.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('LC_TELEPHONE', 'ms_MY.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ms_MY.UTF-8'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ms_MY.UTF-8'), ('LC_IDENTIFICATION', 'ms_MY.UTF-8'), ('PWD', '/home/edisonwong/robot_ws/src/build/my_bot'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '172.20.10.3 53906 172.20.10.4 22'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ms_MY.UTF-8'), ('LC_PAPER', 'ms_MY.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.794623] (serial) StdoutLine: {'line': b'[ 14%] Built target gtest_main\n'}
+[0.796879] (serial) StdoutLine: {'line': b'[ 42%] Built target serial\n'}
+[0.802006] (serial) StdoutLine: {'line': b'[ 57%] Built target gtest\n'}
+[0.803342] (-) TimerEvent: {}
+[0.832969] (my_bot) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[0.838853] (my_bot) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[0.851926] (my_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/edisonwong/robot_ws/src/install/my_bot/share/my_bot/config/drive_bot.rviz\n'}
+[0.853162] (my_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/edisonwong/robot_ws/src/install/my_bot/share/my_bot/config/empty.yaml\n'}
+[0.855434] (my_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/edisonwong/robot_ws/src/install/my_bot/share/my_bot/config/gazebo_params.yaml\n'}
+[0.859495] (my_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/edisonwong/robot_ws/src/install/my_bot/share/my_bot/config/my_controllers.yaml\n'}
+[0.862275] (my_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/edisonwong/robot_ws/src/install/my_bot/share/my_bot/config/view_bot.rviz\n'}
+[0.864979] (serial) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target serial_example\x1b[0m\n'}
+[0.869278] (serial) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target serial-test\x1b[0m\n'}
+[0.870272] (my_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/edisonwong/robot_ws/src/install/my_bot/share/my_bot/description/camera.xacro\n'}
+[0.871957] (serial) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target serial-test-timer\x1b[0m\n'}
+[0.873417] (my_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/edisonwong/robot_ws/src/install/my_bot/share/my_bot/description/depth_camera.xacro\n'}
+[0.875920] (my_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/edisonwong/robot_ws/src/install/my_bot/share/my_bot/description/gazebo_control.xacro\n'}
+[0.879541] (my_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/edisonwong/robot_ws/src/install/my_bot/share/my_bot/description/inertial_macros.xacro\n'}
+[0.882038] (my_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/edisonwong/robot_ws/src/install/my_bot/share/my_bot/description/lidar.xacro\n'}
+[0.884731] (my_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/edisonwong/robot_ws/src/install/my_bot/share/my_bot/description/robot.urdf.xacro\n'}
+[0.887429] (my_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/edisonwong/robot_ws/src/install/my_bot/share/my_bot/description/robot_core.xacro\n'}
+[0.903565] (-) TimerEvent: {}
+[0.910477] (my_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/edisonwong/robot_ws/src/install/my_bot/share/my_bot/description/ros2_control.xacro\n'}
+[0.919241] (my_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/edisonwong/robot_ws/src/install/my_bot/share/my_bot/launch/launch_sim.launch.py\n'}
+[0.920238] (my_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/edisonwong/robot_ws/src/install/my_bot/share/my_bot/launch/rsp.launch.py\n'}
+[0.926064] (my_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/edisonwong/robot_ws/src/install/my_bot/share/my_bot/worlds/empty.world\n'}
+[0.927232] (my_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/edisonwong/robot_ws/src/install/my_bot/share/my_bot/worlds/kb5.world\n'}
+[0.928213] (my_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/edisonwong/robot_ws/src/install/my_bot/share/my_bot/worlds/obstacles.world\n'}
+[0.935712] (my_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/edisonwong/robot_ws/src/install/my_bot/share/ament_index/resource_index/package_run_dependencies/my_bot\n'}
+[0.946914] (my_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/edisonwong/robot_ws/src/install/my_bot/share/ament_index/resource_index/parent_prefix_path/my_bot\n'}
+[0.954823] (serial) StdoutLine: {'line': b'[ 71%] Built target serial-test-timer\n'}
+[0.956257] (serial) StdoutLine: {'line': b'[ 85%] Built target serial_example\n'}
+[0.957741] (my_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/edisonwong/robot_ws/src/install/my_bot/share/my_bot/environment/ament_prefix_path.sh\n'}
+[0.960199] (my_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/edisonwong/robot_ws/src/install/my_bot/share/my_bot/environment/ament_prefix_path.dsv\n'}
+[0.965582] (my_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/edisonwong/robot_ws/src/install/my_bot/share/my_bot/environment/path.sh\n'}
+[0.967476] (my_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/edisonwong/robot_ws/src/install/my_bot/share/my_bot/environment/path.dsv\n'}
+[0.969485] (my_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/edisonwong/robot_ws/src/install/my_bot/share/my_bot/local_setup.bash\n'}
+[0.971471] (my_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/edisonwong/robot_ws/src/install/my_bot/share/my_bot/local_setup.sh\n'}
+[0.973396] (my_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/edisonwong/robot_ws/src/install/my_bot/share/my_bot/local_setup.zsh\n'}
+[0.975567] (my_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/edisonwong/robot_ws/src/install/my_bot/share/my_bot/local_setup.dsv\n'}
+[0.976557] (my_bot) StdoutLine: {'line': b'-- Symlinking: /home/edisonwong/robot_ws/src/install/my_bot/share/my_bot/package.dsv\n'}
+[1.000436] (serial) StdoutLine: {'line': b'[100%] Built target serial-test\n'}
+[1.003800] (-) TimerEvent: {}
+[1.019028] (my_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/edisonwong/robot_ws/src/install/my_bot/share/ament_index/resource_index/packages/my_bot\n'}
+[1.021621] (my_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/edisonwong/robot_ws/src/install/my_bot/share/my_bot/cmake/my_botConfig.cmake\n'}
+[1.023352] (my_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/edisonwong/robot_ws/src/install/my_bot/share/my_bot/cmake/my_botConfig-version.cmake\n'}
+[1.024727] (my_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/edisonwong/robot_ws/src/install/my_bot/share/my_bot/package.xml\n'}
+[1.031234] (my_bot) CommandEnded: {'returncode': 0}
+[1.104156] (-) TimerEvent: {}
+[1.155955] (serial) CommandEnded: {'returncode': 0}
+[1.204418] (-) TimerEvent: {}
+[1.305292] (-) TimerEvent: {}
+[1.316051] (my_bot) JobEnded: {'identifier': 'my_bot', 'rc': 0}
+[1.345592] (serial) JobProgress: {'identifier': 'serial', 'progress': 'install'}
+[1.346567] (serial) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/edisonwong/robot_ws/src/build/serial'], 'cwd': '/home/edisonwong/robot_ws/src/build/serial', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'edisonwong'), ('SSH_CLIENT', '172.20.10.3 53906 22'), ('LC_TIME', 'ms_MY.UTF-8'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/edisonwong'), ('OLDPWD', '/home/edisonwong'), ('SSH_TTY', '/dev/pts/0'), ('ROS_PYTHON_VERSION', '3'), ('LC_MONETARY', 'ms_MY.UTF-8'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'edisonwong'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '3'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('LC_ADDRESS', 'ms_MY.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('LC_TELEPHONE', 'ms_MY.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ms_MY.UTF-8'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ms_MY.UTF-8'), ('LC_IDENTIFICATION', 'ms_MY.UTF-8'), ('PWD', '/home/edisonwong/robot_ws/src/build/serial'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '172.20.10.3 53906 172.20.10.4 22'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ms_MY.UTF-8'), ('LC_PAPER', 'ms_MY.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[1.385682] (serial) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[1.388966] (serial) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[1.393091] (serial) StdoutLine: {'line': b'-- Up-to-date symlink: /home/edisonwong/robot_ws/src/install/serial/lib/libserial.a\n'}
+[1.396053] (serial) StdoutLine: {'line': b'-- Up-to-date symlink: /home/edisonwong/robot_ws/src/install/serial/include/serial/serial.h\n'}
+[1.397664] (serial) StdoutLine: {'line': b'-- Up-to-date symlink: /home/edisonwong/robot_ws/src/install/serial/include/serial/v8stdint.h\n'}
+[1.401293] (serial) StdoutLine: {'line': b'-- Up-to-date symlink: /home/edisonwong/robot_ws/src/install/serial/share/serial/environment/library_path.sh\n'}
+[1.403328] (serial) StdoutLine: {'line': b'-- Up-to-date symlink: /home/edisonwong/robot_ws/src/install/serial/share/serial/environment/library_path.dsv\n'}
+[1.405439] (-) TimerEvent: {}
+[1.407583] (serial) StdoutLine: {'line': b'-- Up-to-date symlink: /home/edisonwong/robot_ws/src/install/serial/share/ament_index/resource_index/package_run_dependencies/serial\n'}
+[1.410448] (serial) StdoutLine: {'line': b'-- Up-to-date symlink: /home/edisonwong/robot_ws/src/install/serial/share/ament_index/resource_index/parent_prefix_path/serial\n'}
+[1.412495] (serial) StdoutLine: {'line': b'-- Up-to-date symlink: /home/edisonwong/robot_ws/src/install/serial/share/serial/environment/ament_prefix_path.sh\n'}
+[1.414517] (serial) StdoutLine: {'line': b'-- Up-to-date symlink: /home/edisonwong/robot_ws/src/install/serial/share/serial/environment/ament_prefix_path.dsv\n'}
+[1.416561] (serial) StdoutLine: {'line': b'-- Up-to-date symlink: /home/edisonwong/robot_ws/src/install/serial/share/serial/environment/path.sh\n'}
+[1.418537] (serial) StdoutLine: {'line': b'-- Up-to-date symlink: /home/edisonwong/robot_ws/src/install/serial/share/serial/environment/path.dsv\n'}
+[1.420340] (serial) StdoutLine: {'line': b'-- Up-to-date symlink: /home/edisonwong/robot_ws/src/install/serial/share/serial/local_setup.bash\n'}
+[1.422131] (serial) StdoutLine: {'line': b'-- Up-to-date symlink: /home/edisonwong/robot_ws/src/install/serial/share/serial/local_setup.sh\n'}
+[1.423977] (serial) StdoutLine: {'line': b'-- Up-to-date symlink: /home/edisonwong/robot_ws/src/install/serial/share/serial/local_setup.zsh\n'}
+[1.425821] (serial) StdoutLine: {'line': b'-- Up-to-date symlink: /home/edisonwong/robot_ws/src/install/serial/share/serial/local_setup.dsv\n'}
+[1.426697] (serial) StdoutLine: {'line': b'-- Symlinking: /home/edisonwong/robot_ws/src/install/serial/share/serial/package.dsv\n'}
+[1.466580] (serial) StdoutLine: {'line': b'-- Up-to-date symlink: /home/edisonwong/robot_ws/src/install/serial/share/ament_index/resource_index/packages/serial\n'}
+[1.468756] (serial) StdoutLine: {'line': b'-- Up-to-date symlink: /home/edisonwong/robot_ws/src/install/serial/share/serial/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[1.470496] (serial) StdoutLine: {'line': b'-- Up-to-date symlink: /home/edisonwong/robot_ws/src/install/serial/share/serial/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[1.472175] (serial) StdoutLine: {'line': b'-- Up-to-date symlink: /home/edisonwong/robot_ws/src/install/serial/share/serial/cmake/serialConfig.cmake\n'}
+[1.473810] (serial) StdoutLine: {'line': b'-- Up-to-date symlink: /home/edisonwong/robot_ws/src/install/serial/share/serial/cmake/serialConfig-version.cmake\n'}
+[1.475150] (serial) StdoutLine: {'line': b'-- Up-to-date symlink: /home/edisonwong/robot_ws/src/install/serial/share/serial/package.xml\n'}
+[1.484743] (serial) CommandEnded: {'returncode': 0}
+[1.510816] (-) TimerEvent: {}
+[1.612003] (-) TimerEvent: {}
+[1.712718] (-) TimerEvent: {}
+[1.793997] (serial) JobEnded: {'identifier': 'serial', 'rc': 0}
+[1.807883] (diffdrive_arduino) JobStarted: {'identifier': 'diffdrive_arduino'}
+[1.812819] (-) TimerEvent: {}
+[1.852692] (diffdrive_arduino) JobProgress: {'identifier': 'diffdrive_arduino', 'progress': 'cmake'}
+[1.861621] (diffdrive_arduino) JobProgress: {'identifier': 'diffdrive_arduino', 'progress': 'build'}
+[1.863336] (diffdrive_arduino) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/edisonwong/robot_ws/src/build/diffdrive_arduino', '--', '-j4', '-l4'], 'cwd': '/home/edisonwong/robot_ws/src/build/diffdrive_arduino', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'edisonwong'), ('SSH_CLIENT', '172.20.10.3 53906 22'), ('LC_TIME', 'ms_MY.UTF-8'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/edisonwong/robot_ws/src/install/serial/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/edisonwong'), ('OLDPWD', '/home/edisonwong'), ('SSH_TTY', '/dev/pts/0'), ('ROS_PYTHON_VERSION', '3'), ('LC_MONETARY', 'ms_MY.UTF-8'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'edisonwong'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '3'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('LC_ADDRESS', 'ms_MY.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('LC_TELEPHONE', 'ms_MY.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/edisonwong/robot_ws/src/install/serial:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ms_MY.UTF-8'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ms_MY.UTF-8'), ('LC_IDENTIFICATION', 'ms_MY.UTF-8'), ('PWD', '/home/edisonwong/robot_ws/src/build/diffdrive_arduino'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '172.20.10.3 53906 172.20.10.4 22'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ms_MY.UTF-8'), ('LC_PAPER', 'ms_MY.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/edisonwong/robot_ws/src/install/serial:/opt/ros/humble')]), 'shell': False}
+[1.913046] (-) TimerEvent: {}
+[2.013960] (-) TimerEvent: {}
+[2.115162] (-) TimerEvent: {}
+[2.216077] (-) TimerEvent: {}
+[2.263458] (diffdrive_arduino) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.3 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[2.316302] (-) TimerEvent: {}
+[2.417311] (-) TimerEvent: {}
+[2.517960] (-) TimerEvent: {}
+[2.618675] (-) TimerEvent: {}
+[2.719335] (-) TimerEvent: {}
+[2.819981] (-) TimerEvent: {}
+[2.920747] (-) TimerEvent: {}
+[3.021590] (-) TimerEvent: {}
+[3.032846] (diffdrive_arduino) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[3.120998] (diffdrive_arduino) StdoutLine: {'line': b'-- Found serial: 1.2.1 (/home/edisonwong/robot_ws/src/install/serial/share/serial/cmake)\n'}
+[3.121761] (-) TimerEvent: {}
+[3.131317] (diffdrive_arduino) StdoutLine: {'line': b'-- Found hardware_interface: 2.18.0 (/opt/ros/humble/share/hardware_interface/cmake)\n'}
+[3.221963] (-) TimerEvent: {}
+[3.322723] (-) TimerEvent: {}
+[3.393309] (diffdrive_arduino) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.4 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[3.413330] (diffdrive_arduino) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.4 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[3.422887] (-) TimerEvent: {}
+[3.461101] (diffdrive_arduino) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.4 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[3.523052] (-) TimerEvent: {}
+[3.540279] (diffdrive_arduino) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[3.623246] (-) TimerEvent: {}
+[3.650047] (diffdrive_arduino) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[3.723419] (-) TimerEvent: {}
+[3.824115] (-) TimerEvent: {}
+[3.924843] (-) TimerEvent: {}
+[4.025575] (-) TimerEvent: {}
+[4.126289] (-) TimerEvent: {}
+[4.226963] (-) TimerEvent: {}
+[4.327664] (-) TimerEvent: {}
+[4.428368] (-) TimerEvent: {}
+[4.529065] (-) TimerEvent: {}
+[4.629794] (-) TimerEvent: {}
+[4.730508] (-) TimerEvent: {}
+[4.831188] (-) TimerEvent: {}
+[4.931899] (-) TimerEvent: {}
+[5.032624] (-) TimerEvent: {}
+[5.133317] (-) TimerEvent: {}
+[5.234013] (-) TimerEvent: {}
+[5.334730] (-) TimerEvent: {}
+[5.435399] (-) TimerEvent: {}
+[5.536073] (-) TimerEvent: {}
+[5.636808] (-) TimerEvent: {}
+[5.737517] (-) TimerEvent: {}
+[5.838246] (-) TimerEvent: {}
+[5.938932] (-) TimerEvent: {}
+[6.039637] (-) TimerEvent: {}
+[6.140330] (-) TimerEvent: {}
+[6.241045] (-) TimerEvent: {}
+[6.341711] (-) TimerEvent: {}
+[6.442374] (-) TimerEvent: {}
+[6.543033] (-) TimerEvent: {}
+[6.643699] (-) TimerEvent: {}
+[6.744375] (-) TimerEvent: {}
+[6.842130] (diffdrive_arduino) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[6.844496] (-) TimerEvent: {}
+[6.855397] (diffdrive_arduino) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.2 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[6.944686] (-) TimerEvent: {}
+[7.045408] (-) TimerEvent: {}
+[7.146100] (-) TimerEvent: {}
+[7.246829] (-) TimerEvent: {}
+[7.347497] (-) TimerEvent: {}
+[7.448205] (-) TimerEvent: {}
+[7.548925] (-) TimerEvent: {}
+[7.649704] (-) TimerEvent: {}
+[7.750510] (-) TimerEvent: {}
+[7.851192] (-) TimerEvent: {}
+[7.951876] (-) TimerEvent: {}
+[8.052529] (-) TimerEvent: {}
+[8.153352] (-) TimerEvent: {}
+[8.164245] (diffdrive_arduino) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[8.253518] (-) TimerEvent: {}
+[8.354247] (-) TimerEvent: {}
+[8.454936] (-) TimerEvent: {}
+[8.555617] (-) TimerEvent: {}
+[8.656299] (-) TimerEvent: {}
+[8.756990] (-) TimerEvent: {}
+[8.857721] (-) TimerEvent: {}
+[8.958130] (diffdrive_arduino) StdoutLine: {'line': b'-- Found controller_manager: 2.18.0 (/opt/ros/humble/share/controller_manager/cmake)\n'}
+[8.958829] (-) TimerEvent: {}
+[9.059434] (-) TimerEvent: {}
+[9.160117] (-) TimerEvent: {}
+[9.260803] (-) TimerEvent: {}
+[9.361512] (-) TimerEvent: {}
+[9.462232] (-) TimerEvent: {}
+[9.562897] (-) TimerEvent: {}
+[9.663580] (-) TimerEvent: {}
+[9.764267] (-) TimerEvent: {}
+[9.865025] (-) TimerEvent: {}
+[9.965739] (-) TimerEvent: {}
+[10.066520] (-) TimerEvent: {}
+[10.167215] (-) TimerEvent: {}
+[10.267906] (-) TimerEvent: {}
+[10.368637] (-) TimerEvent: {}
+[10.469336] (-) TimerEvent: {}
+[10.570016] (-) TimerEvent: {}
+[10.670709] (-) TimerEvent: {}
+[10.771421] (-) TimerEvent: {}
+[10.872134] (-) TimerEvent: {}
+[10.972840] (-) TimerEvent: {}
+[11.073547] (-) TimerEvent: {}
+[11.174315] (-) TimerEvent: {}
+[11.275016] (-) TimerEvent: {}
+[11.375724] (-) TimerEvent: {}
+[11.476415] (-) TimerEvent: {}
+[11.577140] (-) TimerEvent: {}
+[11.677882] (-) TimerEvent: {}
+[11.778649] (-) TimerEvent: {}
+[11.879405] (-) TimerEvent: {}
+[11.980112] (-) TimerEvent: {}
+[12.080952] (-) TimerEvent: {}
+[12.181896] (-) TimerEvent: {}
+[12.282537] (-) TimerEvent: {}
+[12.383175] (-) TimerEvent: {}
+[12.483875] (-) TimerEvent: {}
+[12.584616] (-) TimerEvent: {}
+[12.685384] (-) TimerEvent: {}
+[12.786099] (-) TimerEvent: {}
+[12.886894] (-) TimerEvent: {}
+[12.987594] (-) TimerEvent: {}
+[13.088296] (-) TimerEvent: {}
+[13.189003] (-) TimerEvent: {}
+[13.289789] (-) TimerEvent: {}
+[13.390566] (-) TimerEvent: {}
+[13.491269] (-) TimerEvent: {}
+[13.591996] (-) TimerEvent: {}
+[13.692771] (-) TimerEvent: {}
+[13.793439] (-) TimerEvent: {}
+[13.894484] (-) TimerEvent: {}
+[13.995287] (-) TimerEvent: {}
+[14.095985] (-) TimerEvent: {}
+[14.196679] (-) TimerEvent: {}
+[14.238692] (diffdrive_arduino) StdoutLine: {'line': b'-- Configuring done\n'}
+[14.296853] (-) TimerEvent: {}
+[14.397608] (-) TimerEvent: {}
+[14.498681] (-) TimerEvent: {}
+[14.599646] (-) TimerEvent: {}
+[14.700533] (-) TimerEvent: {}
+[14.801292] (-) TimerEvent: {}
+[14.902009] (-) TimerEvent: {}
+[14.914002] (diffdrive_arduino) StdoutLine: {'line': b'-- Generating done\n'}
+[14.927791] (diffdrive_arduino) StdoutLine: {'line': b'-- Build files have been written to: /home/edisonwong/robot_ws/src/build/diffdrive_arduino\n'}
+[15.002138] (-) TimerEvent: {}
+[15.060335] (diffdrive_arduino) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target fake_robot\x1b[0m\n'}
+[15.064032] (diffdrive_arduino) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target diffdrive_arduino\x1b[0m\n'}
+[15.102351] (-) TimerEvent: {}
+[15.121515] (diffdrive_arduino) StdoutLine: {'line': b'[ 14%] \x1b[32mBuilding CXX object CMakeFiles/fake_robot.dir/src/fake_robot.cpp.o\x1b[0m\n'}
+[15.128011] (diffdrive_arduino) StdoutLine: {'line': b'[ 28%] \x1b[32mBuilding CXX object CMakeFiles/fake_robot.dir/src/wheel.cpp.o\x1b[0m\n'}
+[15.158021] (diffdrive_arduino) StdoutLine: {'line': b'[ 42%] \x1b[32mBuilding CXX object CMakeFiles/diffdrive_arduino.dir/src/diffdrive_arduino.cpp.o\x1b[0m\n'}
+[15.172223] (diffdrive_arduino) StdoutLine: {'line': b'[ 57%] \x1b[32mBuilding CXX object CMakeFiles/diffdrive_arduino.dir/src/wheel.cpp.o\x1b[0m\n'}
+[15.202614] (-) TimerEvent: {}
+[15.303668] (-) TimerEvent: {}
+[15.404551] (-) TimerEvent: {}
+[15.505521] (-) TimerEvent: {}
+[15.606872] (-) TimerEvent: {}
+[15.707714] (-) TimerEvent: {}
+[15.808470] (-) TimerEvent: {}
+[15.909307] (-) TimerEvent: {}
+[16.010017] (-) TimerEvent: {}
+[16.111616] (-) TimerEvent: {}
+[16.213099] (-) TimerEvent: {}
+[16.314616] (-) TimerEvent: {}
+[16.415905] (-) TimerEvent: {}
+[16.517359] (-) TimerEvent: {}
+[16.619009] (-) TimerEvent: {}
+[16.719846] (-) TimerEvent: {}
+[16.820751] (-) TimerEvent: {}
+[16.921619] (-) TimerEvent: {}
+[17.022622] (-) TimerEvent: {}
+[17.123719] (-) TimerEvent: {}
+[17.224571] (-) TimerEvent: {}
+[17.325411] (-) TimerEvent: {}
+[17.426261] (-) TimerEvent: {}
+[17.527891] (-) TimerEvent: {}
+[17.629400] (-) TimerEvent: {}
+[17.731368] (-) TimerEvent: {}
+[17.833178] (-) TimerEvent: {}
+[17.934997] (-) TimerEvent: {}
+[18.036593] (-) TimerEvent: {}
+[18.137486] (-) TimerEvent: {}
+[18.147225] (diffdrive_arduino) StdoutLine: {'line': b'[ 71%] \x1b[32mBuilding CXX object CMakeFiles/diffdrive_arduino.dir/src/arduino_comms.cpp.o\x1b[0m\n'}
+[18.237657] (-) TimerEvent: {}
+[18.339069] (-) TimerEvent: {}
+[18.440481] (-) TimerEvent: {}
+[18.541853] (-) TimerEvent: {}
+[18.643423] (-) TimerEvent: {}
+[18.745070] (-) TimerEvent: {}
+[18.846739] (-) TimerEvent: {}
+[18.947541] (-) TimerEvent: {}
+[19.048447] (-) TimerEvent: {}
+[19.149275] (-) TimerEvent: {}
+[19.250160] (-) TimerEvent: {}
+[19.351064] (-) TimerEvent: {}
+[19.451877] (-) TimerEvent: {}
+[19.552716] (-) TimerEvent: {}
+[19.653653] (-) TimerEvent: {}
+[19.755402] (-) TimerEvent: {}
+[19.857225] (-) TimerEvent: {}
+[19.958157] (-) TimerEvent: {}
+[20.059023] (-) TimerEvent: {}
+[20.160003] (-) TimerEvent: {}
+[20.260968] (-) TimerEvent: {}
+[20.361964] (-) TimerEvent: {}
+[20.462896] (-) TimerEvent: {}
+[20.563821] (-) TimerEvent: {}
+[20.664851] (-) TimerEvent: {}
+[20.765986] (-) TimerEvent: {}
+[20.868122] (-) TimerEvent: {}
+[20.969041] (-) TimerEvent: {}
+[21.070240] (-) TimerEvent: {}
+[21.171220] (-) TimerEvent: {}
+[21.273629] (-) TimerEvent: {}
+[21.375967] (-) TimerEvent: {}
+[21.478162] (-) TimerEvent: {}
+[21.580208] (-) TimerEvent: {}
+[21.682596] (-) TimerEvent: {}
+[21.785894] (-) TimerEvent: {}
+[21.889258] (-) TimerEvent: {}
+[21.991945] (-) TimerEvent: {}
+[22.094009] (-) TimerEvent: {}
+[22.196677] (-) TimerEvent: {}
+[22.321282] (-) TimerEvent: {}
+[22.423924] (-) TimerEvent: {}
+[22.526317] (-) TimerEvent: {}
+[22.628263] (-) TimerEvent: {}
+[22.730292] (-) TimerEvent: {}
+[22.832154] (-) TimerEvent: {}
+[22.933130] (-) TimerEvent: {}
+[23.035509] (-) TimerEvent: {}
+[23.138144] (-) TimerEvent: {}
+[23.240375] (-) TimerEvent: {}
+[23.342521] (-) TimerEvent: {}
+[23.444604] (-) TimerEvent: {}
+[23.546872] (-) TimerEvent: {}
+[23.648993] (-) TimerEvent: {}
+[23.751078] (-) TimerEvent: {}
+[23.853128] (-) TimerEvent: {}
+[23.955248] (-) TimerEvent: {}
+[24.056257] (-) TimerEvent: {}
+[24.157363] (-) TimerEvent: {}
+[24.258316] (-) TimerEvent: {}
+[24.359297] (-) TimerEvent: {}
+[24.460192] (-) TimerEvent: {}
+[24.561121] (-) TimerEvent: {}
+[24.662308] (-) TimerEvent: {}
+[24.763310] (-) TimerEvent: {}
+[24.864252] (-) TimerEvent: {}
+[24.965284] (-) TimerEvent: {}
+[25.066213] (-) TimerEvent: {}
+[25.167173] (-) TimerEvent: {}
+[25.268109] (-) TimerEvent: {}
+[25.369042] (-) TimerEvent: {}
+[25.469937] (-) TimerEvent: {}
+[25.570844] (-) TimerEvent: {}
+[25.671742] (-) TimerEvent: {}
+[25.772724] (-) TimerEvent: {}
+[25.873649] (-) TimerEvent: {}
+[25.974576] (-) TimerEvent: {}
+[26.076836] (-) TimerEvent: {}
+[26.178960] (-) TimerEvent: {}
+[26.280992] (-) TimerEvent: {}
+[26.383255] (-) TimerEvent: {}
+[26.485692] (-) TimerEvent: {}
+[26.587934] (-) TimerEvent: {}
+[26.690164] (-) TimerEvent: {}
+[26.792345] (-) TimerEvent: {}
+[26.894450] (-) TimerEvent: {}
+[26.996547] (-) TimerEvent: {}
+[27.098626] (-) TimerEvent: {}
+[27.200713] (-) TimerEvent: {}
+[27.308468] (-) TimerEvent: {}
+[27.410689] (-) TimerEvent: {}
+[27.512824] (-) TimerEvent: {}
+[27.615644] (-) TimerEvent: {}
+[27.716940] (-) TimerEvent: {}
+[27.818346] (-) TimerEvent: {}
+[27.919621] (-) TimerEvent: {}
+[28.020768] (-) TimerEvent: {}
+[28.122947] (-) TimerEvent: {}
+[28.225073] (-) TimerEvent: {}
+[28.326843] (-) TimerEvent: {}
+[28.427840] (-) TimerEvent: {}
+[28.528861] (-) TimerEvent: {}
+[28.629866] (-) TimerEvent: {}
+[28.732135] (-) TimerEvent: {}
+[28.834922] (-) TimerEvent: {}
+[28.937618] (-) TimerEvent: {}
+[29.040228] (-) TimerEvent: {}
+[29.142571] (-) TimerEvent: {}
+[29.244735] (-) TimerEvent: {}
+[29.346885] (-) TimerEvent: {}
+[29.449172] (-) TimerEvent: {}
+[29.551464] (-) TimerEvent: {}
+[29.653679] (-) TimerEvent: {}
+[29.758284] (-) TimerEvent: {}
+[29.860616] (-) TimerEvent: {}
+[29.962999] (-) TimerEvent: {}
+[30.065264] (-) TimerEvent: {}
+[30.166388] (-) TimerEvent: {}
+[30.268698] (-) TimerEvent: {}
+[30.373388] (-) TimerEvent: {}
+[30.479839] (-) TimerEvent: {}
+[30.582240] (-) TimerEvent: {}
+[30.684286] (-) TimerEvent: {}
+[30.786379] (-) TimerEvent: {}
+[30.888734] (-) TimerEvent: {}
+[30.990727] (-) TimerEvent: {}
+[31.092891] (-) TimerEvent: {}
+[31.194817] (-) TimerEvent: {}
+[31.295796] (-) TimerEvent: {}
+[31.396752] (-) TimerEvent: {}
+[31.497747] (-) TimerEvent: {}
+[31.599924] (-) TimerEvent: {}
+[31.702318] (-) TimerEvent: {}
+[31.804206] (-) TimerEvent: {}
+[31.906364] (-) TimerEvent: {}
+[32.007913] (-) TimerEvent: {}
+[32.110062] (-) TimerEvent: {}
+[32.212413] (-) TimerEvent: {}
+[32.321769] (-) TimerEvent: {}
+[32.424544] (-) TimerEvent: {}
+[32.526754] (-) TimerEvent: {}
+[32.628933] (-) TimerEvent: {}
+[32.731158] (-) TimerEvent: {}
+[32.833213] (-) TimerEvent: {}
+[32.935353] (-) TimerEvent: {}
+[33.037684] (-) TimerEvent: {}
+[33.141241] (-) TimerEvent: {}
+[33.242492] (-) TimerEvent: {}
+[33.344487] (-) TimerEvent: {}
+[33.446655] (-) TimerEvent: {}
+[33.549604] (-) TimerEvent: {}
+[33.651772] (-) TimerEvent: {}
+[33.753983] (-) TimerEvent: {}
+[33.857141] (-) TimerEvent: {}
+[33.959355] (-) TimerEvent: {}
+[34.061442] (-) TimerEvent: {}
+[34.163699] (-) TimerEvent: {}
+[34.265784] (-) TimerEvent: {}
+[34.367961] (-) TimerEvent: {}
+[34.470280] (-) TimerEvent: {}
+[34.572343] (-) TimerEvent: {}
+[34.674540] (-) TimerEvent: {}
+[34.776733] (-) TimerEvent: {}
+[34.878887] (-) TimerEvent: {}
+[34.981069] (-) TimerEvent: {}
+[35.083953] (-) TimerEvent: {}
+[35.186158] (-) TimerEvent: {}
+[35.288563] (-) TimerEvent: {}
+[35.390852] (-) TimerEvent: {}
+[35.492081] (-) TimerEvent: {}
+[35.593250] (-) TimerEvent: {}
+[35.694475] (-) TimerEvent: {}
+[35.795548] (-) TimerEvent: {}
+[35.896386] (-) TimerEvent: {}
+[35.932997] (diffdrive_arduino) StdoutLine: {'line': b'[ 85%] \x1b[32m\x1b[1mLinking CXX shared library libfake_robot.so\x1b[0m\n'}
+[35.996568] (-) TimerEvent: {}
+[36.097961] (-) TimerEvent: {}
+[36.172162] (diffdrive_arduino) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX shared library libdiffdrive_arduino.so\x1b[0m\n'}
+[36.198245] (-) TimerEvent: {}
+[36.299425] (-) TimerEvent: {}
+[36.400707] (-) TimerEvent: {}
+[36.502317] (-) TimerEvent: {}
+[36.603888] (-) TimerEvent: {}
+[36.705089] (-) TimerEvent: {}
+[36.806474] (-) TimerEvent: {}
+[36.908173] (-) TimerEvent: {}
+[37.009775] (-) TimerEvent: {}
+[37.111260] (-) TimerEvent: {}
+[37.201005] (diffdrive_arduino) StdoutLine: {'line': b'[100%] Built target fake_robot\n'}
+[37.211510] (-) TimerEvent: {}
+[37.312895] (-) TimerEvent: {}
+[37.413838] (-) TimerEvent: {}
+[37.469138] (diffdrive_arduino) StdoutLine: {'line': b'[100%] Built target diffdrive_arduino\n'}
+[37.513000] (diffdrive_arduino) CommandEnded: {'returncode': 0}
+[37.514444] (-) TimerEvent: {}
+[37.616112] (-) TimerEvent: {}
+[37.691514] (diffdrive_arduino) JobProgress: {'identifier': 'diffdrive_arduino', 'progress': 'install'}
+[37.692770] (diffdrive_arduino) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/edisonwong/robot_ws/src/build/diffdrive_arduino'], 'cwd': '/home/edisonwong/robot_ws/src/build/diffdrive_arduino', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'edisonwong'), ('SSH_CLIENT', '172.20.10.3 53906 22'), ('LC_TIME', 'ms_MY.UTF-8'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/edisonwong/robot_ws/src/install/serial/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/edisonwong'), ('OLDPWD', '/home/edisonwong'), ('SSH_TTY', '/dev/pts/0'), ('ROS_PYTHON_VERSION', '3'), ('LC_MONETARY', 'ms_MY.UTF-8'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'edisonwong'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '3'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('LC_ADDRESS', 'ms_MY.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('LC_TELEPHONE', 'ms_MY.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/edisonwong/robot_ws/src/install/serial:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ms_MY.UTF-8'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ms_MY.UTF-8'), ('LC_IDENTIFICATION', 'ms_MY.UTF-8'), ('PWD', '/home/edisonwong/robot_ws/src/build/diffdrive_arduino'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '172.20.10.3 53906 172.20.10.4 22'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ms_MY.UTF-8'), ('LC_PAPER', 'ms_MY.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/edisonwong/robot_ws/src/install/serial:/opt/ros/humble')]), 'shell': False}
+[37.716310] (-) TimerEvent: {}
+[37.729524] (diffdrive_arduino) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[37.731617] (diffdrive_arduino) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[37.736389] (diffdrive_arduino) StdoutLine: {'line': b'-- Symlinking: /home/edisonwong/robot_ws/src/install/diffdrive_arduino/share/diffdrive_arduino//robot_hardware.xml\n'}
+[37.774721] (diffdrive_arduino) StdoutLine: {'line': b'-- Symlinking: /home/edisonwong/robot_ws/src/install/diffdrive_arduino/share/diffdrive_arduino//fake_robot_hardware.xml\n'}
+[37.812727] (diffdrive_arduino) StdoutLine: {'line': b'-- Symlinking: /home/edisonwong/robot_ws/src/install/diffdrive_arduino/lib/libdiffdrive_arduino.so\n'}
+[37.816477] (-) TimerEvent: {}
+[37.849781] (diffdrive_arduino) StdoutLine: {'line': b'-- Symlinking: /home/edisonwong/robot_ws/src/install/diffdrive_arduino/lib/libfake_robot.so\n'}
+[37.887222] (diffdrive_arduino) StdoutLine: {'line': b'-- Symlinking: /home/edisonwong/robot_ws/src/install/diffdrive_arduino/share/diffdrive_arduino/controllers/robot_controller_example.yaml\n'}
+[37.916664] (-) TimerEvent: {}
+[37.925157] (diffdrive_arduino) StdoutLine: {'line': b'-- Symlinking: /home/edisonwong/robot_ws/src/install/diffdrive_arduino/share/diffdrive_arduino/__pycache__/test_robot.launch.cpython-310.pyc\n'}
+[37.962759] (diffdrive_arduino) StdoutLine: {'line': b'-- Symlinking: /home/edisonwong/robot_ws/src/install/diffdrive_arduino/share/diffdrive_arduino/fake_robot.launch.py\n'}
+[37.998906] (diffdrive_arduino) StdoutLine: {'line': b'-- Symlinking: /home/edisonwong/robot_ws/src/install/diffdrive_arduino/share/diffdrive_arduino/test_robot.launch.py\n'}
+[38.016959] (-) TimerEvent: {}
+[38.035291] (diffdrive_arduino) StdoutLine: {'line': b'-- Symlinking: /home/edisonwong/robot_ws/src/install/diffdrive_arduino/share/diffdrive_arduino/environment/library_path.sh\n'}
+[38.072172] (diffdrive_arduino) StdoutLine: {'line': b'-- Symlinking: /home/edisonwong/robot_ws/src/install/diffdrive_arduino/share/diffdrive_arduino/environment/library_path.dsv\n'}
+[38.111515] (diffdrive_arduino) StdoutLine: {'line': b'-- Symlinking: /home/edisonwong/robot_ws/src/install/diffdrive_arduino/share/ament_index/resource_index/package_run_dependencies/diffdrive_arduino\n'}
+[38.117138] (-) TimerEvent: {}
+[38.149754] (diffdrive_arduino) StdoutLine: {'line': b'-- Symlinking: /home/edisonwong/robot_ws/src/install/diffdrive_arduino/share/ament_index/resource_index/parent_prefix_path/diffdrive_arduino\n'}
+[38.186980] (diffdrive_arduino) StdoutLine: {'line': b'-- Symlinking: /home/edisonwong/robot_ws/src/install/diffdrive_arduino/share/diffdrive_arduino/environment/ament_prefix_path.sh\n'}
+[38.217330] (-) TimerEvent: {}
+[38.222925] (diffdrive_arduino) StdoutLine: {'line': b'-- Symlinking: /home/edisonwong/robot_ws/src/install/diffdrive_arduino/share/diffdrive_arduino/environment/ament_prefix_path.dsv\n'}
+[38.258960] (diffdrive_arduino) StdoutLine: {'line': b'-- Symlinking: /home/edisonwong/robot_ws/src/install/diffdrive_arduino/share/diffdrive_arduino/environment/path.sh\n'}
+[38.295165] (diffdrive_arduino) StdoutLine: {'line': b'-- Symlinking: /home/edisonwong/robot_ws/src/install/diffdrive_arduino/share/diffdrive_arduino/environment/path.dsv\n'}
+[38.317677] (-) TimerEvent: {}
+[38.331397] (diffdrive_arduino) StdoutLine: {'line': b'-- Symlinking: /home/edisonwong/robot_ws/src/install/diffdrive_arduino/share/diffdrive_arduino/local_setup.bash\n'}
+[38.367733] (diffdrive_arduino) StdoutLine: {'line': b'-- Symlinking: /home/edisonwong/robot_ws/src/install/diffdrive_arduino/share/diffdrive_arduino/local_setup.sh\n'}
+[38.403890] (diffdrive_arduino) StdoutLine: {'line': b'-- Symlinking: /home/edisonwong/robot_ws/src/install/diffdrive_arduino/share/diffdrive_arduino/local_setup.zsh\n'}
+[38.417847] (-) TimerEvent: {}
+[38.440297] (diffdrive_arduino) StdoutLine: {'line': b'-- Symlinking: /home/edisonwong/robot_ws/src/install/diffdrive_arduino/share/diffdrive_arduino/local_setup.dsv\n'}
+[38.476598] (diffdrive_arduino) StdoutLine: {'line': b'-- Symlinking: /home/edisonwong/robot_ws/src/install/diffdrive_arduino/share/diffdrive_arduino/package.dsv\n'}
+[38.513081] (diffdrive_arduino) StdoutLine: {'line': b'-- Symlinking: /home/edisonwong/robot_ws/src/install/diffdrive_arduino/share/ament_index/resource_index/packages/diffdrive_arduino\n'}
+[38.518021] (-) TimerEvent: {}
+[38.551653] (diffdrive_arduino) StdoutLine: {'line': b'-- Symlinking: /home/edisonwong/robot_ws/src/install/diffdrive_arduino/share/ament_index/resource_index/hardware_interface__pluginlib__plugin/diffdrive_arduino\n'}
+[38.590918] (diffdrive_arduino) StdoutLine: {'line': b'-- Symlinking: /home/edisonwong/robot_ws/src/install/diffdrive_arduino/share/diffdrive_arduino/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[38.618271] (-) TimerEvent: {}
+[38.628861] (diffdrive_arduino) StdoutLine: {'line': b'-- Symlinking: /home/edisonwong/robot_ws/src/install/diffdrive_arduino/share/diffdrive_arduino/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[38.665507] (diffdrive_arduino) StdoutLine: {'line': b'-- Symlinking: /home/edisonwong/robot_ws/src/install/diffdrive_arduino/share/diffdrive_arduino/cmake/diffdrive_arduinoConfig.cmake\n'}
+[38.702093] (diffdrive_arduino) StdoutLine: {'line': b'-- Symlinking: /home/edisonwong/robot_ws/src/install/diffdrive_arduino/share/diffdrive_arduino/cmake/diffdrive_arduinoConfig-version.cmake\n'}
+[38.718451] (-) TimerEvent: {}
+[38.738982] (diffdrive_arduino) StdoutLine: {'line': b'-- Symlinking: /home/edisonwong/robot_ws/src/install/diffdrive_arduino/share/diffdrive_arduino/package.xml\n'}
+[38.779918] (diffdrive_arduino) CommandEnded: {'returncode': 0}
+[38.820919] (-) TimerEvent: {}
+[38.921873] (-) TimerEvent: {}
+[39.022731] (-) TimerEvent: {}
+[39.093091] (diffdrive_arduino) JobEnded: {'identifier': 'diffdrive_arduino', 'rc': 0}
+[39.096180] (-) EventReactorShutdown: {}

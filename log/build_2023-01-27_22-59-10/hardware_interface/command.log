@@ -1,0 +1,1 @@
+Invoking command in '/home/edisonwong/robot_ws/build/hardware_interface': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/edisonwong/robot_ws/src/ros2_control/hardware_interface -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/edisonwong/robot_ws/install/hardware_interface

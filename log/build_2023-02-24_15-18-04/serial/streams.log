@@ -1,0 +1,40 @@
+[0.037s] Invoking command in '/home/edisonwong/robot_ws/build/serial': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/edisonwong/robot_ws/build/serial -- -j8 -l8
+[0.086s] -- Found ament_cmake: 1.3.3 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.387s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.428s] -- Found ament_cmake_gtest: 1.3.3 (/opt/ros/humble/share/ament_cmake_gtest/cmake)
+[0.455s] -- Found Boost: /usr/include (found version "1.74.0")  
+[0.456s] -- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[0.716s] -- Configuring done
+[0.785s] -- Generating done
+[0.788s] -- Build files have been written to: /home/edisonwong/robot_ws/build/serial
+[0.878s] [35m[1mConsolidate compiler generated dependencies of target serial[0m
+[0.896s] [35m[1mConsolidate compiler generated dependencies of target gtest_main[0m
+[0.906s] [  7%] [32mBuilding CXX object CMakeFiles/serial.dir/src/serial.cc.o[0m
+[0.922s] [35m[1mConsolidate compiler generated dependencies of target gtest[0m
+[0.926s] [ 14%] [32mBuilding CXX object CMakeFiles/serial.dir/src/impl/list_ports/list_ports_linux.cc.o[0m
+[0.927s] [ 21%] [32mBuilding CXX object CMakeFiles/serial.dir/src/impl/unix.cc.o[0m
+[0.940s] [ 28%] [32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o[0m
+[1.015s] [ 35%] [32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[2.295s] [ 42%] [32m[1mLinking CXX static library libserial.a[0m
+[2.383s] [ 42%] Built target serial
+[2.400s] [35m[1mConsolidate compiler generated dependencies of target serial_example[0m
+[2.420s] [ 50%] [32mBuilding CXX object CMakeFiles/serial_example.dir/examples/serial_example.cc.o[0m
+[2.871s] [ 57%] [32m[1mLinking CXX executable serial_example[0m
+[2.947s] [ 64%] [32m[1mLinking CXX static library libgtest_main.a[0m
+[2.978s] [ 64%] Built target serial_example
+[3.013s] [ 64%] Built target gtest_main
+[5.308s] [ 71%] [32m[1mLinking CXX static library libgtest.a[0m
+[5.406s] [ 71%] Built target gtest
+[5.417s] [35m[1mConsolidate compiler generated dependencies of target serial-test[0m
+[5.417s] [35m[1mConsolidate compiler generated dependencies of target serial-test-timer[0m
+[5.431s] [ 78%] [32mBuilding CXX object tests/CMakeFiles/serial-test-timer.dir/unit/unix_timer_tests.cc.o[0m
+[5.432s] [ 85%] [32mBuilding CXX object tests/CMakeFiles/serial-test.dir/unix_serial_tests.cc.o[0m
+[6.426s] In file included from [01m[K/usr/include/boost/bind.hpp:30[m[K,
+[6.426s]                  from [01m[K/home/edisonwong/robot_ws/src/serial/tests/unix_serial_tests.cc:23[m[K:
+[6.426s] [01m[K/usr/include/boost/bind.hpp:36:1:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: The practice of declaring the Bind placeholders (_1, _2, ...) in the global namespace is deprecated. Please use <boost/bind/bind.hpp> + using namespace boost::placeholders, or define BOOST_BIND_GLOBAL_PLACEHOLDERS to retain the current behavior.[m[K’
+[6.427s]    36 | [01;36m[KBOOST_PRAGMA_MESSAGE[m[K(
+[6.427s]       | [01;36m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[6.526s] [ 92%] [32m[1mLinking CXX executable serial-test-timer[0m
+[6.662s] [100%] [32m[1mLinking CXX executable serial-test[0m
+[6.683s] [100%] Built target serial-test-timer
+[6.821s] [100%] Built target serial-test

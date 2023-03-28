@@ -1,0 +1,1 @@
+Invoking command in '/home/edisonwong/robot_ws/build/hardware_interface': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/edisonwong/robot_ws/build/hardware_interface -- -j4 -l4
